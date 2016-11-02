@@ -205,6 +205,8 @@ class Showing(models.Model):
     username = models.CharField(max_length=253)
     secret = models.CharField(max_length=253)
     groupname = models.CharField(max_length=64)
+    updatetime = models.DateTimeField()
+    endtime = models.DateTimeField()
     connections_now = models.IntegerField()
     connections_limits = models.CharField(max_length=253)
     traffic_now = models.IntegerField()
@@ -212,7 +214,7 @@ class Showing(models.Model):
     speed_limits = models.CharField(max_length=253)
     class Meta:
         db_table = 'view_showing'
-        verbose_name_plural = "view_showing"
+        verbose_name_plural = "用户使用详情"
         managed = False
     def __unicode__(self):
         return self.username
