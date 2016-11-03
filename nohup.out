@@ -1,0 +1,27 @@
+[03/Nov/2016 05:16:04] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /favicon.ico
+[03/Nov/2016 05:16:33] "GET /favicon.ico HTTP/1.1" 404 1947
+[03/Nov/2016 05:16:33] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:33] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:33] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[03/Nov/2016 05:16:33] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[03/Nov/2016 05:16:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[03/Nov/2016 05:16:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[03/Nov/2016 05:16:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[03/Nov/2016 05:16:37] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:16:37] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:37] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:39] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:16:39] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:16:39] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:39] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:16:39] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:16:39] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:39] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:39] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:40] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:16:43] "GET /admin/login HTTP/1.1" 301 0
+[03/Nov/2016 05:16:43] "GET /admin/login/ HTTP/1.1" 200 1666

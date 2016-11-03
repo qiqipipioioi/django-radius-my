@@ -49,44 +49,6 @@ class Realms(models.Model):
         db_table = 'realms'
         verbose_name_plural = "realms"
 
-class Attributelist(models.Model):
-    attribute = models.CharField(max_length=60)
-    enabled = models.BooleanField()
-    checkitem = models.BooleanField()
-    def __str__(self):
-        return str(self.attribute)
-    class Meta:
-        db_table = 'attributelist'
-
-class Nas(models.Model):
-    NAS_TYPES = (
-        ('cisco', 'cisco'),
-        ('computone', 'computone'),
-        ('livingston', 'livingston'),
-        ('max40xx', 'max40xx'),
-        ('multitech', 'multitech'),
-        ('netserver', 'netserver'),
-        ('pathras', 'pathras'),
-        ('patton', 'patton'),
-        ('portslave', 'portslave'),
-        ('tc', 'tc'),
-        ('usrhiper', 'usrhiper'),
-        ('other', 'other'),
-    )
-    nasname = models.CharField(max_length=128, unique=True, help_text='NAS Name (or IP address)')
-    shortname = models.CharField(max_length=32)
-    type = models.CharField(max_length=30, choices=NAS_TYPES)
-    secret = models.CharField(max_length=60, help_text='Shared Secret')
-    ports = models.IntegerField(blank=True, null=True)
-    server = models.CharField(max_length=64, blank=True, null=True)
-    community = models.CharField(max_length=50, blank=True, null=True)
-    description = models.CharField(max_length=200, blank=True, null=True, default='RADIUS Client')
-    def __str__(self):
-        return str(self.nasname)
-    class Meta:
-        db_table = 'nas'
-        verbose_name_plural = "nas"
-
 class Radpostauth(models.Model):
     username = models.CharField(max_length=64)
     password = models.CharField(db_column='pass', max_length=64) # Field renamed because it was a Python reserved word.
@@ -113,7 +75,7 @@ class Radusergroup(models.Model):
     username = models.CharField(max_length=64)
     groupname = models.CharField(max_length=64)
     priority = models.IntegerField(default=1)
-    updatetime = models.DateTimeField(default = timezone.now)
+    updatetime = models.DateTimeField(default = timezone.now, null=True)
     endtime = models.DateTimeField(null = True)
     def __str__(self):
         return str(self.username)
