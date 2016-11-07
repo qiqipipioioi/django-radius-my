@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'radiusUser',
     'radiusServer',
+    'userWeb',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -117,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -130,6 +131,8 @@ DATETIME_FORMAT = 'Y-m-d H:i:s'
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/dev/djangowork/vpnWebProject/'
 
 STATICFILES_DIRS = (
      # Put strings here, like "/home/html/static" or "C:/www/django/static".

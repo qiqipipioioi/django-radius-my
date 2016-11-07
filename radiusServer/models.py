@@ -38,7 +38,7 @@ class NasAttributes(models.Model):
     max_connections = models.IntegerField()
     nas_area = models.CharField(max_length=64)
     vps_supplier = models.CharField(max_length=64)
-    vps_endtime = models.DateTimeField()
+    vps_endtime = models.DateField()
     class Meta:
         db_table = 'nas_attributes'
         verbose_name_plural = 'nas_attributes'
@@ -52,7 +52,7 @@ class NasShowing(models.Model):
     max_connections = models.IntegerField()
     nas_area = models.CharField(max_length=64)
     vps_supplier = models.CharField(max_length=64)
-    vps_endtime = models.DateTimeField()
+    vps_endtime = models.DateField()
     class Meta:
         managed = False
         db_table = 'view_nas_showing'

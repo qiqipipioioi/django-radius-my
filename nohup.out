@@ -25,3 +25,1081 @@ Not Found: /favicon.ico
 [03/Nov/2016 05:16:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
 [03/Nov/2016 05:16:43] "GET /admin/login HTTP/1.1" 301 0
 [03/Nov/2016 05:16:43] "GET /admin/login/ HTTP/1.1" 200 1666
+[03/Nov/2016 05:16:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:16:55] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:16:56] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[03/Nov/2016 05:16:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[03/Nov/2016 05:16:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[03/Nov/2016 05:16:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[03/Nov/2016 05:17:05] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 05:17:05] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[03/Nov/2016 05:17:05] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[03/Nov/2016 05:17:05] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[03/Nov/2016 05:17:05] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[03/Nov/2016 05:17:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:17:05] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[03/Nov/2016 05:17:05] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[03/Nov/2016 05:17:05] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[03/Nov/2016 05:17:06] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[03/Nov/2016 05:17:06] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+Not Found: /admin/radiusserver/nasshowing
+[03/Nov/2016 05:17:15] "GET /admin/radiusserver/nasshowing HTTP/1.1" 404 4847
+[03/Nov/2016 05:17:17] "GET /admin/ HTTP/1.1" 200 6473
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[03/Nov/2016 05:17:19] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 05:17:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:17:22] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /admin/radiususer/showing
+[03/Nov/2016 05:17:29] "GET /admin/radiususer/showing HTTP/1.1" 404 4832
+[03/Nov/2016 05:17:31] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 05:17:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:17:42] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:18:28] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:18:28] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:18:28] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[03/Nov/2016 05:18:28] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[03/Nov/2016 05:18:28] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[03/Nov/2016 05:18:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[03/Nov/2016 05:18:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+Not Found: /favicon.ico
+[03/Nov/2016 05:18:31] "GET /favicon.ico HTTP/1.1" 404 1947
+[03/Nov/2016 05:20:01] "GET /admin HTTP/1.1" 301 0
+[03/Nov/2016 05:20:01] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:20:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+Not Found: /favicon.ico
+[03/Nov/2016 05:20:02] "GET /favicon.ico HTTP/1.1" 404 1947
+[03/Nov/2016 05:20:03] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:20:04] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:20:14] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:20:14] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[03/Nov/2016 05:20:14] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[03/Nov/2016 05:20:14] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:20:30] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[03/Nov/2016 05:20:30] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[03/Nov/2016 05:20:43] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 05:20:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:20:58] "GET /admin/radiusServer/ HTTP/1.1" 200 3164
+[03/Nov/2016 05:20:59] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:21:02] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 05:21:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:21:09] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:21:11] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[03/Nov/2016 05:21:11] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[03/Nov/2016 05:21:11] "GET /static/admin/js/calendar.js HTTP/1.1" 200 6875
+[03/Nov/2016 05:21:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:21:11] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 18563
+[03/Nov/2016 05:21:12] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[03/Nov/2016 05:21:12] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[03/Nov/2016 05:21:12] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[03/Nov/2016 05:21:19] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[03/Nov/2016 05:21:21] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:21:29] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 05:21:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 05:21:30] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[03/Nov/2016 05:21:30] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[03/Nov/2016 05:21:30] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[03/Nov/2016 05:21:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[03/Nov/2016 05:21:31] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[03/Nov/2016 05:21:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[03/Nov/2016 05:21:43] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 05:21:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:21:47] "GET /admin/radiusServer/ HTTP/1.1" 200 3164
+[03/Nov/2016 05:21:49] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:21:55] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[03/Nov/2016 05:21:57] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 05:21:58] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 05:21:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 05:22:03] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /admin/radiusserver/nasshowing/
+[03/Nov/2016 05:24:00] "GET /admin/radiusserver/nasshowing/ HTTP/1.1" 404 4850
+Not Found: /admin/radiusserver/nasshowing/
+[03/Nov/2016 05:24:01] "GET /admin/radiusserver/nasshowing/ HTTP/1.1" 404 4850
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Nov/2016 06:43:17] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: //jmx-console/HtmlAdaptor
+[03/Nov/2016 06:55:39] "GET //jmx-console/HtmlAdaptor HTTP/1.1" 404 1981
+[03/Nov/2016 09:20:04] "GET /admin/ HTTP/1.1" 302 0
+[03/Nov/2016 09:20:04] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[03/Nov/2016 09:20:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[03/Nov/2016 09:20:04] "GET /favicon.ico HTTP/1.1" 404 1947
+[03/Nov/2016 09:20:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[03/Nov/2016 09:20:06] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:20:21] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 09:20:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:22:45] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:22:47] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:22:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:22:58] "GET /admin/radiusServer/ HTTP/1.1" 200 3164
+[03/Nov/2016 09:23:00] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:23:03] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 09:23:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:05] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[03/Nov/2016 09:23:07] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:23:10] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[03/Nov/2016 09:23:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:15] "GET /admin/radiusServer/nasattributes/1/change/ HTTP/1.1" 200 7559
+[03/Nov/2016 09:23:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:17] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[03/Nov/2016 09:23:17] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:23:19] "GET /admin/radiusServer/nas/ HTTP/1.1" 200 5708
+[03/Nov/2016 09:23:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:24] "GET /admin/radiusServer/nas/1/change/ HTTP/1.1" 200 8354
+[03/Nov/2016 09:23:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:26] "GET /admin/radiusServer/nas/ HTTP/1.1" 200 5708
+[03/Nov/2016 09:23:27] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:23:30] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 09:23:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:32] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:23:35] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:23:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:23:38] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:49:46] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 09:49:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:49:50] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:49:51] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:49:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:49:58] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:50:04] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:50:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:50:16] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:50:17] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[03/Nov/2016 09:50:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:50:19] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:50:20] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:50:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:50:24] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:53:39] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:53:39] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[03/Nov/2016 09:53:56] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 09:53:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:53:59] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:54:00] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:54:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:54:02] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:54:07] "GET /admin/auth/group/ HTTP/1.1" 200 3578
+[03/Nov/2016 09:54:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:54:07] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[03/Nov/2016 09:54:08] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:54:11] "GET /admin/auth/user/ HTTP/1.1" 200 6586
+[03/Nov/2016 09:54:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:54:11] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[03/Nov/2016 09:54:14] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:59:14] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /
+[03/Nov/2016 09:59:15] "GET / HTTP/1.1" 200 1767
+[03/Nov/2016 09:59:19] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:59:24] "GET /admin/auth/user/ HTTP/1.1" 200 6586
+[03/Nov/2016 09:59:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:59:25] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 16899
+[03/Nov/2016 09:59:26] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 11202
+[03/Nov/2016 09:59:26] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5204
+[03/Nov/2016 09:59:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:59:26] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[03/Nov/2016 09:59:26] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[03/Nov/2016 09:59:26] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[03/Nov/2016 09:59:32] "GET /admin/auth/user/ HTTP/1.1" 200 6586
+[03/Nov/2016 09:59:32] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:59:33] "GET /admin/radiusServer/nas/ HTTP/1.1" 200 5708
+[03/Nov/2016 09:59:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:59:38] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 09:59:40] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 09:59:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 09:59:43] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /http:/www.google.com/reader/about/
+[03/Nov/2016 10:06:01] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[03/Nov/2016 10:13:06] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 10:13:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 10:13:09] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 10:13:11] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 10:13:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 10:13:16] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 10:13:17] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[03/Nov/2016 10:13:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 10:13:19] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 10:13:20] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 10:13:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 10:13:24] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:09:28] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:09:39] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:09:41] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 11:09:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:09:43] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:09:45] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 11:09:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:09:54] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:09:58] "GET /admin/radiusServer/nas/ HTTP/1.1" 200 5708
+[03/Nov/2016 11:09:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:09:59] "GET /admin/radiusServer/nas/1/change/ HTTP/1.1" 200 8354
+[03/Nov/2016 11:10:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:10:03] "GET /admin/radiusServer/nas/ HTTP/1.1" 200 5708
+[03/Nov/2016 11:10:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:10:04] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:10:07] "GET /admin/radiusUser/radusergroup/2/change/ HTTP/1.1" 200 7040
+[03/Nov/2016 11:10:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:10:12] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:10:35] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 11:10:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:10:49] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 11:10:49] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[03/Nov/2016 11:10:49] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[03/Nov/2016 11:10:49] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[03/Nov/2016 11:10:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:10:50] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:51] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:52] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:52] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:52] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:52] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[03/Nov/2016 11:10:53] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 11:10:53] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 11:10:53] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[03/Nov/2016 11:11:00] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:11:01] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 11:11:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:11:25] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:11:27] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 11:11:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:11:30] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:11:35] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[03/Nov/2016 11:11:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:11:43] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:11:49] "GET /admin/auth/user/ HTTP/1.1" 200 6586
+[03/Nov/2016 11:11:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:11:57] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:14:09] "GET /admin/radiusUser/radusergroup/2/change/ HTTP/1.1" 200 7040
+[03/Nov/2016 11:14:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:14:12] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:14:14] "GET /admin/radiusServer/nasattributes/1/change/ HTTP/1.1" 200 7559
+[03/Nov/2016 11:14:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:14:22] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:14:44] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[03/Nov/2016 11:14:53] "GET /admin/ HTTP/1.1" 200 6473
+[03/Nov/2016 11:14:55] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[03/Nov/2016 11:14:57] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[03/Nov/2016 11:14:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[03/Nov/2016 11:15:01] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Nov/2016 14:56:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[03/Nov/2016 17:10:24] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /manager/html
+[03/Nov/2016 18:32:15] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /manager/html
+[03/Nov/2016 18:33:27] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /manager/html
+[03/Nov/2016 18:34:10] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /manager/html
+[03/Nov/2016 18:34:55] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /
+[03/Nov/2016 19:29:19] "GET / HTTP/1.1" 200 1767
+Not Found: /http:/www.google.com/reader/about/
+[04/Nov/2016 00:53:52] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /manager/html
+[04/Nov/2016 01:11:53] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /index.php
+[04/Nov/2016 01:40:14] "GET /index.php HTTP/1.1" 404 1941
+Not Found: /
+[04/Nov/2016 02:07:29] "GET / HTTP/1.1" 200 1767
+[04/Nov/2016 02:07:33] "GET /admin/ HTTP/1.1" 302 0
+[04/Nov/2016 02:07:34] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[04/Nov/2016 02:07:34] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[04/Nov/2016 02:07:34] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[04/Nov/2016 02:07:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[04/Nov/2016 02:07:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[04/Nov/2016 02:07:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[04/Nov/2016 02:07:35] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[04/Nov/2016 02:07:40] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[04/Nov/2016 02:07:40] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:07:40] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[04/Nov/2016 02:07:40] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[04/Nov/2016 02:07:40] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[04/Nov/2016 02:07:43] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[04/Nov/2016 02:07:43] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[04/Nov/2016 02:07:43] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[04/Nov/2016 02:07:43] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[04/Nov/2016 02:07:43] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[04/Nov/2016 02:07:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:07:44] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[04/Nov/2016 02:07:44] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[04/Nov/2016 02:07:44] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[04/Nov/2016 02:07:44] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[04/Nov/2016 02:07:44] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Nov/2016 02:07:48] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:07:50] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 02:07:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:07:56] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:07:57] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[04/Nov/2016 02:07:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:07:58] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[04/Nov/2016 02:08:02] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:39:08] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 02:39:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:39:14] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:39:16] "GET /admin/radiusUser/radcheck/ HTTP/1.1" 200 6310
+[04/Nov/2016 02:39:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:39:16] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[04/Nov/2016 02:39:16] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[04/Nov/2016 02:39:19] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 02:39:20] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[04/Nov/2016 02:39:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 02:39:21] "GET /static/admin/js/calendar.js HTTP/1.1" 200 6875
+[04/Nov/2016 02:39:21] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 18563
+[04/Nov/2016 02:39:21] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[04/Nov/2016 02:39:21] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[04/Nov/2016 02:39:21] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[04/Nov/2016 02:39:22] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Nov/2016 03:10:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[04/Nov/2016 03:15:55] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 03:15:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 03:15:57] "GET /admin/ HTTP/1.1" 200 6473
+Not Found: /manager/html
+[04/Nov/2016 05:59:31] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /axis2
+[04/Nov/2016 06:22:57] "GET /axis2 HTTP/1.1" 404 1929
+[04/Nov/2016 06:52:51] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 06:52:52] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[04/Nov/2016 06:52:52] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[04/Nov/2016 06:52:52] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[04/Nov/2016 06:52:52] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[04/Nov/2016 06:52:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 06:52:52] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[04/Nov/2016 06:52:52] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[04/Nov/2016 06:52:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[04/Nov/2016 06:52:52] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[04/Nov/2016 06:52:52] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[04/Nov/2016 06:52:53] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[04/Nov/2016 06:52:53] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[04/Nov/2016 06:52:55] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[04/Nov/2016 06:52:55] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[04/Nov/2016 06:52:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[04/Nov/2016 06:53:01] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 06:53:01] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 06:53:02] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:02] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:03] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:03] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Nov/2016 06:53:03] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:53:03] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:53:03] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:58:28] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 06:58:28] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 06:58:28] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 06:58:28] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Nov/2016 06:58:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 06:58:29] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:58:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:59:03] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 06:59:03] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 06:59:03] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 06:59:04] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Nov/2016 06:59:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 06:59:04] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:05] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:59:06] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 06:59:47] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 06:59:47] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[04/Nov/2016 06:59:47] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[04/Nov/2016 06:59:47] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[04/Nov/2016 06:59:51] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[04/Nov/2016 06:59:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 06:59:58] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 06:59:59] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 06:59:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 07:12:19] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 07:12:19] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 07:12:19] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 07:12:19] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 07:12:20] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:20] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:21] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:21] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Nov/2016 07:12:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 07:12:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 07:12:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 07:13:11] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 07:13:13] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[04/Nov/2016 07:13:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 07:14:56] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 07:14:58] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5980
+[04/Nov/2016 07:14:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 07:15:01] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 07:43:04] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5981
+[04/Nov/2016 07:43:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 07:43:13] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:02:53] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5981
+[04/Nov/2016 08:02:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:03:15] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:03:17] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[04/Nov/2016 08:03:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:03:20] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:04:37] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[04/Nov/2016 08:04:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:04:38] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:04:39] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5981
+[04/Nov/2016 08:04:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:04:44] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:06:59] "GET /admin/ HTTP/1.1" 200 6473
+[04/Nov/2016 08:06:59] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[04/Nov/2016 08:07:00] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[04/Nov/2016 08:07:04] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5981
+[04/Nov/2016 08:07:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:14:15] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5981
+[04/Nov/2016 08:14:15] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Nov/2016 08:14:16] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Nov/2016 08:14:16] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Nov/2016 08:14:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[04/Nov/2016 08:14:17] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:17] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:17] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:17] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:17] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:18] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:18] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:18] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Nov/2016 08:14:18] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 08:14:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Nov/2016 08:14:19] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Nov/2016 08:38:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[04/Nov/2016 14:00:18] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /manager/html
+[04/Nov/2016 16:29:18] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /jmx-console
+[04/Nov/2016 18:35:15] "GET /jmx-console HTTP/1.1" 404 1947
+Not Found: /http:/www.google.com/reader/about/
+[04/Nov/2016 18:41:13] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /phpMyAdmin
+[04/Nov/2016 19:51:58] "GET /phpMyAdmin HTTP/1.1" 404 1944
+Not Found: /http:/www.baidu.com/favicon.ico
+[04/Nov/2016 20:43:50] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Nov/2016 21:37:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Nov/2016 22:56:26] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[05/Nov/2016 01:32:45] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 01:32:56] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 01:32:56] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[05/Nov/2016 01:32:56] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[05/Nov/2016 01:32:56] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[05/Nov/2016 01:32:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[05/Nov/2016 01:32:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[05/Nov/2016 01:32:57] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 01:32:57] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 01:32:57] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 01:32:59] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5982
+[05/Nov/2016 01:32:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Nov/2016 01:36:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /script
+[05/Nov/2016 01:53:15] "GET /script HTTP/1.1" 404 1932
+Not Found: /
+[05/Nov/2016 02:20:59] "HEAD / HTTP/1.0" 200 0
+[05/Nov/2016 02:33:31] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5982
+[05/Nov/2016 02:33:31] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[05/Nov/2016 02:33:31] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[05/Nov/2016 02:33:32] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[05/Nov/2016 02:33:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 02:33:32] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 02:33:33] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+Not Found: /
+[05/Nov/2016 02:39:16] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[05/Nov/2016 04:15:37] "GET / HTTP/1.0" 200 1767
+Not Found: /cgi/common.cgi
+[05/Nov/2016 05:30:05] "GET /cgi/common.cgi HTTP/1.0" 404 1951
+Not Found: /stssys.htm
+[05/Nov/2016 05:30:06] "GET /stssys.htm HTTP/1.0" 404 1939
+Not Found: /
+[05/Nov/2016 05:30:06] "GET / HTTP/1.0" 200 1767
+Not Found: /command.php
+[05/Nov/2016 05:30:07] "POST /command.php HTTP/1.0" 404 1943
+Not Found: /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[05/Nov/2016 05:30:08] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 404 2172
+Not Found: /../../../../../../../mnt/mtd/qt
+[05/Nov/2016 05:30:08] "GET /../../../../../../../mnt/mtd/qt HTTP/1.0" 404 2002
+Not Found: /http:/www.baidu.com/favicon.ico
+[05/Nov/2016 07:47:21] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /
+[05/Nov/2016 09:06:30] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[05/Nov/2016 09:06:57] "GET / HTTP/1.1" 200 1767
+[05/Nov/2016 09:07:02] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:07:02] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[05/Nov/2016 09:07:07] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5982
+[05/Nov/2016 09:07:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:08:53] "GET /admin/radiusUser/ HTTP/1.1" 200 3138
+[05/Nov/2016 09:08:57] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:09:08] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+Not Found: /
+[05/Nov/2016 09:27:21] "GET / HTTP/1.1" 200 1767
+[05/Nov/2016 09:27:25] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:27:27] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5982
+[05/Nov/2016 09:27:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:27:36] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:27:40] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[05/Nov/2016 09:27:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:27:55] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:31:37] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5982
+[05/Nov/2016 09:31:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:31:40] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:31:44] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5750
+[05/Nov/2016 09:31:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:31:54] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:34:44] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[05/Nov/2016 09:34:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:34:47] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[05/Nov/2016 09:35:35] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[05/Nov/2016 09:35:35] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[05/Nov/2016 09:35:35] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[05/Nov/2016 09:35:35] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[05/Nov/2016 09:35:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:35:36] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:36] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:37] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[05/Nov/2016 09:35:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 09:35:37] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 09:35:37] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[05/Nov/2016 09:35:37] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[05/Nov/2016 09:35:40] "GET /admin/radiusServer/nasattributes/1/change/ HTTP/1.1" 200 7559
+[05/Nov/2016 09:35:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:35:40] "GET /static/admin/js/calendar.js HTTP/1.1" 200 6875
+[05/Nov/2016 09:35:40] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[05/Nov/2016 09:35:40] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 18563
+[05/Nov/2016 09:35:41] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[05/Nov/2016 09:35:41] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[05/Nov/2016 09:35:41] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[05/Nov/2016 09:35:41] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[05/Nov/2016 09:35:56] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5327
+[05/Nov/2016 09:35:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:36:03] "GET /admin/ HTTP/1.1" 200 6473
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 03, 2016 - 05:16:01
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+[05/Nov/2016 09:39:04] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5744
+[05/Nov/2016 09:39:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:39:17] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:39:19] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5321
+[05/Nov/2016 09:39:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:39:22] "GET /admin/radiusServer/nasattributes/1/change/ HTTP/1.1" 200 7402
+[05/Nov/2016 09:39:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:39:32] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5321
+[05/Nov/2016 09:39:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:46:52] "GET /admin/ HTTP/1.1" 200 6473
+[05/Nov/2016 09:46:55] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[05/Nov/2016 09:46:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:46:58] "GET /admin/radiusUser/radusergroup/2/change/ HTTP/1.1" 200 7040
+[05/Nov/2016 09:46:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:47:21] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[05/Nov/2016 09:47:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:47:24] "GET /admin/radiusUser/radusergroup/add/ HTTP/1.1" 200 6783
+[05/Nov/2016 09:47:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 09:47:28] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7029
+[05/Nov/2016 09:47:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 05, 2016 - 09:38:48
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+[05/Nov/2016 17:50:01] "GET /admin/ HTTP/1.1" 200 6477
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[05/Nov/2016 17:50:04] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[05/Nov/2016 17:50:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 17:50:07] "GET /admin/ HTTP/1.1" 200 6477
+[05/Nov/2016 17:50:09] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[05/Nov/2016 17:50:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 17:50:13] "GET /admin/ HTTP/1.1" 200 6477
+[05/Nov/2016 17:50:16] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7033
+[05/Nov/2016 17:50:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 17:50:19] "GET /admin/radiusUser/radusergroup/add/ HTTP/1.1" 200 6787
+[05/Nov/2016 17:50:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 17:50:26] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7033
+[05/Nov/2016 17:50:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[05/Nov/2016 17:50:30] "GET /admin/ HTTP/1.1" 200 6477
+Not Found: /http:/www.baidu.com/favicon.ico
+[05/Nov/2016 18:59:36] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Nov/2016 21:03:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.google.com/reader/about/
+[05/Nov/2016 21:43:06] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /SQLiteManager-1.2.4/main.php
+[06/Nov/2016 01:26:02] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 1998
+Not Found: /sqlitemanager/main.php
+[06/Nov/2016 01:26:08] "GET /sqlitemanager/main.php HTTP/1.1" 404 1980
+Not Found: /SQlite/main.php
+[06/Nov/2016 01:26:14] "GET /SQlite/main.php HTTP/1.1" 404 1959
+Not Found: /SQLiteManager/main.php
+[06/Nov/2016 01:26:17] "GET /SQLiteManager/main.php HTTP/1.1" 404 1980
+Not Found: /http:/www.google.com/reader/about/
+[06/Nov/2016 03:42:40] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/favicon.ico
+[06/Nov/2016 05:04:34] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /phpmyadmin
+[06/Nov/2016 05:48:41] "GET /phpmyadmin HTTP/1.1" 404 1944
+Not Found: /
+[06/Nov/2016 07:00:38] "GET / HTTP/1.1" 200 1767
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Nov/2016 08:04:54] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /phpMyAdmin
+[06/Nov/2016 10:48:39] "GET /phpMyAdmin HTTP/1.1" 404 1944
+[06/Nov/2016 10:55:07] "GET /admin HTTP/1.1" 301 0
+[06/Nov/2016 10:55:07] "GET /admin/ HTTP/1.1" 302 0
+[06/Nov/2016 10:55:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[06/Nov/2016 10:55:08] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[06/Nov/2016 10:55:08] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[06/Nov/2016 10:55:08] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[06/Nov/2016 10:55:08] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 10:55:08] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[06/Nov/2016 10:55:09] "GET /favicon.ico HTTP/1.1" 404 1947
+[06/Nov/2016 10:55:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[06/Nov/2016 10:55:10] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 10:55:10] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[06/Nov/2016 10:55:10] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 10:55:10] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[06/Nov/2016 10:55:10] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[06/Nov/2016 10:55:12] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 10:55:12] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 10:55:12] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[06/Nov/2016 10:55:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+Not Found: /admin/radiususer/showing/
+Not Found: /admin/radiususer/showing/
+[06/Nov/2016 10:59:00] "GET /admin/radiususer/showing/ HTTP/1.1" 404 4835
+[06/Nov/2016 10:59:00] "GET /admin/radiususer/showing/ HTTP/1.1" 404 4835
+[06/Nov/2016 10:59:23] "GET /admin/ HTTP/1.1" 302 0
+[06/Nov/2016 10:59:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[06/Nov/2016 10:59:24] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[06/Nov/2016 10:59:24] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[06/Nov/2016 10:59:24] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[06/Nov/2016 10:59:24] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[06/Nov/2016 10:59:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[06/Nov/2016 10:59:25] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[06/Nov/2016 10:59:40] "GET /admin/ HTTP/1.1" 302 0
+[06/Nov/2016 10:59:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[06/Nov/2016 10:59:40] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[06/Nov/2016 10:59:40] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[06/Nov/2016 10:59:41] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[06/Nov/2016 10:59:41] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[06/Nov/2016 10:59:41] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[06/Nov/2016 10:59:41] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[06/Nov/2016 16:34:15] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:34:15] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:34:15] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 16:34:15] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 16:34:19] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:34:20] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:34:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:34:22] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:36:35] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:36:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:36:38] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:36:44] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[06/Nov/2016 16:36:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:36:49] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:36:50] "GET /admin/radiusUser/ HTTP/1.1" 200 3142
+[06/Nov/2016 16:36:51] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:36:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:36:56] "GET /admin/radiusUser/ HTTP/1.1" 200 3142
+[06/Nov/2016 16:36:57] "GET /admin/radiusUser/radcheck/ HTTP/1.1" 200 6314
+[06/Nov/2016 16:36:57] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[06/Nov/2016 16:36:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:36:57] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[06/Nov/2016 16:36:58] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[06/Nov/2016 16:37:00] "GET /admin/radiusUser/ HTTP/1.1" 200 3142
+[06/Nov/2016 16:37:00] "GET /admin/ HTTP/1.1" 200 6477
+Not Found: /admin/radiusserver/nasshowing/
+[06/Nov/2016 16:39:58] "GET /admin/radiusserver/nasshowing/ HTTP/1.1" 404 4850
+Not Found: /admin/radiusserver/nasshowing/
+[06/Nov/2016 16:39:59] "GET /admin/radiusserver/nasshowing/ HTTP/1.1" 404 4850
+[06/Nov/2016 16:41:05] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:41:05] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 16:41:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:41:08] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:41:10] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[06/Nov/2016 16:41:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 16:41:13] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 16:41:14] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[06/Nov/2016 16:41:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Not Found: /admin/radiususer/
+[06/Nov/2016 16:41:31] "GET /admin/radiususer/ HTTP/1.1" 404 4811
+Not Found: /admin/radiususer/
+[06/Nov/2016 16:41:32] "GET /admin/radiususer/ HTTP/1.1" 404 4811
+Not Found: /manager/html
+[06/Nov/2016 16:47:43] "GET /manager/html HTTP/1.1" 404 1950
+[06/Nov/2016 17:05:29] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[06/Nov/2016 17:05:29] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[06/Nov/2016 17:05:29] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 17:05:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[06/Nov/2016 17:05:30] "GET /admin/ HTTP/1.1" 200 6477
+[06/Nov/2016 17:05:31] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[06/Nov/2016 17:05:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Not Found: /manager/html
+[06/Nov/2016 20:47:56] "GET /manager/html HTTP/1.1" 404 1950
+Not Found: /http:/www.baidu.com/favicon.ico
+[06/Nov/2016 20:48:02] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Nov/2016 23:11:10] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.google.com/reader/about/
+[06/Nov/2016 23:30:28] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Nov/2016 01:26:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /
+[07/Nov/2016 04:04:42] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[07/Nov/2016 05:39:46] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[07/Nov/2016 05:58:38] "GET / HTTP/1.1" 200 1767
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Nov/2016 06:23:16] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /
+[07/Nov/2016 06:57:22] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[07/Nov/2016 08:18:39] "GET / HTTP/1.1" 200 1767
+Not Found: /
+[07/Nov/2016 08:20:26] "GET / HTTP/1.1" 200 1767
+[07/Nov/2016 10:01:06] code 400, message Bad request syntax ('\x00')
+[07/Nov/2016 10:01:06] " " 400 -
+Not Found: /http:/httpheader.net/
+[07/Nov/2016 10:01:28] "GET http://httpheader.net/ HTTP/1.1" 404 1664
+[07/Nov/2016 10:01:38] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+[07/Nov/2016 10:01:38] 
+[07/Nov/2016 10:01:49] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Nov/2016 10:01:49] " " 400 -
+[07/Nov/2016 10:01:59] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Nov/2016 10:01:59] " " 400 -
+[07/Nov/2016 11:05:56] "GET /admin/ HTTP/1.1" 200 6477
+[07/Nov/2016 11:05:56] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Nov/2016 11:05:57] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[07/Nov/2016 11:05:57] "GET /favicon.ico HTTP/1.1" 404 1947
+[07/Nov/2016 11:05:57] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[07/Nov/2016 11:05:59] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[07/Nov/2016 11:05:59] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[07/Nov/2016 11:05:59] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[07/Nov/2016 11:09:41] "GET /admin/ HTTP/1.1" 200 6477
+[07/Nov/2016 11:09:43] "GET /admin/radiusServer/nasshowing/ HTTP/1.1" 200 5748
+[07/Nov/2016 11:09:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[07/Nov/2016 11:09:50] "GET /admin/ HTTP/1.1" 200 6477
+[07/Nov/2016 11:09:53] "GET /admin/radiusServer/nasattributes/ HTTP/1.1" 200 5325
+[07/Nov/2016 11:09:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[07/Nov/2016 11:09:54] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[07/Nov/2016 11:09:56] "GET /admin/ HTTP/1.1" 200 6477
+Not Found: /
+[07/Nov/2016 13:44:07] "GET / HTTP/1.1" 200 1767
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Nov/2016 15:03:38] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Nov/2016 15:56:26] code 400, message Bad request syntax ('\x00')
+[07/Nov/2016 15:56:26] " " 400 -
+Not Found: /http:/httpheader.net/
+[07/Nov/2016 15:56:35] "GET http://httpheader.net/ HTTP/1.1" 404 1664
+[07/Nov/2016 15:56:46] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+[07/Nov/2016 15:56:46] 
+[07/Nov/2016 15:56:56] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Nov/2016 15:56:56] " " 400 -
+[07/Nov/2016 15:57:07] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Nov/2016 15:57:07] " " 400 -
+[07/Nov/2016 16:18:55] "GET /admin/ HTTP/1.1" 302 0
+[07/Nov/2016 16:18:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /favicon.ico
+[07/Nov/2016 16:18:55] "GET /favicon.ico HTTP/1.1" 404 1947
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 05, 2016 - 17:49:57
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f1ea0a0a758>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+NameError: name 'include' is not defined
+[07/Nov/2016 19:01:14] "GET / HTTP/1.1" 200 274
+[07/Nov/2016 19:37:29] "GET / HTTP/1.1" 200 274
+[07/Nov/2016 19:44:47] "GET / HTTP/1.1" 200 274
+[07/Nov/2016 19:44:47] "GET / HTTP/1.1" 200 274
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 07, 2016 - 19:01:12
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 07, 2016 - 19:48:34
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+[07/Nov/2016 19:50:21] "GET / HTTP/1.1" 200 453
+[07/Nov/2016 19:50:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 106006
+[07/Nov/2016 19:50:30] "GET / HTTP/1.1" 200 453
+[07/Nov/2016 19:50:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 19:52:38] "GET / HTTP/1.1" 200 1204
+[07/Nov/2016 19:52:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 19:52:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 28631
+[07/Nov/2016 19:57:46] "GET / HTTP/1.1" 200 1169
+[07/Nov/2016 19:57:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 19:57:47] "GET /static/jquery/jquery.js HTTP/1.1" 200 293072
+[07/Nov/2016 19:57:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 19:57:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 106006
+[07/Nov/2016 19:57:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 106006
+[07/Nov/2016 19:59:25] "GET / HTTP/1.1" 200 1169
+[07/Nov/2016 19:59:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 19:59:25] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 19:59:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 20:45:00] "GET / HTTP/1.1" 200 1169
+[07/Nov/2016 20:45:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 20:45:00] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 20:45:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 20:56:50] "GET / HTTP/1.1" 200 6236
+[07/Nov/2016 20:56:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+Not Found: /grid.css
+[07/Nov/2016 20:56:50] "GET /grid.css HTTP/1.1" 404 2101
+[07/Nov/2016 21:00:40] "GET / HTTP/1.1" 200 6236
+Not Found: /grid.css
+[07/Nov/2016 21:00:40] "GET /grid.css HTTP/1.1" 404 2101
+[07/Nov/2016 21:00:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 106006
+Not Found: /favicon.ico
+[07/Nov/2016 21:00:41] "GET /favicon.ico HTTP/1.1" 404 2110
+Not Found: /grid.css
+[07/Nov/2016 21:01:09] "GET /grid.css HTTP/1.1" 404 2101
+[07/Nov/2016 21:05:47] "GET / HTTP/1.1" 200 6236
+[07/Nov/2016 21:06:56] "GET / HTTP/1.1" 200 1139
+[07/Nov/2016 21:07:10] "GET / HTTP/1.1" 200 1139
+[07/Nov/2016 21:07:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 28631
+[07/Nov/2016 21:07:11] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 127343
+[07/Nov/2016 21:07:12] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 61884
+[07/Nov/2016 21:09:24] "GET / HTTP/1.1" 200 2107
+[07/Nov/2016 21:12:34] "GET / HTTP/1.1" 200 2107
+[07/Nov/2016 21:13:38] "GET / HTTP/1.1" 200 2160
+[07/Nov/2016 21:13:39] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:13:39] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:13:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:13:39] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:13:40] "GET /static/jquery/jquery.js HTTP/1.1" 200 293072
+[07/Nov/2016 21:13:49] "GET / HTTP/1.1" 200 2160
+[07/Nov/2016 21:17:22] "GET / HTTP/1.1" 200 2183
+[07/Nov/2016 21:17:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:17:22] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 21:17:22] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:17:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:17:22] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:17:46] "GET / HTTP/1.1" 200 2019
+[07/Nov/2016 21:17:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:17:46] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:17:46] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 21:17:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:17:46] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:23:49] "GET / HTTP/1.1" 200 2076
+[07/Nov/2016 21:23:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:23:49] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:23:49] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 21:23:49] "GET /static/temp/grid.css HTTP/1.1" 200 362
+[07/Nov/2016 21:23:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:23:49] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:33:12] "GET / HTTP/1.1" 200 2076
+[07/Nov/2016 21:33:12] "GET /static/temp/grid.css HTTP/1.1" 304 0
+[07/Nov/2016 21:33:12] "GET /static/jquery/jquery.js HTTP/1.1" 304 0
+[07/Nov/2016 21:33:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[07/Nov/2016 21:33:13] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 69707
+[07/Nov/2016 21:33:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[07/Nov/2016 21:33:14] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 146010
+[07/Nov/2016 21:33:19] "GET /static/bootstrap/css/bootstrap.css.map HTTP/1.1" 200 389287
+[07/Nov/2016 21:33:22] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[07/Nov/2016 21:38:16] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:38:16] "GET /?t=1478525902441 HTTP/1.1" 200 2081
+[07/Nov/2016 21:38:16] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:38:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:38:17] "GET /static/temp/grid.css HTTP/1.1" 304 0
+[07/Nov/2016 21:38:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:38:17] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:38:17] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[07/Nov/2016 21:38:48] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:38:48] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[07/Nov/2016 21:38:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[07/Nov/2016 21:38:50] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 69707
+[07/Nov/2016 21:38:51] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:38:51] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[07/Nov/2016 21:38:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[07/Nov/2016 21:38:52] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 69707
+Not Found: /favicon.ico
+[07/Nov/2016 21:38:58] "GET /favicon.ico HTTP/1.1" 404 2110
+[07/Nov/2016 21:38:58] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:38:59] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[07/Nov/2016 21:38:59] "GET /static/temp/grid.css HTTP/1.1" 200 362
+[07/Nov/2016 21:39:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[07/Nov/2016 21:39:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[07/Nov/2016 21:39:01] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 69707
+[07/Nov/2016 21:39:01] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 146010
+[07/Nov/2016 21:39:10] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:39:10] "GET /static/temp/grid.css HTTP/1.1" 200 362
+[07/Nov/2016 21:39:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[07/Nov/2016 21:39:10] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 69707
+[07/Nov/2016 21:39:10] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[07/Nov/2016 21:39:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[07/Nov/2016 21:39:12] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 146010
+[07/Nov/2016 21:39:14] "GET / HTTP/1.1" 200 2081
+[07/Nov/2016 21:39:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:39:15] "GET /static/temp/grid.css HTTP/1.1" 304 0
+[07/Nov/2016 21:39:15] "GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[07/Nov/2016 21:39:15] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
+[07/Nov/2016 21:39:15] "GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[07/Nov/2016 21:39:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 21:39:22] "GET /static/bootstrap/css/bootstrap.css.map HTTP/1.1" 200 389287
+[07/Nov/2016 21:39:25] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[07/Nov/2016 21:41:16] "GET / HTTP/1.1" 200 2089
+[07/Nov/2016 21:41:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:41:16] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
+[07/Nov/2016 21:41:19] "GET / HTTP/1.1" 200 2089
+[07/Nov/2016 21:41:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:41:19] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
+[07/Nov/2016 21:43:47] "GET / HTTP/1.1" 200 2095
+[07/Nov/2016 21:43:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 21:43:47] "GET /static/temp/grid.css HTTP/1.1" 304 0
+[07/Nov/2016 21:43:47] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
+[07/Nov/2016 21:43:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
