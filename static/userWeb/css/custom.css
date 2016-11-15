@@ -1,0 +1,114 @@
+.navbar-default 
+{
+  background: rgba(26,166,0,1);
+  padding: 20px;
+  margin:0;
+  font-family: "Microsoft YaHei",微软雅黑;
+  border-color:rgba(26,166,0,1);
+}
+
+
+
+.navbar .navbar-brand 
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a
+{
+  color: rgba(196, 227, 255, 0.8);
+  font-size: 16px;
+}
+
+.nav li
+{
+  padding-left: 20px;
+}
+
+.login 
+{
+  padding-left: 10px;
+  width: 150px;
+}
+
+.navbar-default .navbar-nav li.login a
+{
+  color:#fff;
+}
+
+
+.btn-info
+{
+  background-color: rgba(26,166,0,1);
+  border-color: #59c323;
+}
+
+.regist
+{
+  background-color: rgba(0, 145, 72, 0.68);
+  border-color: #59c323;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li.login>a:focus, .navbar-default .navbar-nav>li.login>a:hover
+{
+  background-color: #59c323;
+  border-color: #59c323;
+  color: #fff;
+}
+
+.first-page
+{
+  height: 0;
+  padding-bottom: 50%;
+  margin-top:92;
+  background: #4dc137;
+}
+
+.first-view
+{
+  text-align:center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-family:"幼圆";
+  font-weight: bold;
+}
+
+.first-page .fast-login
+{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+
+.form-control
+{
+  background: rgb(26, 166, 0);
+  color: #fff;
+  height: 40px;
+}
+
+.form-control::-webkit-input-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control:-moz-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control::-moz-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control:-ms-input-placeholder { color: rgba(196, 227, 255, 0.8); }
+
+.fast-login .btn-default
+{
+  height: 40px;
+  background: #45b530;
+  border-color: rgba(124, 255, 57, 0.49);
+  color: rgba(196, 227, 255, 0.8);
+}
+
+.fast-login .btn-default:hover
+{
+  background: rgba(124, 255, 57, 0.49);
+  border-color: rgba(124, 255, 57, 0.49);
+  color: #fff;
+}

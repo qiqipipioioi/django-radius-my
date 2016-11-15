@@ -1103,3 +1103,2058 @@ Not Found: /favicon.ico
 [07/Nov/2016 21:43:47] "GET /static/temp/grid.css HTTP/1.1" 304 0
 [07/Nov/2016 21:43:47] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
 [07/Nov/2016 21:43:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 22:05:59] "GET / HTTP/1.1" 200 20982
+[07/Nov/2016 22:07:22] "GET / HTTP/1.1" 200 20964
+[07/Nov/2016 22:25:13] "GET / HTTP/1.1" 200 20964
+Not Found: /favicon.ico
+[07/Nov/2016 22:25:16] "GET /favicon.ico HTTP/1.1" 404 2110
+[07/Nov/2016 23:22:33] "GET / HTTP/1.1" 200 1934
+[07/Nov/2016 23:28:51] "GET / HTTP/1.1" 200 1919
+[07/Nov/2016 23:28:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 23:30:50] "GET / HTTP/1.1" 200 1895
+[07/Nov/2016 23:30:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 23:30:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Nov/2016 23:32:24] "GET / HTTP/1.1" 200 1895
+[07/Nov/2016 23:32:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Nov/2016 23:32:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[08/Nov/2016 00:14:16] "GET / HTTP/1.1" 200 2064
+[08/Nov/2016 00:14:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[08/Nov/2016 00:14:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[08/Nov/2016 00:14:20] "GET /? HTTP/1.1" 200 2064
+[08/Nov/2016 00:14:20] "GET /? HTTP/1.1" 200 2064
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[08/Nov/2016 01:49:01] "GET / HTTP/1.1" 200 2064
+Not Found: /script
+[08/Nov/2016 01:49:02] "GET /script HTTP/1.1" 404 2095
+Not Found: /jenkins/script
+[08/Nov/2016 01:49:02] "GET /jenkins/script HTTP/1.1" 404 2119
+Not Found: /login
+[08/Nov/2016 01:49:03] "GET /login HTTP/1.1" 404 2092
+Not Found: /jmx-console
+[08/Nov/2016 01:49:04] "GET /jmx-console HTTP/1.1" 404 2110
+Not Found: /manager/html
+[08/Nov/2016 01:49:05] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /msd
+[08/Nov/2016 01:49:06] "GET /msd HTTP/1.1" 404 2086
+Not Found: /mySqlDumper
+[08/Nov/2016 01:49:07] "GET /mySqlDumper HTTP/1.1" 404 2110
+Not Found: /msd1.24stable
+[08/Nov/2016 01:49:07] "GET /msd1.24stable HTTP/1.1" 404 2116
+Not Found: /msd1.24.4
+[08/Nov/2016 01:49:08] "GET /msd1.24.4 HTTP/1.1" 404 2104
+Not Found: /mysqldumper
+[08/Nov/2016 01:49:09] "GET /mysqldumper HTTP/1.1" 404 2110
+Not Found: /MySQLDumper
+[08/Nov/2016 01:49:10] "GET /MySQLDumper HTTP/1.1" 404 2110
+Not Found: /mysql
+[08/Nov/2016 01:49:11] "GET /mysql HTTP/1.1" 404 2092
+Not Found: /sql
+[08/Nov/2016 01:49:12] "GET /sql HTTP/1.1" 404 2086
+Not Found: /phpmyadmin
+[08/Nov/2016 01:49:13] "GET /phpmyadmin HTTP/1.1" 404 2107
+Not Found: /phpMyAdmin
+[08/Nov/2016 01:49:14] "GET /phpMyAdmin HTTP/1.1" 404 2107
+Not Found: /mysql
+[08/Nov/2016 01:49:14] "GET /mysql HTTP/1.1" 404 2092
+Not Found: /sql
+[08/Nov/2016 01:49:15] "GET /sql HTTP/1.1" 404 2086
+Not Found: /myadmin
+[08/Nov/2016 01:49:16] "GET /myadmin HTTP/1.1" 404 2098
+Not Found: /phpMyAdmin-4.2.1-all-languages
+[08/Nov/2016 01:49:17] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 2167
+Not Found: /phpMyAdmin-4.2.1-english
+[08/Nov/2016 01:49:18] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 2149
+[08/Nov/2016 02:28:12] "GET / HTTP/1.1" 200 2064
+Not Found: /script
+[08/Nov/2016 02:59:36] "GET /script HTTP/1.1" 404 2095
+Not Found: /script
+[08/Nov/2016 03:14:22] "GET /script HTTP/1.1" 404 2095
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Nov/2016 04:48:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Nov/2016 05:52:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.youdao.com/
+[08/Nov/2016 06:07:56] "GET http://www.youdao.com/ HTTP/1.1" 404 1664
+Not Found: /www.baidu.com:443
+[08/Nov/2016 06:07:57] "CONNECT www.baidu.com:443 HTTP/1.1" 404 1657
+[08/Nov/2016 09:28:55] "GET / HTTP/1.1" 200 2064
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+error: [Errno 104] Connection reset by peer
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+    self.handle()
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+error: [Errno 104] Connection reset by peer
+Not Found: /http:/www.google.com/reader/about/
+[08/Nov/2016 09:51:45] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[08/Nov/2016 10:23:19] "GET / HTTP/1.1" 200 2064
+[08/Nov/2016 10:23:21] "GET / HTTP/1.1" 200 2064
+[08/Nov/2016 10:23:22] "GET / HTTP/1.1" 200 2064
+[08/Nov/2016 10:23:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[08/Nov/2016 10:23:40] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[08/Nov/2016 10:25:47] "GET /admin/ HTTP/1.1" 200 6477
+[08/Nov/2016 10:25:47] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[08/Nov/2016 10:25:47] "GET /favicon.ico HTTP/1.1" 404 2110
+[08/Nov/2016 10:25:50] "GET / HTTP/1.1" 200 2064
+[08/Nov/2016 10:31:27] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 10:31:30] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 10:31:31] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 10:31:32] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 10:31:34] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 10:31:36] "GET /? HTTP/1.1" 200 2054
+[08/Nov/2016 10:44:50] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2016 10:44:50] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /favicon.ico
+[08/Nov/2016 10:44:51] "GET /favicon.ico HTTP/1.1" 404 2110
+[08/Nov/2016 14:52:49] code 400, message Bad request syntax ('\x04\x01\x01\xbb\xb4a!kadmin\x00')
+[08/Nov/2016 14:52:49] 
+[08/Nov/2016 14:52:49] code 400, message Bad request syntax ('\x05\x01\x00')
+[08/Nov/2016 14:52:49] " " 400 -
+Not Found: /manager/html
+[08/Nov/2016 15:10:46] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Nov/2016 15:31:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Nov/2016 17:43:38] "GET / HTTP/1.1" 200 2054
+Not Found: /http:/www.msftncsi.com/ncsi.txt
+[08/Nov/2016 17:43:38] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 404 1696
+Not Found: /HNAP1/
+[08/Nov/2016 17:43:39] "GET /HNAP1/ HTTP/1.1" 404 2095
+Not Found: /hudson/script
+[08/Nov/2016 17:43:40] "GET /hudson/script HTTP/1.1" 404 2116
+Not Found: /script
+[08/Nov/2016 17:43:40] "GET /script HTTP/1.1" 404 2095
+Not Found: /sqlite/main.php
+[08/Nov/2016 17:43:40] "GET /sqlite/main.php HTTP/1.1" 404 2122
+Not Found: /sqlitemanager/main.php
+[08/Nov/2016 17:43:40] "GET /sqlitemanager/main.php HTTP/1.1" 404 2143
+Not Found: /SQLiteManager/main.php
+[08/Nov/2016 17:43:41] "GET /SQLiteManager/main.php HTTP/1.1" 404 2143
+Not Found: /SQLite/main.php
+[08/Nov/2016 17:43:41] "GET /SQLite/main.php HTTP/1.1" 404 2122
+Not Found: /SQlite/main.php
+[08/Nov/2016 17:43:41] "GET /SQlite/main.php HTTP/1.1" 404 2122
+Not Found: /main.php
+[08/Nov/2016 17:43:41] "GET /main.php HTTP/1.1" 404 2101
+Not Found: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+[08/Nov/2016 17:43:41] "GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php HTTP/1.1" 404 2257
+Not Found: /SQLiteManager-1.2.4/main.php
+[08/Nov/2016 17:43:42] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 2161
+Not Found: /agSearch/SQlite/main.php
+[08/Nov/2016 17:43:42] "GET /agSearch/SQlite/main.php HTTP/1.1" 404 2149
+Not Found: /phpmyadmin/
+[08/Nov/2016 17:43:42] "GET /phpmyadmin/ HTTP/1.1" 404 2110
+Not Found: /phpMyAdmin/
+[08/Nov/2016 17:43:42] "GET /phpMyAdmin/ HTTP/1.1" 404 2110
+Not Found: /PMA/
+[08/Nov/2016 17:43:42] "GET /PMA/ HTTP/1.1" 404 2089
+Not Found: /pma/
+[08/Nov/2016 17:43:43] "GET /pma/ HTTP/1.1" 404 2089
+[08/Nov/2016 17:43:43] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2016 17:43:43] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /dbadmin/
+[08/Nov/2016 17:43:43] "GET /dbadmin/ HTTP/1.1" 404 2101
+Not Found: /mysql/
+[08/Nov/2016 17:43:44] "GET /mysql/ HTTP/1.1" 404 2095
+Not Found: /myadmin/
+[08/Nov/2016 17:43:44] "GET /myadmin/ HTTP/1.1" 404 2101
+Not Found: /openserver/phpmyadmin/
+[08/Nov/2016 17:43:44] "GET /openserver/phpmyadmin/ HTTP/1.1" 404 2143
+Not Found: /phpmyadmin2/
+[08/Nov/2016 17:43:44] "GET /phpmyadmin2/ HTTP/1.1" 404 2113
+Not Found: /phpMyAdmin2/
+[08/Nov/2016 17:43:45] "GET /phpMyAdmin2/ HTTP/1.1" 404 2113
+Not Found: /phpMyAdmin-2/
+[08/Nov/2016 17:43:45] "GET /phpMyAdmin-2/ HTTP/1.1" 404 2116
+Not Found: /php-my-admin/
+[08/Nov/2016 17:43:45] "GET /php-my-admin/ HTTP/1.1" 404 2116
+Not Found: /phpMyAdmin-2.2.3/
+[08/Nov/2016 17:43:45] "GET /phpMyAdmin-2.2.3/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.2.6/
+[08/Nov/2016 17:43:46] "GET /phpMyAdmin-2.2.6/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.1/
+[08/Nov/2016 17:43:46] "GET /phpMyAdmin-2.5.1/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.4/
+[08/Nov/2016 17:43:46] "GET /phpMyAdmin-2.5.4/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.5-rc1/
+[08/Nov/2016 17:43:46] "GET /phpMyAdmin-2.5.5-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.5.5-rc2/
+[08/Nov/2016 17:43:46] "GET /phpMyAdmin-2.5.5-rc2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.5.5/
+[08/Nov/2016 17:43:47] "GET /phpMyAdmin-2.5.5/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.5-pl1/
+[08/Nov/2016 17:43:47] "GET /phpMyAdmin-2.5.5-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.5.6-rc1/
+[08/Nov/2016 17:43:48] "GET /phpMyAdmin-2.5.6-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.5.6-rc2/
+[08/Nov/2016 17:43:48] "GET /phpMyAdmin-2.5.6-rc2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.5.6/
+[08/Nov/2016 17:43:50] "GET /phpMyAdmin-2.5.6/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.7/
+[08/Nov/2016 17:43:51] "GET /phpMyAdmin-2.5.7/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.5.7-pl1/
+[08/Nov/2016 17:43:51] "GET /phpMyAdmin-2.5.7-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0-alpha/
+[08/Nov/2016 17:43:51] "GET /phpMyAdmin-2.6.0-alpha/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.6.0-alpha2/
+[08/Nov/2016 17:43:52] "GET /phpMyAdmin-2.6.0-alpha2/ HTTP/1.1" 404 2149
+Not Found: /phpMyAdmin-2.6.0-beta1/
+[08/Nov/2016 17:43:52] "GET /phpMyAdmin-2.6.0-beta1/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.6.0-beta2/
+[08/Nov/2016 17:43:52] "GET /phpMyAdmin-2.6.0-beta2/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.6.0-rc1/
+[08/Nov/2016 17:43:52] "GET /phpMyAdmin-2.6.0-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0-rc2/
+[08/Nov/2016 17:43:52] "GET /phpMyAdmin-2.6.0-rc2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0-rc3/
+[08/Nov/2016 17:43:53] "GET /phpMyAdmin-2.6.0-rc3/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0/
+[08/Nov/2016 17:43:53] "GET /phpMyAdmin-2.6.0/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.6.0-pl1/
+[08/Nov/2016 17:43:53] "GET /phpMyAdmin-2.6.0-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0-pl2/
+[08/Nov/2016 17:43:53] "GET /phpMyAdmin-2.6.0-pl2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.0-pl3/
+[08/Nov/2016 17:43:54] "GET /phpMyAdmin-2.6.0-pl3/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.1-rc1/
+[08/Nov/2016 17:43:54] "GET /phpMyAdmin-2.6.1-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.1-rc2/
+[08/Nov/2016 17:43:55] "GET /phpMyAdmin-2.6.1-rc2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.1/
+[08/Nov/2016 17:43:55] "GET /phpMyAdmin-2.6.1/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.6.1-pl1/
+[08/Nov/2016 17:43:56] "GET /phpMyAdmin-2.6.1-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.1-pl2/
+[08/Nov/2016 17:43:56] "GET /phpMyAdmin-2.6.1-pl2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.1-pl3/
+[08/Nov/2016 17:43:56] "GET /phpMyAdmin-2.6.1-pl3/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.2-rc1/
+[08/Nov/2016 17:43:56] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.2-beta1/
+[08/Nov/2016 17:43:56] "GET /phpMyAdmin-2.6.2-beta1/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.6.2-rc1/
+[08/Nov/2016 17:43:57] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.2/
+[08/Nov/2016 17:43:57] "GET /phpMyAdmin-2.6.2/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.6.2-pl1/
+[08/Nov/2016 17:43:57] "GET /phpMyAdmin-2.6.2-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.3/
+[08/Nov/2016 17:43:58] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.6.3-rc1/
+[08/Nov/2016 17:43:58] "GET /phpMyAdmin-2.6.3-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.3/
+[08/Nov/2016 17:43:58] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.6.3-pl1/
+[08/Nov/2016 17:43:58] "GET /phpMyAdmin-2.6.3-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4-rc1/
+[08/Nov/2016 17:43:58] "GET /phpMyAdmin-2.6.4-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4-pl1/
+[08/Nov/2016 17:43:59] "GET /phpMyAdmin-2.6.4-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4-pl2/
+[08/Nov/2016 17:43:59] "GET /phpMyAdmin-2.6.4-pl2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4-pl3/
+[08/Nov/2016 17:43:59] "GET /phpMyAdmin-2.6.4-pl3/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4-pl4/
+[08/Nov/2016 17:43:59] "GET /phpMyAdmin-2.6.4-pl4/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.6.4/
+[08/Nov/2016 17:44:00] "GET /phpMyAdmin-2.6.4/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.7.0-beta1/
+[08/Nov/2016 17:44:01] "GET /phpMyAdmin-2.7.0-beta1/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.7.0-rc1/
+[08/Nov/2016 17:44:01] "GET /phpMyAdmin-2.7.0-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.7.0-pl1/
+[08/Nov/2016 17:44:01] "GET /phpMyAdmin-2.7.0-pl1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.7.0-pl2/
+[08/Nov/2016 17:44:02] "GET /phpMyAdmin-2.7.0-pl2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.7.0/
+[08/Nov/2016 17:44:02] "GET /phpMyAdmin-2.7.0/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.8.0-beta1/
+[08/Nov/2016 17:44:02] "GET /phpMyAdmin-2.8.0-beta1/ HTTP/1.1" 404 2146
+Not Found: /phpMyAdmin-2.8.0-rc1/
+[08/Nov/2016 17:44:02] "GET /phpMyAdmin-2.8.0-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.8.0-rc2/
+[08/Nov/2016 17:44:03] "GET /phpMyAdmin-2.8.0-rc2/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.8.0/
+[08/Nov/2016 17:44:03] "GET /phpMyAdmin-2.8.0/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.8.0.1/
+[08/Nov/2016 17:44:03] "GET /phpMyAdmin-2.8.0.1/ HTTP/1.1" 404 2134
+Not Found: /phpMyAdmin-2.8.0.2/
+[08/Nov/2016 17:44:03] "GET /phpMyAdmin-2.8.0.2/ HTTP/1.1" 404 2134
+Not Found: /phpMyAdmin-2.8.0.3/
+[08/Nov/2016 17:44:06] "GET /phpMyAdmin-2.8.0.3/ HTTP/1.1" 404 2134
+Not Found: /phpMyAdmin-2.8.0.4/
+[08/Nov/2016 17:44:06] "GET /phpMyAdmin-2.8.0.4/ HTTP/1.1" 404 2134
+Not Found: /phpMyAdmin-2.8.1-rc1/
+[08/Nov/2016 17:44:07] "GET /phpMyAdmin-2.8.1-rc1/ HTTP/1.1" 404 2140
+Not Found: /phpMyAdmin-2.8.1/
+[08/Nov/2016 17:44:10] "GET /phpMyAdmin-2.8.1/ HTTP/1.1" 404 2128
+Not Found: /phpMyAdmin-2.8.2/
+[08/Nov/2016 17:44:11] "GET /phpMyAdmin-2.8.2/ HTTP/1.1" 404 2128
+Not Found: /sqlmanager/
+[08/Nov/2016 17:44:11] "GET /sqlmanager/ HTTP/1.1" 404 2110
+Not Found: /mysqlmanager/
+[08/Nov/2016 17:44:11] "GET /mysqlmanager/ HTTP/1.1" 404 2116
+Not Found: /p/m/a/
+[08/Nov/2016 17:44:12] "GET /p/m/a/ HTTP/1.1" 404 2095
+Not Found: /PMA2005/
+[08/Nov/2016 17:44:12] "GET /PMA2005/ HTTP/1.1" 404 2101
+Not Found: /pma2005/
+[08/Nov/2016 17:44:12] "GET /pma2005/ HTTP/1.1" 404 2101
+Not Found: /phpmanager/
+[08/Nov/2016 17:44:12] "GET /phpmanager/ HTTP/1.1" 404 2110
+Not Found: /php-myadmin/
+[08/Nov/2016 17:44:12] "GET /php-myadmin/ HTTP/1.1" 404 2113
+Not Found: /phpmy-admin/
+[08/Nov/2016 17:44:13] "GET /phpmy-admin/ HTTP/1.1" 404 2113
+Not Found: /webadmin/
+[08/Nov/2016 17:44:14] "GET /webadmin/ HTTP/1.1" 404 2104
+Not Found: /sqlweb/
+[08/Nov/2016 17:44:14] "GET /sqlweb/ HTTP/1.1" 404 2098
+Not Found: /websql/
+[08/Nov/2016 17:44:15] "GET /websql/ HTTP/1.1" 404 2098
+Not Found: /webdb/
+[08/Nov/2016 17:44:15] "GET /webdb/ HTTP/1.1" 404 2095
+Not Found: /mysqladmin/
+[08/Nov/2016 17:44:15] "GET /mysqladmin/ HTTP/1.1" 404 2110
+Not Found: /mysql-admin/
+[08/Nov/2016 17:44:17] "GET /mysql-admin/ HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/favicon.ico
+[08/Nov/2016 18:50:54] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Nov/2016 20:21:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Nov/2016 20:27:11] "GET / HTTP/1.1" 200 2054
+[08/Nov/2016 20:27:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+[08/Nov/2016 20:27:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[08/Nov/2016 20:27:29] "GET /? HTTP/1.1" 200 2054
+Not Found: /favicon.ico
+[08/Nov/2016 20:27:41] "GET /favicon.ico HTTP/1.1" 404 2110
+Not Found: /favicon.ico
+[08/Nov/2016 20:28:03] "GET /favicon.ico HTTP/1.1" 404 2110
+[08/Nov/2016 20:28:56] "GET /? HTTP/1.1" 200 2051
+[08/Nov/2016 20:33:13] "GET /? HTTP/1.1" 200 2051
+[08/Nov/2016 20:34:08] "GET /? HTTP/1.1" 200 2051
+[08/Nov/2016 22:08:03] "OPTIONS / HTTP/1.1" 200 0
+[08/Nov/2016 22:08:08] "GET / HTTP/1.1" 200 2051
+[08/Nov/2016 22:08:09] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:08:15] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:08:24] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:08:30] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:08:36] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:08:45] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:08:51] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:08:59] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:09:06] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:09:14] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:09:21] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:09:30] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:09:36] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:09:45] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:09:49] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:09:52] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:09:55] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:09:56] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:10:02] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:10:07] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:10:13] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:10:17] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:10:28] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:10:34] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:10:36] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:10:43] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:10:48] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:10:53] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:11:03] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:11:08] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:11:12] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:11:22] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:11:30] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:11:35] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:11:40] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:11:46] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:11:52] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:11:57] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:12:07] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:12:10] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:12:17] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:12:23] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:12:26] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:12:31] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:12:38] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:12:45] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:12:54] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:13:02] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:13:09] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:13:13] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[08/Nov/2016 22:13:22] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[08/Nov/2016 22:13:29] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+Not Found: /manager/html
+[09/Nov/2016 00:05:43] "GET /manager/html HTTP/1.1" 404 2113
+[09/Nov/2016 01:08:26] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00')
+[09/Nov/2016 01:08:26] 
+[09/Nov/2016 01:08:31] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[09/Nov/2016 01:08:31] " " 400 -
+[09/Nov/2016 01:08:54] code 400, message Bad request syntax ('\x04\x01\x1f\x00\x00\x00\x00\x00\x00')
+[09/Nov/2016 01:08:54] "      " 400 -
+Not Found: /http:/www.baidu.com/favicon.ico
+[09/Nov/2016 01:38:15] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Nov/2016 03:11:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[09/Nov/2016 03:28:32] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /phpmyadmin/index.php
+[09/Nov/2016 03:38:00] "GET /phpmyadmin/index.php HTTP/1.1" 404 2137
+[09/Nov/2016 04:06:28] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Nov/2016 10:16:46] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/wap.ip138.com/
+[09/Nov/2016 11:09:05] "HEAD http://wap.ip138.com/ HTTP/1.1" 404 0
+[09/Nov/2016 11:09:35] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[09/Nov/2016 11:09:35] " " 400 -
+[09/Nov/2016 11:38:59] "GET /admin HTTP/1.1" 301 0
+[09/Nov/2016 11:38:59] "GET /admin/ HTTP/1.1" 302 0
+[09/Nov/2016 11:39:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[09/Nov/2016 11:39:00] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.google.com/reader/about/
+[09/Nov/2016 14:52:41] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[09/Nov/2016 15:41:00] "GET / HTTP/1.1" 200 2051
+Not Found: /phpmyadmin
+[09/Nov/2016 16:55:08] "GET /phpmyadmin HTTP/1.1" 404 2107
+[09/Nov/2016 21:54:16] "GET / HTTP/1.1" 200 2051
+[09/Nov/2016 21:54:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[09/Nov/2016 21:54:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+Not Found: /http:/www.baidu.com/favicon.ico
+[09/Nov/2016 23:45:34] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Nov/2016 00:36:46] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[10/Nov/2016 01:28:15] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Nov/2016 01:41:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/180.163.113.82/check_proxy
+[10/Nov/2016 01:53:48] "HEAD http://180.163.113.82/check_proxy HTTP/1.1" 404 0
+Not Found: /manager/html
+[10/Nov/2016 02:31:48] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.google.com/reader/about/
+[10/Nov/2016 03:09:35] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.google.com/reader/about/
+[10/Nov/2016 06:22:52] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Nov/2016 07:29:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /axis2
+[10/Nov/2016 07:35:16] "GET /axis2 HTTP/1.1" 404 2092
+[10/Nov/2016 08:39:59] code 400, message Bad request syntax ('\x04\x01\x00P\xb4\xa3qR\x00')
+[10/Nov/2016 08:39:59] 
+[10/Nov/2016 09:11:03] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[10/Nov/2016 09:11:03] " " 400 -
+[10/Nov/2016 11:01:52] "GET / HTTP/1.1" 200 2051
+[10/Nov/2016 11:01:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[10/Nov/2016 11:01:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[10/Nov/2016 11:02:03] "GET /admin/ HTTP/1.1" 200 6477
+[10/Nov/2016 11:02:04] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[10/Nov/2016 11:02:04] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[10/Nov/2016 11:02:04] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[10/Nov/2016 11:02:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[10/Nov/2016 11:02:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[10/Nov/2016 11:02:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[10/Nov/2016 11:02:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[10/Nov/2016 11:02:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[10/Nov/2016 11:02:11] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[10/Nov/2016 11:02:12] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[10/Nov/2016 11:02:12] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[10/Nov/2016 11:02:12] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[10/Nov/2016 11:02:12] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[10/Nov/2016 11:02:12] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[10/Nov/2016 11:02:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[10/Nov/2016 11:02:12] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[10/Nov/2016 11:02:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[10/Nov/2016 11:02:13] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[10/Nov/2016 11:02:14] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Nov/2016 14:33:38] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[10/Nov/2016 14:46:21] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /script
+[10/Nov/2016 15:00:59] "GET /script HTTP/1.1" 404 2095
+Not Found: /axis2
+[10/Nov/2016 17:58:17] "GET /axis2 HTTP/1.1" 404 2092
+[10/Nov/2016 18:01:40] "GET / HTTP/1.1" 200 2051
+[10/Nov/2016 18:10:12] "GET / HTTP/1.1" 200 2051
+Not Found: /manager/html
+[10/Nov/2016 21:41:32] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /script
+[10/Nov/2016 22:18:15] "GET /script HTTP/1.1" 404 2095
+Not Found: /script
+[10/Nov/2016 22:18:16] "GET /script HTTP/1.1" 404 2095
+Not Found: /script
+[10/Nov/2016 22:18:16] "GET /script HTTP/1.1" 404 2095
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Nov/2016 22:29:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[10/Nov/2016 23:27:57] "OPTIONS / HTTP/1.1" 200 0
+[10/Nov/2016 23:28:09] "GET / HTTP/1.1" 200 2051
+[10/Nov/2016 23:28:11] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:28:19] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:28:25] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:28:30] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:28:34] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:28:35] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:28:39] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:28:44] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:28:51] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:28:59] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:05] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:29:14] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:18] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:29:22] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:25] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:29:29] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:37] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:29:40] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:46] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:29:50] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:29:59] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:30:07] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:30:13] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:30:21] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:30:29] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:30:35] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:30:42] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:30:49] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:30:54] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:31:00] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:31:02] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:31:07] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:31:14] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:31:21] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:31:28] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:31:34] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:31:46] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:31:52] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:02] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:04] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:12] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:15] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:18] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:24] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:30] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:36] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:41] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:48] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:32:54] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:32:59] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+[10/Nov/2016 23:33:09] "GET / HTTP/1.1" 200 2051
+Not Found: /tcpipwan.asp
+[10/Nov/2016 23:33:14] "GET /tcpipwan.asp HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/favicon.ico
+[11/Nov/2016 00:52:45] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /manager/html
+[11/Nov/2016 03:23:09] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /cgi/common.cgi
+[11/Nov/2016 04:11:24] "GET /cgi/common.cgi HTTP/1.0" 404 2114
+Not Found: /stssys.htm
+[11/Nov/2016 04:11:24] "GET /stssys.htm HTTP/1.0" 404 2102
+[11/Nov/2016 04:11:25] "GET / HTTP/1.0" 200 2051
+Not Found: /command.php
+[11/Nov/2016 04:11:25] "POST /command.php HTTP/1.0" 404 2106
+Not Found: /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[11/Nov/2016 04:11:26] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 404 2335
+Not Found: /../../../../../../../mnt/mtd/qt
+[11/Nov/2016 04:11:27] "GET /../../../../../../../mnt/mtd/qt HTTP/1.0" 404 2165
+[11/Nov/2016 06:06:30] "GET / HTTP/1.1" 200 2051
+[11/Nov/2016 06:06:32] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Nov/2016 07:03:18] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[11/Nov/2016 11:32:17] "GET / HTTP/1.1" 200 2051
+[11/Nov/2016 11:32:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[11/Nov/2016 12:23:11] "GET / HTTP/1.0" 200 2051
+Not Found: /manager/html
+[11/Nov/2016 17:34:06] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/favicon.ico
+[11/Nov/2016 17:44:42] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Nov/2016 18:56:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Nov/2016 20:30:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[11/Nov/2016 22:12:27] "GET / HTTP/1.1" 200 2051
+[11/Nov/2016 23:08:32] code 400, message Bad request syntax ('\x00')
+[11/Nov/2016 23:08:32] " " 400 -
+Not Found: /http:/httpheader.net/
+[11/Nov/2016 23:08:47] "GET http://httpheader.net/ HTTP/1.1" 404 1664
+[11/Nov/2016 23:08:57] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+[11/Nov/2016 23:08:57] 
+[11/Nov/2016 23:09:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/Nov/2016 23:09:08] " " 400 -
+[11/Nov/2016 23:09:18] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/Nov/2016 23:09:18] " " 400 -
+Not Found: /manager/html
+[11/Nov/2016 23:18:40] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /manager/html
+[11/Nov/2016 23:19:25] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Nov/2016 23:42:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[12/Nov/2016 00:33:01] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[12/Nov/2016 03:00:36] "HEAD / HTTP/1.0" 200 0
+Not Found: /axis2
+[12/Nov/2016 04:02:32] "GET /axis2 HTTP/1.1" 404 2092
+Not Found: /manager/html
+[12/Nov/2016 05:41:43] "GET /manager/html HTTP/1.1" 404 2113
+[12/Nov/2016 10:16:28] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.baidu.com/favicon.ico
+[12/Nov/2016 12:04:11] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /manager/html
+[12/Nov/2016 12:12:39] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Nov/2016 13:14:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[12/Nov/2016 15:18:09] "GET /manager/html HTTP/1.1" 404 2113
+[12/Nov/2016 17:40:47] "GET / HTTP/1.0" 200 2051
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Nov/2016 18:34:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[12/Nov/2016 21:32:16] "GET / HTTP/1.1" 200 2051
+[12/Nov/2016 22:59:04] "GET / HTTP/1.0" 200 2051
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Nov/2016 23:19:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[13/Nov/2016 06:55:11] "GET / HTTP/1.1" 200 2051
+[13/Nov/2016 07:25:30] "GET / HTTP/1.1" 200 2051
+Not Found: /http:/www.baidu.com/favicon.ico
+[13/Nov/2016 08:29:30] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[13/Nov/2016 12:52:00] code 400, message Bad request syntax ('test')
+[13/Nov/2016 12:52:00] "test" 400 -
+[13/Nov/2016 12:52:00] "GET / HTTP/1.1" 200 2051
+Not Found: /manager/html
+[13/Nov/2016 15:02:41] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Nov/2016 15:53:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Nov/2016 16:41:44] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[13/Nov/2016 19:01:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[13/Nov/2016 19:57:45] "GET / HTTP/1.1" 200 2051
+[13/Nov/2016 21:39:39] "GET / HTTP/1.1" 200 2051
+[13/Nov/2016 21:39:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[13/Nov/2016 21:39:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[13/Nov/2016 21:39:57] "GET /? HTTP/1.1" 200 2051
+Not Found: /favicon.ico
+[13/Nov/2016 21:40:14] "GET /favicon.ico HTTP/1.1" 404 2110
+Not Found: /index.php
+[13/Nov/2016 22:21:18] "GET /index.php HTTP/1.1" 404 2104
+Not Found: /http:/www.baidu.com/favicon.ico
+[14/Nov/2016 01:15:30] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /script
+[14/Nov/2016 03:31:54] "GET /script HTTP/1.1" 404 2095
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Nov/2016 03:36:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[14/Nov/2016 03:43:51] "GET / HTTP/1.1" 200 2051
+Not Found: /phpmyadmin/scripts/setup.php
+[14/Nov/2016 07:07:49] "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 2161
+[14/Nov/2016 08:27:40] code 400, message Bad request syntax ('\x04\x01\x1f\x00\x00\x00\x00\x00\x00')
+[14/Nov/2016 08:27:40] "      " 400 -
+Not Found: /manager/html
+[14/Nov/2016 09:38:00] "GET /manager/html HTTP/1.1" 404 2113
+[14/Nov/2016 11:08:13] code 400, message Bad request syntax ('test')
+[14/Nov/2016 11:08:13] "test" 400 -
+[14/Nov/2016 11:08:13] "GET / HTTP/1.1" 200 2051
+[14/Nov/2016 11:55:37] "GET / HTTP/1.1" 200 2051
+Not Found: /HNAP1/
+[14/Nov/2016 11:55:37] "GET /HNAP1/ HTTP/1.1" 404 2095
+Not Found: /favicon.ico
+[14/Nov/2016 12:06:06] "GET /favicon.ico HTTP/1.1" 404 2110
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[14/Nov/2016 14:51:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /index.php
+[14/Nov/2016 15:11:13] "GET /index.php HTTP/1.1" 404 2104
+Not Found: /axis2
+[14/Nov/2016 16:01:38] "GET /axis2 HTTP/1.1" 404 2092
+Not Found: /manager/html
+[14/Nov/2016 17:49:21] "GET /manager/html HTTP/1.1" 404 2113
+Not Found: /manager/html
+[14/Nov/2016 18:00:58] "GET /manager/html HTTP/1.1" 404 2113
+[14/Nov/2016 19:53:01] "GET / HTTP/1.1" 200 2051
+[14/Nov/2016 21:11:54] "GET / HTTP/1.1" 200 2051
+[14/Nov/2016 21:11:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[14/Nov/2016 21:11:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+Not Found: /http:/www.baidu.com/favicon.ico
+[15/Nov/2016 03:21:14] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Nov/2016 08:01:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Nov/2016 08:04:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[15/Nov/2016 10:31:47] "GET / HTTP/1.1" 200 1839
+[15/Nov/2016 10:31:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[15/Nov/2016 10:31:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+Forbidden (CSRF cookie not set.): /
+[15/Nov/2016 10:54:10] "POST / HTTP/1.0" 403 2629
+[15/Nov/2016 11:20:13] "GET / HTTP/1.1" 200 2051
+[15/Nov/2016 11:20:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:20:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:24:57] "GET / HTTP/1.1" 200 2060
+Not Found: /favicon.ico
+[15/Nov/2016 11:24:58] "GET /favicon.ico HTTP/1.1" 404 2110
+[15/Nov/2016 11:25:54] "GET / HTTP/1.1" 200 2060
+[15/Nov/2016 11:25:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/Nov/2016 11:26:29] "GET /favicon.ico HTTP/1.1" 404 2110
+[15/Nov/2016 11:28:11] "GET / HTTP/1.1" 200 2057
+[15/Nov/2016 11:28:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:28:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[15/Nov/2016 11:28:31] "GET / HTTP/1.1" 200 2051
+[15/Nov/2016 11:28:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:28:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:28:51] "GET / HTTP/1.1" 200 2060
+[15/Nov/2016 11:28:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:28:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:29:10] "GET / HTTP/1.1" 200 2049
+[15/Nov/2016 11:29:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:29:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:40:26] "GET / HTTP/1.1" 200 2076
+[15/Nov/2016 11:40:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:40:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:40:48] "GET / HTTP/1.1" 200 2060
+[15/Nov/2016 11:40:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:40:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /manager/html
+[15/Nov/2016 11:52:49] "GET /manager/html HTTP/1.1" 404 2113
+[15/Nov/2016 11:53:28] "GET / HTTP/1.1" 200 2078
+[15/Nov/2016 11:53:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:53:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 11:53:29] "GET / HTTP/1.1" 200 2078
+[15/Nov/2016 11:53:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 11:53:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[15/Nov/2016 13:20:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[15/Nov/2016 13:50:06] "GET / HTTP/1.1" 200 2078
+[15/Nov/2016 14:45:58] "GET / HTTP/1.1" 200 2075
+[15/Nov/2016 14:45:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:45:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:46:43] "GET / HTTP/1.1" 200 2075
+[15/Nov/2016 14:48:02] "GET / HTTP/1.1" 200 2093
+[15/Nov/2016 14:48:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:48:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:50:06] "GET / HTTP/1.1" 200 2069
+[15/Nov/2016 14:50:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:50:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:51:09] "GET / HTTP/1.1" 200 2036
+[15/Nov/2016 14:51:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:51:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:52:11] "GET / HTTP/1.1" 200 2087
+[15/Nov/2016 14:52:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:52:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:55:40] "GET / HTTP/1.1" 200 2100
+[15/Nov/2016 14:55:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:55:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 14:59:47] "GET / HTTP/1.1" 200 2123
+[15/Nov/2016 14:59:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 14:59:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:00:25] "GET / HTTP/1.1" 200 2128
+[15/Nov/2016 15:00:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:00:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:01:14] "GET / HTTP/1.1" 200 2128
+[15/Nov/2016 15:01:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:01:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:02:13] "GET / HTTP/1.1" 200 2148
+[15/Nov/2016 15:02:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:02:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:08:52] "GET / HTTP/1.1" 200 2175
+[15/Nov/2016 15:08:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:08:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:21:24] "GET / HTTP/1.1" 200 2379
+[15/Nov/2016 15:21:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:21:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:21:25] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[15/Nov/2016 15:21:39] "GET /admin/ HTTP/1.1" 302 0
+[15/Nov/2016 15:21:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /favicon.ico
+[15/Nov/2016 15:21:41] "GET /favicon.ico HTTP/1.1" 404 2110
+[15/Nov/2016 15:28:48] "GET / HTTP/1.1" 200 2386
+[15/Nov/2016 15:28:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:28:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:28:48] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+Not Found: /manager/html
+[15/Nov/2016 15:29:28] "GET /manager/html HTTP/1.1" 404 2113
+[15/Nov/2016 15:32:14] "GET / HTTP/1.1" 200 2386
+[15/Nov/2016 15:32:14] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[15/Nov/2016 15:34:48] "GET / HTTP/1.1" 200 2386
+[15/Nov/2016 15:34:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:34:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:34:49] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:35:19] "GET / HTTP/1.1" 200 2385
+[15/Nov/2016 15:35:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:35:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:35:19] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:37:50] "GET / HTTP/1.1" 200 2384
+[15/Nov/2016 15:37:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:37:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:37:50] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:38:55] "GET / HTTP/1.1" 200 2370
+[15/Nov/2016 15:38:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:38:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:38:56] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:39:20] "GET / HTTP/1.1" 200 2372
+[15/Nov/2016 15:39:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:39:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:39:21] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:39:22] "GET / HTTP/1.1" 200 2372
+[15/Nov/2016 15:39:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:39:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:39:23] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:40:05] "GET / HTTP/1.1" 200 2377
+[15/Nov/2016 15:40:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:40:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:40:05] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:43:36] "GET / HTTP/1.1" 200 2377
+[15/Nov/2016 15:43:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:43:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:43:36] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:44:09] "GET / HTTP/1.1" 200 2377
+[15/Nov/2016 15:44:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:44:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:44:10] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:44:59] "GET / HTTP/1.1" 200 2378
+[15/Nov/2016 15:44:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:45:00] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:45:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:45:13] "GET / HTTP/1.1" 200 2378
+[15/Nov/2016 15:45:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:45:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:45:14] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:48:09] "GET / HTTP/1.1" 200 2379
+[15/Nov/2016 15:48:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:48:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:48:09] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:49:30] "GET / HTTP/1.1" 200 2372
+[15/Nov/2016 15:49:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:49:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:49:30] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:50:59] "GET / HTTP/1.1" 200 2372
+[15/Nov/2016 15:50:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:50:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:51:00] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:51:00] "GET / HTTP/1.1" 200 2372
+[15/Nov/2016 15:51:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:51:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:51:01] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:52:33] "GET / HTTP/1.1" 200 2357
+[15/Nov/2016 15:52:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:52:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:52:34] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 15:54:41] "GET / HTTP/1.1" 200 2377
+[15/Nov/2016 15:54:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 15:54:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 15:54:41] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:08:49] "GET / HTTP/1.1" 200 2422
+[15/Nov/2016 16:08:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:08:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 29
+[15/Nov/2016 16:08:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:08:50] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:14:11] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:14:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:14:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 23
+[15/Nov/2016 16:14:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:14:11] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:20:11] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:20:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:20:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 23
+[15/Nov/2016 16:20:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:20:12] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:22:38] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:22:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:22:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 37
+[15/Nov/2016 16:22:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:22:38] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:22:40] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:22:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:22:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:22:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:22:41] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:23:15] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:23:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:23:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 37
+[15/Nov/2016 16:23:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:23:16] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:24:48] "GET / HTTP/1.1" 200 2411
+[15/Nov/2016 16:24:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:24:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 37
+[15/Nov/2016 16:26:10] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:26:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:26:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:26:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:26:10] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:29:41] "GET / HTTP/1.1" 200 2403
+[15/Nov/2016 16:29:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:29:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 40
+[15/Nov/2016 16:29:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:29:42] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:31:59] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:31:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:31:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:31:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 102
+[15/Nov/2016 16:32:00] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:32:54] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:32:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:32:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 137
+[15/Nov/2016 16:32:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:32:54] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:32:55] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:32:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:32:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:32:56] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:32:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:33:30] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:33:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 106
+[15/Nov/2016 16:33:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:33:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:33:31] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:34:25] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:34:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:34:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 139
+[15/Nov/2016 16:34:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:34:25] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:34:54] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:34:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:34:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 135
+[15/Nov/2016 16:34:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:34:55] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:35:02] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:35:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:35:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:35:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:35:02] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:35:22] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:35:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:35:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 143
+[15/Nov/2016 16:35:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:35:23] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:35:50] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:35:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:35:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 143
+[15/Nov/2016 16:35:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:35:54] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:36:16] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:36:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:36:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 143
+[15/Nov/2016 16:36:17] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:36:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:36:41] "GET / HTTP/1.1" 200 2361
+[15/Nov/2016 16:36:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:36:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 159
+[15/Nov/2016 16:36:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:36:41] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:37:55] "GET / HTTP/1.1" 200 2354
+[15/Nov/2016 16:37:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:37:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:37:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:37:55] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:39:58] "GET / HTTP/1.1" 200 2354
+[15/Nov/2016 16:39:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:39:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 228
+[15/Nov/2016 16:39:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:40:00] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:40:48] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:40:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:40:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:40:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:40:52] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:41:45] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:41:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:41:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 236
+[15/Nov/2016 16:41:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:41:46] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:42:42] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:42:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:42:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 244
+[15/Nov/2016 16:42:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:42:43] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:43:12] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:43:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:43:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 251
+[15/Nov/2016 16:43:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:43:13] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:43:44] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:43:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:43:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:43:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 292
+[15/Nov/2016 16:43:44] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:46:18] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:46:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:46:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:46:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 432
+[15/Nov/2016 16:46:19] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:46:52] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:46:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:46:53] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 428
+[15/Nov/2016 16:46:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:46:53] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:47:19] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:47:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:47:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 443
+[15/Nov/2016 16:47:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:47:19] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:49:28] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:49:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:49:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 443
+[15/Nov/2016 16:49:29] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:49:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:51:25] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:51:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 455
+[15/Nov/2016 16:51:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:51:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:51:26] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:52:43] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:52:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:52:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 454
+[15/Nov/2016 16:52:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:52:44] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:55:29] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:55:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:55:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 507
+[15/Nov/2016 16:55:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:55:30] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:56:49] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:56:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:56:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:56:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:56:50] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:57:41] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:57:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:57:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 501
+[15/Nov/2016 16:57:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 16:57:42] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:58:56] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 16:58:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 16:58:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 16:58:56] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 16:58:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:00:00] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:00:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 501
+[15/Nov/2016 17:00:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:00:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:00:01] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:00:03] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:00:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:00:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:00:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:00:03] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:00:33] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:00:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:00:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:00:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 487
+[15/Nov/2016 17:00:33] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:01:30] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:01:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:01:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:01:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 473
+[15/Nov/2016 17:01:31] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:02:03] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:02:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:02:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 487
+[15/Nov/2016 17:02:03] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:02:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:02:51] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:02:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:02:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 476
+[15/Nov/2016 17:02:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:02:52] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:04:44] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:04:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:04:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:04:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 468
+[15/Nov/2016 17:04:46] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:05:54] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:05:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:05:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 468
+[15/Nov/2016 17:05:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:05:57] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:06:09] "GET / HTTP/1.1" 200 2362
+[15/Nov/2016 17:06:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:06:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 467
+[15/Nov/2016 17:06:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:06:10] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:09:47] "GET / HTTP/1.1" 200 2359
+[15/Nov/2016 17:09:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:09:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 458
+[15/Nov/2016 17:09:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:09:48] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:11:05] "GET / HTTP/1.1" 200 2352
+[15/Nov/2016 17:11:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:11:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:11:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:11:05] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:11:55] "GET / HTTP/1.1" 200 2352
+[15/Nov/2016 17:11:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 400
+[15/Nov/2016 17:11:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:11:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:11:55] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:12:11] "GET / HTTP/1.1" 200 2352
+[15/Nov/2016 17:12:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:12:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 400
+[15/Nov/2016 17:12:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:12:12] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[15/Nov/2016 17:13:38] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:13:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:13:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:13:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:15:26] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:15:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:15:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 441
+[15/Nov/2016 17:15:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:15:28] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:15:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:15:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:15:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:16:29] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:16:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:16:29] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 442
+[15/Nov/2016 17:16:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:16:30] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:16:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:16:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:16:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:16:59] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:16:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:16:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 442
+[15/Nov/2016 17:17:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:17:15] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:17:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 464
+[15/Nov/2016 17:17:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:17:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:17:36] "GET / HTTP/1.1" 200 2344
+[15/Nov/2016 17:17:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:17:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 443
+[15/Nov/2016 17:17:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /http:/wap.ip138.com/
+[15/Nov/2016 17:33:08] "HEAD http://wap.ip138.com/ HTTP/1.1" 404 0
+[15/Nov/2016 17:33:25] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[15/Nov/2016 17:33:25] " " 400 -
+[15/Nov/2016 17:34:20] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:34:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 517
+[15/Nov/2016 17:34:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:34:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:34:22] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:34:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:34:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:34:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:39:49] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:39:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:39:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 530
+[15/Nov/2016 17:39:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:40:28] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:40:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:40:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 507
+[15/Nov/2016 17:40:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:42:08] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:42:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:42:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 525
+[15/Nov/2016 17:42:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:42:09] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:42:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:42:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:42:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:42:50] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:42:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:42:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 540
+[15/Nov/2016 17:42:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:42:59] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:43:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:43:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:43:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 541
+[15/Nov/2016 17:43:10] "GET / HTTP/1.1" 200 2351
+[15/Nov/2016 17:43:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 541
+[15/Nov/2016 17:43:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:43:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:46:54] "GET / HTTP/1.1" 200 2447
+[15/Nov/2016 17:46:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:46:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:46:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:47:26] "GET / HTTP/1.1" 200 2435
+[15/Nov/2016 17:47:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:47:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:47:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:48:13] "GET / HTTP/1.1" 200 2448
+[15/Nov/2016 17:48:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:48:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:48:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:48:15] "GET / HTTP/1.1" 200 2448
+[15/Nov/2016 17:48:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:48:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:48:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:50:18] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:50:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:50:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 548
+[15/Nov/2016 17:50:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:50:46] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:50:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:50:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 536
+[15/Nov/2016 17:50:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:51:32] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:51:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:51:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 566
+[15/Nov/2016 17:51:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:51:56] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:51:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:51:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 567
+[15/Nov/2016 17:51:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:51:58] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:51:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:51:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:51:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:52:44] "GET / HTTP/1.1" 200 2479
+[15/Nov/2016 17:52:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:52:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 594
+[15/Nov/2016 17:52:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:53:09] "GET / HTTP/1.1" 200 2478
+[15/Nov/2016 17:53:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:53:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:53:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:55:37] "GET / HTTP/1.1" 200 2558
+[15/Nov/2016 17:55:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:55:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 17:55:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:57:07] "GET / HTTP/1.1" 200 2449
+[15/Nov/2016 17:57:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:57:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 537
+[15/Nov/2016 17:57:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 17:58:39] "GET / HTTP/1.1" 200 2449
+[15/Nov/2016 17:58:39] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 17:58:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 534
+[15/Nov/2016 17:58:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:00:55] "GET / HTTP/1.1" 200 2433
+[15/Nov/2016 18:00:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:00:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 568
+[15/Nov/2016 18:00:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:06:49] "GET / HTTP/1.1" 200 2433
+[15/Nov/2016 18:06:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:06:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 568
+[15/Nov/2016 18:06:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:08:44] "GET / HTTP/1.1" 200 2455
+[15/Nov/2016 18:08:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:08:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:08:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:08:45] "GET / HTTP/1.1" 200 2455
+[15/Nov/2016 18:08:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:08:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:08:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:09:16] "GET / HTTP/1.1" 200 2455
+[15/Nov/2016 18:09:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:09:18] "GET / HTTP/1.1" 200 2455
+[15/Nov/2016 18:09:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:09:30] "GET / HTTP/1.1" 200 2511
+[15/Nov/2016 18:09:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:09:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:15:16] "GET / HTTP/1.1" 200 2511
+[15/Nov/2016 18:15:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:15:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 588
+[15/Nov/2016 18:15:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:43:30] "GET / HTTP/1.1" 200 2511
+[15/Nov/2016 18:43:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:43:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:43:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:44:15] "GET / HTTP/1.1" 200 2511
+[15/Nov/2016 18:44:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:44:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:44:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 548
+[15/Nov/2016 18:45:57] "GET / HTTP/1.1" 200 2511
+[15/Nov/2016 18:45:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:45:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 698
+[15/Nov/2016 18:45:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:51:30] "GET / HTTP/1.1" 200 1738
+[15/Nov/2016 18:51:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:51:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 702
+[15/Nov/2016 18:51:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:53:02] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:53:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:53:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:53:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:53:03] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:53:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:53:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:53:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:57:21] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:57:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:57:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 736
+[15/Nov/2016 18:57:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:57:23] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:57:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:57:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 18:57:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:58:15] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:58:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:58:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 749
+[15/Nov/2016 18:58:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:58:57] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:58:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:58:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 768
+[15/Nov/2016 18:59:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 18:59:09] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 18:59:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 18:59:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 768
+[15/Nov/2016 18:59:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:00:09] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:00:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 794
+[15/Nov/2016 19:00:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:00:46] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:00:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 811
+[15/Nov/2016 19:00:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:00:47] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:00:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:47] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:00:49] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:00:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:00:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:01:43] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 826
+[15/Nov/2016 19:01:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:01:44] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:01:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[15/Nov/2016 19:01:46] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:01:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:01:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:02:44] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:02:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:02:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 769
+[15/Nov/2016 19:02:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:04:07] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:04:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:04:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 769
+[15/Nov/2016 19:04:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:05:31] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:05:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:05:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 784
+[15/Nov/2016 19:05:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:05:33] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:05:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:05:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:05:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:07:47] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:07:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:07:47] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 797
+[15/Nov/2016 19:07:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:07:48] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:07:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:07:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:07:48] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:07:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:07:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:07:48] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:07:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[15/Nov/2016 19:07:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:07:49] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:07:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:07:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:07:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[15/Nov/2016 19:08:29] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:08:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:08:29] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 827
+[15/Nov/2016 19:08:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:09:29] "GET / HTTP/1.1" 200 1741
+[15/Nov/2016 19:09:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 19:09:29] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:09:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 19:15:32] "GET / HTTP/1.1" 200 2876
+[15/Nov/2016 19:15:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/Nov/2016 19:36:05] "GET /favicon.ico HTTP/1.1" 404 2110
+[15/Nov/2016 19:36:43] "GET / HTTP/1.1" 200 2980
+[15/Nov/2016 19:36:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 876
+[15/Nov/2016 19:37:17] "GET / HTTP/1.1" 200 2980
+[15/Nov/2016 19:37:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 881
+[15/Nov/2016 19:37:19] "GET / HTTP/1.1" 200 2980
+[15/Nov/2016 19:37:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:37:42] "GET / HTTP/1.1" 200 2980
+[15/Nov/2016 19:37:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 905
+[15/Nov/2016 19:38:55] "GET / HTTP/1.1" 200 2570
+[15/Nov/2016 19:38:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:38:56] "GET / HTTP/1.1" 200 2570
+[15/Nov/2016 19:38:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:38:57] "GET /? HTTP/1.1" 200 2570
+[15/Nov/2016 19:38:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:46:26] "GET /? HTTP/1.1" 200 2570
+[15/Nov/2016 19:46:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 901
+[15/Nov/2016 19:47:48] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:47:50] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:47:51] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:47:51] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 901
+[15/Nov/2016 19:47:52] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:52] "GET /? HTTP/1.1" 200 2583
+[15/Nov/2016 19:47:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 19:53:00] "GET /? HTTP/1.1" 200 2688
+[15/Nov/2016 19:53:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[15/Nov/2016 20:19:15] "GET / HTTP/1.1" 200 2688
+[15/Nov/2016 20:46:21] "GET /? HTTP/1.1" 200 2677
+[15/Nov/2016 20:46:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 20:50:25] "GET /? HTTP/1.1" 200 2710
+[15/Nov/2016 20:52:01] "GET /? HTTP/1.1" 200 2722
+[15/Nov/2016 20:52:02] "GET /?&t=1479214332675 HTTP/1.1" 200 2722
+[15/Nov/2016 20:52:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 20:52:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 20:52:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 20:56:49] "GET /? HTTP/1.1" 200 2731
+[15/Nov/2016 20:56:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 20:56:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 20:56:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:00:59] "GET / HTTP/1.1" 200 2722
+[15/Nov/2016 21:01:41] "GET /? HTTP/1.1" 200 2722
+[15/Nov/2016 21:01:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:01:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:01:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:05:23] "GET /? HTTP/1.1" 200 2661
+[15/Nov/2016 21:05:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:05:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:05:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:07:37] "GET /? HTTP/1.1" 200 2661
+[15/Nov/2016 21:07:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:07:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 933
+[15/Nov/2016 21:07:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:08:18] "GET /? HTTP/1.1" 200 2661
+[15/Nov/2016 21:08:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:08:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:08:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 934
+[15/Nov/2016 21:10:18] "GET /? HTTP/1.1" 200 2661
+[15/Nov/2016 21:10:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 965
+[15/Nov/2016 21:10:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:10:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:10:55] "GET /? HTTP/1.1" 200 2661
+[15/Nov/2016 21:10:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:10:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 947
+[15/Nov/2016 21:10:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:12:07] "GET /? HTTP/1.1" 200 2658
+[15/Nov/2016 21:12:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:12:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:12:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:13:03] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:13:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:13:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:14:43] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:14:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:14:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 964
+[15/Nov/2016 21:14:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:15:25] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:15:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:15:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 983
+[15/Nov/2016 21:15:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:19:45] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:19:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:19:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1051
+[15/Nov/2016 21:19:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:20:14] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:20:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:20:14] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1052
+[15/Nov/2016 21:20:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:22:08] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:22:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:22:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 984
+[15/Nov/2016 21:22:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:22:58] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:22:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:22:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 987
+[15/Nov/2016 21:22:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:25:10] "GET /? HTTP/1.1" 200 2660
+[15/Nov/2016 21:25:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:25:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1020
+[15/Nov/2016 21:25:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:26:24] "GET /? HTTP/1.1" 200 2702
+[15/Nov/2016 21:26:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:26:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:26:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:27:14] "GET /? HTTP/1.1" 200 2720
+[15/Nov/2016 21:27:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:27:14] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:27:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:29:02] "GET /? HTTP/1.1" 200 2720
+[15/Nov/2016 21:29:02] "GET /?&t=1479216552827 HTTP/1.1" 200 2720
+[15/Nov/2016 21:29:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:29:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1058
+[15/Nov/2016 21:29:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:30:06] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:30:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:30:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:30:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:30:59] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:31:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:31:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:31:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:31:06] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:31:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:31:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1075
+[15/Nov/2016 21:31:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:31:33] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:31:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:31:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1090
+[15/Nov/2016 21:31:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:32:53] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:32:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:32:53] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1114
+[15/Nov/2016 21:32:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:33:49] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:33:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:33:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1134
+[15/Nov/2016 21:33:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:34:15] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:34:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:34:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1134
+[15/Nov/2016 21:34:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:34:17] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:34:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:34:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:34:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:34:37] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:34:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:34:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1135
+[15/Nov/2016 21:34:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:39:08] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:39:08] "GET /?&t=1479217158856 HTTP/1.1" 200 2765
+[15/Nov/2016 21:39:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:39:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1131
+[15/Nov/2016 21:39:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:39:21] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:39:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:39:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:39:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1131
+[15/Nov/2016 21:39:54] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:39:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:41:01] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:41:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1167
+[15/Nov/2016 21:41:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:42:17] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:42:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:42:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1168
+[15/Nov/2016 21:42:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/favicon.ico
+[15/Nov/2016 21:42:20] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[15/Nov/2016 21:44:31] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:44:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:44:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1169
+[15/Nov/2016 21:44:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:46:07] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:46:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:46:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1181
+[15/Nov/2016 21:46:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:46:40] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:46:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:46:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1216
+[15/Nov/2016 21:46:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:50:24] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:50:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:50:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1313
+[15/Nov/2016 21:50:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:50:25] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:50:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:50:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:50:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:52:43] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 21:52:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1313
+[15/Nov/2016 21:53:43] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:53:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:53:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1337
+[15/Nov/2016 21:53:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:53:57] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 21:53:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:53:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1337
+[15/Nov/2016 21:54:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:56:52] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:56:52] "GET /?&t=1479218223187 HTTP/1.1" 200 2765
+[15/Nov/2016 21:56:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:56:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1338
+[15/Nov/2016 21:56:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:56:53] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:56:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:56:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:56:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:56:55] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:56:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:56:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:56:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 21:57:46] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 21:57:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:57:47] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1360
+[15/Nov/2016 21:57:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 21:58:18] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 21:58:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 21:58:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1360
+[15/Nov/2016 21:58:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:00:19] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:00:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:00:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1472
+[15/Nov/2016 22:00:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:00:36] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:00:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:00:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1472
+[15/Nov/2016 22:00:41] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:00:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:00:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:00:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:02:20] "GET /? HTTP/1.1" 200 2784
+[15/Nov/2016 22:02:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:02:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:02:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:02:22] "GET /? HTTP/1.1" 200 2784
+[15/Nov/2016 22:02:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:02:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:02:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:05:15] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:05:15] "GET /?&t=1479218726312 HTTP/1.1" 200 2765
+[15/Nov/2016 22:05:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:05:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1501
+[15/Nov/2016 22:05:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:05:17] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:05:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:05:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:05:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:09] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:07:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1501
+[15/Nov/2016 22:07:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:07:10] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:07:10] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:07:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:07:24] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:07:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1501
+[15/Nov/2016 22:07:26] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:07:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:07:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:09:57] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:09:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:09:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1494
+[15/Nov/2016 22:09:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:09:58] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:09:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:09:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:09:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:10:05] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:10:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:10:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1494
+[15/Nov/2016 22:10:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:14:00] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:14:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:14:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1494
+[15/Nov/2016 22:14:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:15:18] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:15:19] "GET /?&t=1479219329599 HTTP/1.1" 200 2765
+[15/Nov/2016 22:15:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:15:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1394
+[15/Nov/2016 22:15:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:15:49] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:15:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:15:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1409
+[15/Nov/2016 22:15:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:16:38] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:16:39] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:16:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1485
+[15/Nov/2016 22:16:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:18:24] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:18:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:18:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1518
+[15/Nov/2016 22:18:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:19:06] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:19:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:19:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1502
+[15/Nov/2016 22:19:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:19:26] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:19:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:19:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1502
+[15/Nov/2016 22:19:31] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:19:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:19:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1502
+[15/Nov/2016 22:19:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:19:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:20:56] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:20:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:20:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1538
+[15/Nov/2016 22:20:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:20:57] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:20:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:20:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:20:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:21:24] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:21:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:21:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1535
+[15/Nov/2016 22:21:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:21:51] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:21:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1548
+[15/Nov/2016 22:21:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:21:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:23:20] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:23:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:23:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1548
+[15/Nov/2016 22:23:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:23:35] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:23:35] "GET /?&t=1479219826178 HTTP/1.1" 200 2765
+[15/Nov/2016 22:23:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:23:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1536
+[15/Nov/2016 22:23:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:24:05] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:24:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:24:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1551
+[15/Nov/2016 22:24:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:24:16] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:24:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:24:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1551
+[15/Nov/2016 22:24:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:24:25] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:24:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:24:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1552
+[15/Nov/2016 22:24:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:24:34] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:24:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:24:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1536
+[15/Nov/2016 22:24:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:26:01] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:26:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:26:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1548
+[15/Nov/2016 22:26:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:26:30] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:26:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:26:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1568
+[15/Nov/2016 22:26:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:26:32] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:26:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:26:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:26:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:29:06] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:29:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:29:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:29:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1571
+[15/Nov/2016 22:31:36] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:31:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:31:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1680
+[15/Nov/2016 22:31:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:36:43] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:36:44] "GET /?&t=1479220614778 HTTP/1.1" 200 2765
+[15/Nov/2016 22:36:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:36:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1731
+[15/Nov/2016 22:36:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:36:54] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:36:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:37:16] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:37:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:37:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1746
+[15/Nov/2016 22:37:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:37:54] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:37:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1766
+[15/Nov/2016 22:37:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:37:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:38:12] "GET /? HTTP/1.1" 200 2765
+[15/Nov/2016 22:38:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:38:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1781
+[15/Nov/2016 22:38:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:38:45] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:38:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:38:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1781
+[15/Nov/2016 22:38:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:39:12] "GET / HTTP/1.1" 200 2765
+[15/Nov/2016 22:39:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:39:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:39:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:41:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:43:55] "GET /? HTTP/1.1" 200 2749
+[15/Nov/2016 22:43:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:43:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:43:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:43:57] "GET /? HTTP/1.1" 200 2749
+[15/Nov/2016 22:43:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:43:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:43:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:44:29] "GET /? HTTP/1.1" 200 2768
+[15/Nov/2016 22:44:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:44:29] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:44:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:44:30] "GET /? HTTP/1.1" 200 2768
+[15/Nov/2016 22:44:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:44:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:44:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:46:51] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:46:51] "GET /?&t=1479221222474 HTTP/1.1" 200 2760
+[15/Nov/2016 22:46:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:46:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1869
+[15/Nov/2016 22:46:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:48:17] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:48:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:48:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1871
+[15/Nov/2016 22:48:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:48:34] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:48:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:48:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1872
+[15/Nov/2016 22:48:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:48:36] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:48:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:48:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:48:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/favicon.ico
+[15/Nov/2016 22:48:47] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[15/Nov/2016 22:51:12] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:51:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:51:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1799
+[15/Nov/2016 22:51:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:52:24] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:52:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:52:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1800
+[15/Nov/2016 22:52:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:52:25] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:52:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:52:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:52:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:53:23] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 22:53:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1800
+[15/Nov/2016 22:54:50] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:54:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:54:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 22:54:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:54:52] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:54:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:54:53] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 22:54:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:54:58] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 22:54:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 22:54:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:54:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:55:23] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 22:55:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:55:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 22:55:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:55:46] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 22:55:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:55:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 22:55:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:55:55] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:55:56] "GET /?&t=1479221766879 HTTP/1.1" 200 2760
+[15/Nov/2016 22:55:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:55:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 22:55:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:56:46] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 22:56:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 22:56:47] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1811
+[15/Nov/2016 22:56:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 22:57:10] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:57:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1811
+[15/Nov/2016 22:57:28] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 22:57:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1780
+[15/Nov/2016 22:57:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:00:50] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:00:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1801
+[15/Nov/2016 23:01:09] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:01:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1800
+[15/Nov/2016 23:01:36] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:01:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1801
+[15/Nov/2016 23:01:50] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:01:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1780
+[15/Nov/2016 23:02:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:04:09] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:04:09] "GET /?&t=1479222260130 HTTP/1.1" 200 2760
+[15/Nov/2016 23:04:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 23:04:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1781
+[15/Nov/2016 23:04:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 23:04:41] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:04:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1785
+[15/Nov/2016 23:05:01] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:05:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1809
+[15/Nov/2016 23:05:21] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:05:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1810
+[15/Nov/2016 23:05:46] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:05:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1809
+[15/Nov/2016 23:08:26] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:08:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1828
+[15/Nov/2016 23:08:36] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:08:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:08:48] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:08:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1828
+[15/Nov/2016 23:08:58] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 23:08:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 23:08:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1828
+[15/Nov/2016 23:09:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 23:09:43] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:09:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1827
+[15/Nov/2016 23:10:08] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:10:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:10:12] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:10:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:10:20] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 23:10:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1827
