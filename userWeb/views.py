@@ -8,3 +8,9 @@ class IndexView(ListView):
     def get_queryset(self):
         return
 # Create your views here.
+
+class PricingView(ListView):
+    template_name = "userWeb/pricing.html"
+    context_object_name = "pricing"
+    def get_queryset(self):
+        return

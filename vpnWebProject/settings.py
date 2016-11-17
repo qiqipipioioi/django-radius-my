@@ -141,4 +141,4 @@ STATICFILES_DIRS = (
      '/home/dev/djangowork/vpnWebProject/static',
 )
 
-
+MEDIA_ROOT = '/home/dev/djangowork/vpnWebProject/media'

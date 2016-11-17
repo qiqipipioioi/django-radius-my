@@ -3158,3 +3158,1396 @@ Not Found: /http:/www.baidu.com/favicon.ico
 [15/Nov/2016 23:10:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
 [15/Nov/2016 23:10:20] "GET / HTTP/1.1" 200 2760
 [15/Nov/2016 23:10:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1827
+[15/Nov/2016 23:11:54] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 23:11:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 23:11:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1827
+[15/Nov/2016 23:11:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 23:12:33] "GET / HTTP/1.1" 200 2760
+[15/Nov/2016 23:12:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[15/Nov/2016 23:12:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/Nov/2016 23:12:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/Nov/2016 23:13:11] "GET /? HTTP/1.1" 200 2760
+[15/Nov/2016 23:13:12] "GET /?&t=1479222802683 HTTP/1.1" 200 2760
+[15/Nov/2016 23:13:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1827
+[16/Nov/2016 04:08:39] "GET / HTTP/1.0" 200 2760
+[16/Nov/2016 07:35:50] "GET / HTTP/1.1" 200 2760
+[16/Nov/2016 07:35:53] "GET / HTTP/1.1" 200 2760
+Not Found: /manager/html
+[16/Nov/2016 09:55:51] "GET /manager/html HTTP/1.1" 404 2113
+[16/Nov/2016 10:24:31] code 400, message Bad request syntax ('test')
+[16/Nov/2016 10:24:31] "test" 400 -
+[16/Nov/2016 10:24:31] "GET / HTTP/1.1" 200 2760
+Not Found: /favicon.ico
+[16/Nov/2016 10:31:26] "GET /favicon.ico HTTP/1.1" 404 2110
+[16/Nov/2016 10:31:27] "GET / HTTP/1.1" 200 2760
+[16/Nov/2016 10:47:32] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:47:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 10:48:27] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:18] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:23] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:24] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:24] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:24] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:24] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:49:25] "GET /? HTTP/1.1" 200 2754
+[16/Nov/2016 10:50:07] "GET /? HTTP/1.1" 200 2769
+[16/Nov/2016 10:53:03] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 10:53:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[16/Nov/2016 10:57:22] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 10:57:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:01:04] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:01:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:01:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:01:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1909
+[16/Nov/2016 11:01:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:01:37] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:01:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:01:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:01:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1909
+[16/Nov/2016 11:01:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:02:04] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:02:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1887
+[16/Nov/2016 11:02:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:02:20] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:02:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1887
+[16/Nov/2016 11:02:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:02:21] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:02:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:02:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:09:18] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:09:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:09:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1887
+[16/Nov/2016 11:10:11] "GET /? HTTP/1.1" 200 2824
+[16/Nov/2016 11:10:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:24:23] "GET /? HTTP/1.1" 200 2873
+[16/Nov/2016 11:24:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:24:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1889
+[16/Nov/2016 11:25:33] "GET /? HTTP/1.1" 200 2873
+[16/Nov/2016 11:25:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1859
+[16/Nov/2016 11:29:33] "GET /? HTTP/1.1" 200 3000
+[16/Nov/2016 11:29:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:29:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:41:55] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:41:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:41:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:43:39] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:43:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1914
+[16/Nov/2016 11:43:53] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:43:53] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1914
+[16/Nov/2016 11:44:15] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:44:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1914
+[16/Nov/2016 11:44:18] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:44:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:45:10] "GET /? HTTP/1.1" 200 3286
+[16/Nov/2016 11:45:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1914
+[16/Nov/2016 11:46:30] "GET /? HTTP/1.1" 200 3327
+[16/Nov/2016 11:46:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[16/Nov/2016 11:47:57] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[16/Nov/2016 11:51:31] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:51:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:51:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1945
+[16/Nov/2016 11:51:33] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:51:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:51:34] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:51:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:52:33] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:52:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1945
+[16/Nov/2016 11:55:10] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:55:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 1966
+[16/Nov/2016 11:56:07] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:56:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2015
+[16/Nov/2016 11:56:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:56:37] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:56:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:56:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:56:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2035
+[16/Nov/2016 11:56:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:57:40] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:57:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:57:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 11:57:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:57:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2038
+[16/Nov/2016 11:59:17] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 11:59:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 11:59:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 11:59:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 11:59:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /script
+[16/Nov/2016 11:59:56] "GET /script HTTP/1.1" 404 2095
+[16/Nov/2016 12:06:40] "GET /? HTTP/1.1" 200 3338
+[16/Nov/2016 12:06:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:06:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:06:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2054
+[16/Nov/2016 12:06:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:07:53] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 12:07:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:07:53] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:07:53] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 12:07:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:08:39] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 12:08:39] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:08:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:08:39] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:08:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 12:09:43] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 12:09:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2127
+[16/Nov/2016 12:09:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:09:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:09:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:41] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 12:10:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2127
+[16/Nov/2016 12:10:41] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:10:42] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 12:10:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 12:10:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 12:15:38] "GET / HTTP/1.1" 200 3478
+[16/Nov/2016 12:15:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+Not Found: /favicon.ico
+[16/Nov/2016 12:16:08] "GET /favicon.ico HTTP/1.1" 404 2110
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[16/Nov/2016 12:23:09] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[16/Nov/2016 13:15:38] "GET / HTTP/1.1" 200 3478
+Not Found: /script
+[16/Nov/2016 13:20:11] "GET /script HTTP/1.1" 404 2095
+[16/Nov/2016 14:31:38] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 14:31:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:31:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:31:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2125
+[16/Nov/2016 14:31:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:31:40] "GET /? HTTP/1.1" 200 3478
+[16/Nov/2016 14:31:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:31:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:31:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:31:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:35:09] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:35:09] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:35:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:35:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:35:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:37:58] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:37:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:37:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:37:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:37:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2125
+[16/Nov/2016 14:37:59] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:37:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:37:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:37:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:37:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:00] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /? HTTP/1.1" 200 3545
+[16/Nov/2016 14:38:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:38:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:39:28] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:39:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:39:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:39:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2127
+[16/Nov/2016 14:39:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:40:05] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:40:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:40:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:40:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2126
+[16/Nov/2016 14:40:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:40:58] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:40:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:40:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2128
+[16/Nov/2016 14:40:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:40:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:41:15] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:41:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:41:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:41:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2128
+[16/Nov/2016 14:41:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:42:14] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:42:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:42:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:42:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:42:14] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2126
+[16/Nov/2016 14:43:01] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:43:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:43:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:43:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:43:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2124
+[16/Nov/2016 14:43:30] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:43:31] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:43:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2126
+[16/Nov/2016 14:43:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:43:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:45:18] "GET /? HTTP/1.1" 200 3421
+[16/Nov/2016 14:45:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:45:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:45:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2143
+[16/Nov/2016 14:45:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:47:50] "GET /? HTTP/1.1" 200 3475
+[16/Nov/2016 14:47:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:47:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:47:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:47:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:48:04] "GET /? HTTP/1.1" 200 3475
+[16/Nov/2016 14:48:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:48:29] "GET /? HTTP/1.1" 200 3475
+[16/Nov/2016 14:48:29] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2180
+[16/Nov/2016 14:48:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:48:32] "GET /? HTTP/1.1" 200 3475
+[16/Nov/2016 14:48:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:48:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:51:46] "GET /? HTTP/1.1" 200 3589
+[16/Nov/2016 14:51:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:51:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:51:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2180
+[16/Nov/2016 14:51:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 14:52:20] "GET /? HTTP/1.1" 200 3596
+[16/Nov/2016 14:52:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 14:52:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 14:52:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 14:52:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 07, 2016 - 19:49:06
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('113.254.55.41', 53295)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('49.65.150.35', 6565)
+----------------------------------------
+Exception happened during processing of request from ('49.65.150.35', 6566)
+----------------------------------------
+Exception happened during processing of request from ('49.65.150.35', 6568)
+----------------------------------------
+Exception happened during processing of request from ('49.65.150.35', 6569)
+----------------------------------------
+Exception happened during processing of request from ('49.65.150.35', 6564)
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('188.166.165.76', 56072)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('121.229.146.210', 7712)
+----------------------------------------
+[16/Nov/2016 15:04:27] "GET /? HTTP/1.1" 200 3697
+[16/Nov/2016 15:04:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 15:04:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 15:04:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2180
+[16/Nov/2016 15:04:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /media/images/wood.png
+[16/Nov/2016 15:04:27] "GET /media/images/wood.png HTTP/1.1" 404 2140
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 16, 2016 - 15:01:14
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[16/Nov/2016 15:07:51] "GET /? HTTP/1.1" 200 3697
+[16/Nov/2016 15:07:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 15:07:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 15:07:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 15:07:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 15:07:54] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[16/Nov/2016 15:13:17] "GET /? HTTP/1.1" 200 3770
+[16/Nov/2016 15:13:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 15:13:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 15:13:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2235
+[16/Nov/2016 15:13:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 15:13:18] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 15:13:52] "GET /? HTTP/1.1" 200 3770
+[16/Nov/2016 15:13:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 15:13:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 15:13:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2209
+[16/Nov/2016 15:13:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 15:13:52] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 15:14:28] "GET /? HTTP/1.1" 200 3770
+[16/Nov/2016 15:14:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 15:14:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 15:14:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2209
+[16/Nov/2016 15:14:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 15:14:30] "GET /media/images/wood.png HTTP/1.1" 304 0
+Not Found: /cgi-bin/authLogin.cgi
+[16/Nov/2016 15:36:58] "POST /cgi-bin/authLogin.cgi HTTP/1.1" 404 2314
+[16/Nov/2016 15:37:25] code 400, message Bad request syntax ('\x16\x03\x01\x00\xb0\x01\x00\x00\xac\x03\x03\xb3\xec\x05)\xf7\xb6')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xac\x01\x00\x00\xa8\x03\x03\xf1\xbd\x04\xfbo\x95\xe5\x07{\xb8')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:25] code 400, message Bad request syntax ('\x16\x03\x01\x00\x87\x01\x00\x00\x83\x03\x02s\xcf\x89\x16\xf2z\xb0\x1bn\xde\xe1\xf8\xb2\xa6BH\xef\x14\xdf+n#\xd2p\x1a(\x86[Ys\xc3\xe7\x00\x00\x10\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:25] code 400, message Bad request syntax ("\x16\x03\x01\x00\x83\x01\x00\x00\x7f\x03\x02\xe0\xad\xac\x86\xdec\xa3<\x97jR\xd2\x95b\xc1'\xbf\x05\x9c\xe4[\x987\xfa\xb2\xa0\xbc]\xea}\xe2\xcf\x00\x00\x10\xc0")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:25] code 400, message Bad request syntax ('\x16\x03\x01\x00\x87\x01\x00\x00\x83\x03\x01L\x82kz\x9a,\x95\xe0|w\x08\xbd1\xd7(\xfb\xab\xa87\x99\xce\xc2\xf0\x88\xc8x\x11\xd2~\xc9\xc8\x9d\x00\x00\x10\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:25] code 400, message Bad request syntax ('\x16\x03\x01\x00\x83\x01\x00\x00\x7f\x03\x01\x11\x9bE\xa8\x9eV<\xca\xa6\xa77\x80\xcd\xfd\x90\xa8\x17\xf97\x7f"#RW\xad\x81b\xd3lC\xc9_\x00\x00\x10\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 15:37:33] "GET / HTTP/1.1" 200 3849
+[16/Nov/2016 15:37:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[16/Nov/2016 15:37:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2209
+[16/Nov/2016 15:37:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[16/Nov/2016 15:37:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[16/Nov/2016 15:37:35] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[16/Nov/2016 15:37:42] "GET / HTTP/1.1" 200 3849
+[16/Nov/2016 15:41:57] "GET / HTTP/1.1" 200 3849
+[16/Nov/2016 15:41:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 16:48:33] "GET /? HTTP/1.1" 200 3849
+[16/Nov/2016 16:48:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:48:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:48:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2248
+[16/Nov/2016 16:48:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:48:33] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:49:16] "GET /? HTTP/1.1" 200 3849
+[16/Nov/2016 16:49:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:49:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:49:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2248
+[16/Nov/2016 16:49:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:49:17] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:50:34] "GET /? HTTP/1.1" 200 4355
+[16/Nov/2016 16:50:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:50:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 16:50:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:50:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:50:35] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:51:54] "GET /? HTTP/1.1" 200 4355
+[16/Nov/2016 16:52:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2270
+[16/Nov/2016 16:52:11] "GET /? HTTP/1.1" 200 4355
+[16/Nov/2016 16:52:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 16:52:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 16:55:19] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:55:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:55:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:55:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2278
+[16/Nov/2016 16:55:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:55:21] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:56:44] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:56:44] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:56:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:56:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2275
+[16/Nov/2016 16:56:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:56:45] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:57:05] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:57:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:57:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:57:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2275
+[16/Nov/2016 16:57:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:57:07] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:57:39] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:57:39] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:57:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:57:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2251
+[16/Nov/2016 16:57:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:57:40] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 16:57:58] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:57:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2252
+[16/Nov/2016 16:58:00] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:58:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:58:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[16/Nov/2016 16:58:06] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[16/Nov/2016 16:58:50] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 16:58:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 16:58:52] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2274
+[16/Nov/2016 16:58:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 16:58:52] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:02:18] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:02:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:02:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:02:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2295
+[16/Nov/2016 17:02:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:02:18] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:03:37] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:03:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:03:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2317
+[16/Nov/2016 17:03:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:03:39] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:03:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:04:37] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:04:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:04:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:04:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2354
+[16/Nov/2016 17:04:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:04:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:05:32] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:05:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2354
+[16/Nov/2016 17:05:43] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:05:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2354
+[16/Nov/2016 17:06:20] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:06:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2356
+[16/Nov/2016 17:06:23] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:06:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:06:24] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:06:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:06:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2354
+[16/Nov/2016 17:09:22] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:09:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:09:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:09:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2542
+[16/Nov/2016 17:09:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:09:22] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:13:42] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:13:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:13:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:13:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2607
+[16/Nov/2016 17:13:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:13:45] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:14:35] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:14:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:14:44] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:14:44] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2610
+[16/Nov/2016 17:14:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:14:45] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:14:49] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:14:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:19:39] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:19:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2610
+[16/Nov/2016 17:20:21] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:20:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 2610
+[16/Nov/2016 17:20:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[16/Nov/2016 17:20:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:20:23] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[16/Nov/2016 17:23:54] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:23:54] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3026
+[16/Nov/2016 17:23:55] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:23:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:24:27] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:24:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3026
+[16/Nov/2016 17:25:35] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:25:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3234
+[16/Nov/2016 17:26:00] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:26:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3242
+[16/Nov/2016 17:26:56] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:27:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3258
+[16/Nov/2016 17:27:04] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:27:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:28:02] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:28:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:28:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3258
+[16/Nov/2016 17:28:38] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:28:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:32:03] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:32:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3306
+[16/Nov/2016 17:32:05] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:32:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:32:29] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:32:29] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3302
+[16/Nov/2016 17:32:30] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:32:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:32:51] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:32:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3304
+[16/Nov/2016 17:33:19] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:33:19] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3282
+[16/Nov/2016 17:33:20] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:33:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:33:42] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:33:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3281
+[16/Nov/2016 17:34:06] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:34:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3306
+[16/Nov/2016 17:34:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:36:20] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:36:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:36:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:36:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3306
+[16/Nov/2016 17:36:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:36:20] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:37:02] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:37:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:37:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3292
+[16/Nov/2016 17:37:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:37:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:37:03] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:38:58] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:38:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:38:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:38:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:38:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:38:58] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:39:38] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:39:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:39:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:39:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:39:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:39:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:40:14] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:40:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:40:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:40:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:40:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:40:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:40:24] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:40:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:40:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:40:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:40:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:40:25] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:40:33] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:40:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:41:01] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:41:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:41:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:41:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:41:02] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:41:04] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:41:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:41:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:41:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3388
+[16/Nov/2016 17:41:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:41:05] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:41:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 17:42:28] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:42:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3380
+[16/Nov/2016 17:42:30] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:42:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:43:22] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:43:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3445
+[16/Nov/2016 17:43:27] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:43:32] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:43:33] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:43:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:43:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:43:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3445
+[16/Nov/2016 17:43:36] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 17:43:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Nov/2016 17:47:59] "GET /favicon.ico HTTP/1.1" 404 2283
+[16/Nov/2016 17:48:03] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:48:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3445
+[16/Nov/2016 17:56:20] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 17:56:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 17:59:12] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 17:59:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 17:59:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 17:59:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3445
+[16/Nov/2016 17:59:15] "GET /media/images/wood.png HTTP/1.1" 200 406246
+Not Found: /favicon.ico
+[16/Nov/2016 18:00:04] "GET /favicon.ico HTTP/1.1" 404 2283
+[16/Nov/2016 18:00:33] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 18:00:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 18:00:33] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 18:00:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 18:00:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 18:00:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 18:01:04] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 18:42:46] "GET /? HTTP/1.1" 200 4550
+[16/Nov/2016 18:42:46] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 18:42:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 18:42:46] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 18:42:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 18:42:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 19:54:20] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 19:54:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 19:54:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 19:59:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[16/Nov/2016 19:59:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3445
+[16/Nov/2016 19:59:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[16/Nov/2016 19:59:19] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[16/Nov/2016 19:59:51] "GET /admin/ HTTP/1.1" 200 6477
+[16/Nov/2016 19:59:51] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[16/Nov/2016 19:59:51] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[16/Nov/2016 19:59:51] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[16/Nov/2016 19:59:52] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[16/Nov/2016 19:59:52] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Nov/2016 19:59:52] "GET /favicon.ico HTTP/1.1" 404 2283
+[16/Nov/2016 19:59:52] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[16/Nov/2016 19:59:52] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[16/Nov/2016 19:59:52] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[16/Nov/2016 19:59:55] "GET / HTTP/1.1" 200 4550
+[16/Nov/2016 19:59:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 19:59:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 20:11:45] "GET /? HTTP/1.1" 200 4550
+Not Found: /http:/www.baidu.com/favicon.ico
+[16/Nov/2016 20:18:00] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[16/Nov/2016 20:29:15] "GET /? HTTP/1.1" 200 4643
+[16/Nov/2016 20:29:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 20:29:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 20:29:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 20:29:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 20:29:16] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 20:31:59] "GET /? HTTP/1.1" 200 8104
+[16/Nov/2016 20:31:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 20:31:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 20:31:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 20:31:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 20:31:59] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 20:32:42] "GET /? HTTP/1.1" 200 8103
+[16/Nov/2016 20:32:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 20:32:42] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 20:32:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 20:32:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 20:32:42] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 20:51:23] "GET /? HTTP/1.1" 200 8107
+[16/Nov/2016 20:51:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 20:51:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 20:51:23] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 20:51:23] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 20:51:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 20:51:25] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[16/Nov/2016 21:00:15] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:00:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:00:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:00:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:00:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:00:16] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:00:16] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:04:25] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:04:25] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:04:30] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:04:33] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:05:06] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:08:15] "GET /? HTTP/1.1" 200 8179
+[16/Nov/2016 21:08:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:08:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:08:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3830
+[16/Nov/2016 21:08:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:08:15] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:08:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /? HTTP/1.1" 200 8188
+[16/Nov/2016 21:10:08] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:10:08] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:11:26] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:11:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:13:07] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:13:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3796
+[16/Nov/2016 21:13:07] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:13:09] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:13:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:13:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:14:22] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:14:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:14:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:14:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3796
+[16/Nov/2016 21:14:23] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:14:23] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:14:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:16:07] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:16:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:16:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:16:07] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3801
+[16/Nov/2016 21:16:08] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:16:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:16:08] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:16:57] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:16:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:16:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:16:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3801
+[16/Nov/2016 21:16:58] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:16:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:16:58] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[16/Nov/2016 21:21:24] "GET /favicon.ico HTTP/1.1" 404 2283
+[16/Nov/2016 21:21:50] code 400, message Bad request syntax ('\x16\x03\x01\x00\xac\x01\x00\x00\xa8\x03\x03\xf7\xde\x1aQ\xcf8\xa7\x01\x1e\x8c\xa1g\xb7:H\xf0\xc3\x16\x1b\xc2\xfeO0q\xf7\xc4\x85\xb2\xf25\xc4\x02\x00\x00\x1c\xcc\xa9\xcc\xa8\xcc\x14\xcc\x13\xc0+\xc0/\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 21:21:50] code 400, message Bad request version ('\xe8\xaf\xa8\xd1\x05Z\x13\x01\x1d+\xc3\x00\x00\x10\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 21:21:51] code 400, message Bad request syntax ('\x16\x03\x01\x00\x83\x01\x00\x00\x7f\x03\x01\xb48\xe6\xe7\x16.\xf9\xef!79[\xa7=4#\xcf\xf3\xed\xe9pg6n\xc8Pz\xfa\x95\x8f(t\x00\x00\x10\xc0')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Nov/2016 21:28:18] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:28:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3804
+[16/Nov/2016 21:28:18] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:28:57] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:28:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3823
+[16/Nov/2016 21:28:58] "GET /? HTTP/1.1" 200 8261
+[16/Nov/2016 21:28:59] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:29:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:34:22] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:34:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3823
+[16/Nov/2016 21:34:22] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:34:38] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:34:39] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:35:42] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:35:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3892
+[16/Nov/2016 21:38:05] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:38:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3954
+[16/Nov/2016 21:38:46] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:38:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3960
+[16/Nov/2016 21:38:46] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:39:06] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:39:06] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3914
+[16/Nov/2016 21:39:34] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:39:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3934
+[16/Nov/2016 21:40:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:40:59] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:41:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:41:00] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:00] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:11] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:41:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3955
+[16/Nov/2016 21:41:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:41:11] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:11] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:38] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:41:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3955
+[16/Nov/2016 21:41:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:41:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:38] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:40] "GET /? HTTP/1.1" 200 8414
+[16/Nov/2016 21:41:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 21:41:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[16/Nov/2016 21:41:41] "GET /media/images/wood.png HTTP/1.1" 304 0
+[16/Nov/2016 21:41:41] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[16/Nov/2016 21:43:00] "GET /? HTTP/1.1" 200 8405
+[16/Nov/2016 21:43:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[16/Nov/2016 22:19:09] "GET / HTTP/1.1" 200 8405
+[16/Nov/2016 22:19:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3955
+[16/Nov/2016 22:19:09] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[16/Nov/2016 22:19:11] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Nov/2016 00:15:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/180.163.113.82/check_proxy
+[17/Nov/2016 01:50:54] "HEAD http://180.163.113.82/check_proxy HTTP/1.1" 404 0
+Not Found: /cgi-bin/authLogin.cgi
+[17/Nov/2016 01:58:01] "POST /cgi-bin/authLogin.cgi HTTP/1.1" 404 2314
+Not Found: /http:/www.baidu.com/favicon.ico
+[17/Nov/2016 07:11:50] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[17/Nov/2016 08:38:07] code 400, message Bad request syntax ('\x04\x01\x00P\xb4\xa3qR\x00')
+[17/Nov/2016 08:38:07] 
+Not Found: /http:/www.google.com/reader/about/
+[17/Nov/2016 09:05:47] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[17/Nov/2016 09:09:35] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[17/Nov/2016 09:09:35] " " 400 -
+[17/Nov/2016 09:41:39] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2016 09:41:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /favicon.ico
+[17/Nov/2016 09:41:40] "GET /favicon.ico HTTP/1.1" 404 2283
+[17/Nov/2016 09:46:27] "GET / HTTP/1.1" 200 8405
+[17/Nov/2016 09:46:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 09:46:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 3955
+[17/Nov/2016 09:46:29] "GET /media/images/leaf.png HTTP/1.1" 200 417792
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[17/Nov/2016 09:46:29] "GET /media/images/leaf.png HTTP/1.1" 500 59
+- Broken pipe from ('121.229.63.41', 10655)
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Nov/2016 09:49:29] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[17/Nov/2016 10:15:00] "GET /? HTTP/1.1" 200 8405
+[17/Nov/2016 10:15:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:15:02] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:15:05] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:15:16] "GET / HTTP/1.1" 200 8405
+[17/Nov/2016 10:15:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:15:16] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:15:16] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[17/Nov/2016 10:16:02] "GET /favicon.ico HTTP/1.1" 404 2283
+[17/Nov/2016 10:33:01] "GET /? HTTP/1.1" 200 8988
+[17/Nov/2016 10:36:33] "GET /? HTTP/1.1" 200 8972
+[17/Nov/2016 10:36:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:34] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:34] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:36:34] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:36:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:36:35] "GET /? HTTP/1.1" 200 8972
+[17/Nov/2016 10:36:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:35] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:36:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:36:36] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:36:36] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /? HTTP/1.1" 200 8979
+[17/Nov/2016 10:37:41] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:37:41] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:38:48] "GET /? HTTP/1.1" 200 8979
+[17/Nov/2016 10:38:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:38:49] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4090
+[17/Nov/2016 10:38:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:38:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:38:50] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:38:51] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:40:10] "GET /? HTTP/1.1" 200 8979
+[17/Nov/2016 10:40:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:10] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4082
+[17/Nov/2016 10:40:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:40:12] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:40:14] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:40:44] "GET /? HTTP/1.1" 200 8898
+[17/Nov/2016 10:40:45] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:45] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:40:45] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:40:55] "GET /? HTTP/1.1" 200 8898
+[17/Nov/2016 10:40:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:40:56] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:40:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:40:58] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[17/Nov/2016 10:41:00] "GET /? HTTP/1.1" 200 8898
+[17/Nov/2016 10:41:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:41:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:41:03] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:41:03] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:41:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:41:03] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:42:09] "GET /? HTTP/1.1" 200 8898
+[17/Nov/2016 10:42:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:42:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:42:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4081
+[17/Nov/2016 10:42:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:42:13] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:42:14] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:46:01] "GET /? HTTP/1.1" 200 8891
+[17/Nov/2016 10:46:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:46:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:46:05] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4060
+[17/Nov/2016 10:46:05] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:46:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:46:06] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:50:26] "GET /? HTTP/1.1" 200 8709
+[17/Nov/2016 10:50:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:50:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:50:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4059
+[17/Nov/2016 10:50:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:50:27] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:50:27] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:51:50] "GET /? HTTP/1.1" 200 8724
+[17/Nov/2016 10:51:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:51:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:51:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:51:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:51:50] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:51:51] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:56:14] "GET /? HTTP/1.1" 200 8724
+[17/Nov/2016 10:56:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:56:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:56:15] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:56:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:56:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:56:17] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:59:11] "GET /? HTTP/1.1" 200 8797
+[17/Nov/2016 10:59:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:59:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:59:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4098
+[17/Nov/2016 10:59:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:59:12] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:59:12] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 10:59:14] "GET /? HTTP/1.1" 200 8797
+[17/Nov/2016 10:59:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 10:59:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 10:59:14] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 10:59:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 10:59:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 10:59:15] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:00:54] "GET /? HTTP/1.1" 200 8797
+[17/Nov/2016 11:00:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:00:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:00:55] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4108
+[17/Nov/2016 11:00:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:00:57] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:01:05] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:02:25] "GET /? HTTP/1.1" 200 8817
+[17/Nov/2016 11:02:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:02:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:02:25] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4060
+[17/Nov/2016 11:02:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:02:25] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:02:25] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:03:16] "GET /? HTTP/1.1" 200 8817
+[17/Nov/2016 11:03:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:03:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:03:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4100
+[17/Nov/2016 11:03:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:03:18] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:03:18] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:30] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:05:30] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4136
+[17/Nov/2016 11:05:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:05:31] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:33] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:40] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:05:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4137
+[17/Nov/2016 11:05:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:05:41] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:41] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:56] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:05:56] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:05:56] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4152
+[17/Nov/2016 11:05:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:05:57] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:05:57] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:09] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:06:09] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4152
+[17/Nov/2016 11:06:11] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:11] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:06:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[17/Nov/2016 11:06:12] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:14] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[17/Nov/2016 11:06:20] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:06:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4152
+[17/Nov/2016 11:06:20] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:06:21] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:50] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:06:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:06:50] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4174
+[17/Nov/2016 11:06:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:06:50] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:06:51] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:07:00] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:07:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:07:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:07:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4173
+[17/Nov/2016 11:07:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:07:01] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:07:01] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:08:25] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:08:48] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:08:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:08:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:08:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4173
+[17/Nov/2016 11:08:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:08:48] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:08:48] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:09:46] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:09:46] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+Not Found: /favicon.ico
+[17/Nov/2016 11:09:55] "GET /favicon.ico HTTP/1.1" 404 2283
+[17/Nov/2016 11:09:56] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:09:57] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:10:07] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:10:23] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:10:36] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:11:20] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:11:21] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:11:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:11:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:11:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:11:21] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:11:21] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:11:27] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:11:28] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:12:04] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:12:04] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:10] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:12:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:11] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:12:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:12:11] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:12:24] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:12:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:51] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:12:51] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:12:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:51] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:12:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:12:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:12:52] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:12:59] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:13:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:13:22] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:13:22] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:13:24] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:13:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:13:26] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:13:26] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:13:27] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:13:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:13:30] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:30] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:14:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:31] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:31] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:14:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:14:31] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:14:31] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:14:37] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:14:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:14:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:14:37] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:14:37] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:14:42] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:14:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:14:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:14:43] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:14:43] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:14:43] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:15:36] "GET /? HTTP/1.1" 200 8829
+[17/Nov/2016 11:15:36] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:15:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:15:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:15:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:15:36] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:15:36] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:15:58] "GET / HTTP/1.1" 200 8829
+[17/Nov/2016 11:15:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:15:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4178
+[17/Nov/2016 11:15:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:15:58] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:15:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:15:58] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:00] "GET /? HTTP/1.1" 200 8817
+[17/Nov/2016 11:19:00] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4200
+[17/Nov/2016 11:19:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:19:00] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:00] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:27] "GET /? HTTP/1.1" 200 8817
+[17/Nov/2016 11:19:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:27] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4179
+[17/Nov/2016 11:19:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:19:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:28] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:31] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:40] "GET / HTTP/1.1" 200 8817
+[17/Nov/2016 11:19:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:40] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:19:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:19:40] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4179
+[17/Nov/2016 11:19:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:19:40] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:25:58] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:25:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:01] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:26:02] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:26:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:26:03] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:26:24] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:26:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:26:24] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:26:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:26:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:24] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:26:36] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:26:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:38] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:26:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:26:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:26:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:26:38] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:27:17] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:27:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:27:17] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:27:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:27:17] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:27:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:27:17] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:27:36] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:29:47] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:29:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:29:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:29:47] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:29:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:29:51] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:29:51] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:29:58] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:29:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:29:58] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:29:58] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:29:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:29:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:29:59] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:30:11] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:31:32] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:31:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:31:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:31:33] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4250
+[17/Nov/2016 11:31:33] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:31:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:31:33] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:32:07] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:32:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:32:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:32:08] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:32:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:32:08] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:32:09] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:32:20] "GET / HTTP/1.1" 200 8819
+[17/Nov/2016 11:32:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:32:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:32:20] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:32:20] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:32:20] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:32:20] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:33:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:09] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:34:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:10] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:34:10] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:34:11] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:34:11] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:34:11] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:34:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:34:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:12] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:34:15] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[17/Nov/2016 11:34:18] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:34:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:18] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:34:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:34:19] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:34:20] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:35:13] "GET /? HTTP/1.1" 200 8819
+[17/Nov/2016 11:35:13] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4227
+[17/Nov/2016 11:35:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:35:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:35:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:35:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:35:15] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:36:08] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:36:09] "GET /static/userWeb/css/custom.css HTTP/1.1" 304 0
+[17/Nov/2016 11:36:09] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:36:09] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:36:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:36:09] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:36:09] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:44:11] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:44:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:44:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:44:11] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4321
+[17/Nov/2016 11:44:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:44:12] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:44:12] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:44:47] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:44:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:44:48] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4341
+[17/Nov/2016 11:44:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:44:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:44:48] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:44:48] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:48:37] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4341
+[17/Nov/2016 11:49:12] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:49:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:49:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:49:12] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4362
+[17/Nov/2016 11:49:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:49:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:49:15] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:51:24] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:51:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:51:24] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4367
+[17/Nov/2016 11:51:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:51:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 11:51:25] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:51:25] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:51:35] "GET /? HTTP/1.1" 200 8831
+[17/Nov/2016 11:51:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 11:51:36] "GET /static/userWeb/css/custom.css HTTP/1.1" 200 4341
+[17/Nov/2016 11:51:36] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 11:51:36] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 11:51:36] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 11:51:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 16, 2016 - 15:07:50
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('183.206.165.5', 16134)
+----------------------------------------
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f1781bd2758>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 9, in <module>
+    url(r'^userWeb/pricing$', views.PricingView.as_view(), name = 'pricing'),
+AttributeError: 'module' object has no attribute 'PricingView'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[17/Nov/2016 12:01:14] "GET /? HTTP/1.1" 200 8856
+[17/Nov/2016 12:01:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:15] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[17/Nov/2016 12:01:15] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 12:01:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 12:01:16] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 12:01:22] "GET /? HTTP/1.1" 200 8856
+[17/Nov/2016 12:01:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:23] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 12:01:23] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 12:01:25] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 12:01:43] "GET /? HTTP/1.1" 200 8851
+[17/Nov/2016 12:01:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:46] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[17/Nov/2016 12:01:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 12:01:47] "GET /userWeb/pricing HTTP/1.1" 200 1955
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2016 - 11:59:16
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Not Found: /userWeb/pricing
+[17/Nov/2016 12:03:01] "GET /userWeb/pricing HTTP/1.1" 404 2467
+Not Found: /userWeb/pricing
+[17/Nov/2016 12:03:06] "GET /userWeb/pricing HTTP/1.1" 404 2467
+[17/Nov/2016 12:03:06] "GET /media/images/leaf.png HTTP/1.1" 200 385024
+- Broken pipe from ('121.229.63.41', 1711)
+[17/Nov/2016 12:03:06] "GET /media/images/wood.png HTTP/1.1" 200 352256
+- Broken pipe from ('121.229.63.41', 1710)
+[17/Nov/2016 12:03:27] "GET /pricing HTTP/1.1" 200 1955
+[17/Nov/2016 12:03:27] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[17/Nov/2016 12:03:42] "GET / HTTP/1.1" 200 8843
+[17/Nov/2016 12:03:44] "GET /pricing HTTP/1.1" 200 1955
+[17/Nov/2016 12:03:45] "GET /media/images/leaf.png HTTP/1.1" 200 270336
+- Broken pipe from ('121.229.63.41', 1731)
+[17/Nov/2016 12:04:06] "GET /media/images/wood.png HTTP/1.1" 200 303104
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[17/Nov/2016 12:04:06] "GET /media/images/wood.png HTTP/1.1" 500 59
+- Broken pipe from ('121.229.63.41', 1733)

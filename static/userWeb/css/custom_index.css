@@ -1,0 +1,275 @@
+
+.navbar-default 
+{
+  background: rgba(26,166,0,1);
+  padding: 20px;
+  margin:0;
+  font-family: "Microsoft YaHei",微软雅黑;
+  border-color:rgba(26,166,0,1);
+}
+
+
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a
+{
+  color: rgba(196, 227, 255, 0.8);
+  font-size: 16px;
+}
+
+.nav li
+{
+  padding-left: 20px;
+}
+
+.login 
+{
+  padding-left: 10px;
+  width: 150px;
+}
+
+.navbar-default .navbar-nav li.login a
+{
+}
+
+
+.btn-info
+{
+  background-color: rgba(26,166,0,1);
+  border-color: #59c323;
+  transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s; /* Firefox 4 */
+  -webkit-transition: background-color 0.5s, color 0.5s; /* Safari and Chrome */
+  -o-transition: background-color 0.5s, color 0.5s; /* Opera */
+}
+
+.regist
+{
+  background-color: rgba(0, 145, 72, 0.68);
+  border-color: #59c323;
+  transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s; /* Firefox 4 */
+  -webkit-transition: background-color 0.5s, color 0.5s; /* Safari and Chrome */
+  -o-transition: background-color 0.5s, color 0.5s; /* Opera */
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li.login>a:focus, .navbar-default .navbar-nav>li.login>a:hover
+{
+  background-color: #59c323;
+  border-color: #59c323;
+  color: #fff;
+}
+
+.first-page
+{
+  height: 0;
+  padding-bottom: 50%;
+  margin-top:90;
+  background: #4dc137;
+  margin-right:0;
+}
+
+.first-view
+{
+  text-align:center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-family:"幼圆";
+  font-weight: bold;
+}
+
+.first-page .fast-login
+{
+  margin-left:0;
+  margin-right:0;
+  text-align: center;
+}
+
+
+.form-control
+{
+  background: rgb(26, 166, 0);
+  color: #fff;
+  height: 45px;
+}
+
+.form-control::-webkit-input-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control:-moz-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control::-moz-placeholder { color: rgba(196, 227, 255, 0.8); }
+.form-control:-ms-input-placeholder { color: rgba(196, 227, 255, 0.8); }
+
+.fast-login .btn-default
+{
+  height: 45px;
+  background: #45b530;
+  border-color: rgba(124, 255, 57, 0.49);
+  color: rgba(196, 227, 255, 0.8);
+  transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s; /* Firefox 4 */
+  -webkit-transition: background-color 0.5s, color 0.5s; /* Safari and Chrome */
+  -o-transition: background-color 0.5s, color 0.5s; /* Opera */
+}
+
+.fast-login .btn-default:hover
+{
+  background: rgba(124, 255, 57, 0.49);
+  border-color: rgba(124, 255, 57, 0.49);
+  color: #fff;
+}
+
+
+
+.second-page
+{
+  height:0;
+  padding-bottom: 45%;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #25dbe4;
+  color: #fff;
+}
+
+
+.pd
+{
+  text-align: center;
+}
+
+.buypage
+{
+  margin-left:0;
+  margin-right:0;
+  padding: 10px;
+}
+
+.product
+{
+  height: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.buy-box
+{
+  margin: 50px;
+  border-style:solid;
+  border-color: #25dbe4;
+  border-width: 1px;
+  transition:border-color 2s;
+  -moz-transition:border-color 2s; /* Firefox 4 */
+  -webkit-transition:border-color 2s; /* Safari and Chrome */
+  -o-transition:border-color 2s; /* Opera */
+}
+
+.buy-box:hover
+{
+  margin: 50px;
+  border-style:solid;
+  border-color: #fff;
+  border-width: 1px;
+}
+
+.buy-words
+{
+  padding-bottom: 20px;
+}  
+
+
+
+.third-page
+{
+  height:0;
+  padding-bottom: 70%;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #000;
+}
+
+
+.ft
+{
+  text-align: center;
+  margin-bottom: -70px;
+}
+
+.featurepage1
+{
+  padding: 70px 25px 40px;
+}
+
+
+.featurepage2
+{
+  padding: 70px 25px 70px;
+}
+
+.feature
+{
+  height: 250px;
+  text-align: center;
+  color: #000;
+}
+
+
+.feature-box
+{
+  padding: 70px;
+}
+
+
+.feature-words
+{
+  padding-bottom: 20px;
+}  
+
+
+.fourth-page
+{
+  background: rgba(59,59,59,1);
+  color: #fff;
+  height: 120px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.forth-cont
+{
+  text-align: center;
+}
+
+.forth-login
+{
+  margin-top: -10px;
+  margin-left: 30px;
+  width: 120px
+}
+
+
+.forth-login:hover, .forth-login:focus
+{
+  background-color: #59c323;
+  border-color: #59c323;
+  color: #fff;
+}
+
+footer .foot
+{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  padding-top: 20px;
+}
