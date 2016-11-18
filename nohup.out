@@ -4551,3 +4551,242 @@ Traceback (most recent call last):
 error: [Errno 104] Connection reset by peer
 [17/Nov/2016 12:04:06] "GET /media/images/wood.png HTTP/1.1" 500 59
 - Broken pipe from ('121.229.63.41', 1733)
+[17/Nov/2016 13:23:59] "GET / HTTP/1.1" 200 8842
+[17/Nov/2016 13:23:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[17/Nov/2016 13:23:59] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[17/Nov/2016 13:23:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[17/Nov/2016 13:23:59] "GET /media/images/wood.png HTTP/1.1" 304 0
+[17/Nov/2016 13:23:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[17/Nov/2016 13:24:00] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[17/Nov/2016 13:24:16] "GET /? HTTP/1.1" 200 8842
+[17/Nov/2016 13:24:18] "GET /pricing HTTP/1.1" 200 1955
+[17/Nov/2016 14:06:43] "GET / HTTP/1.0" 200 8842
+[17/Nov/2016 14:06:43] "OPTIONS / HTTP/1.0" 200 0
+[17/Nov/2016 14:06:44] code 400, message Bad request version ('RTSP/1.0')
+[17/Nov/2016 14:06:44] "OPTIONS / RTSP/1.0" 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[17/Nov/2016 14:06:44] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2505
+[17/Nov/2016 14:06:45] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[17/Nov/2016 14:06:45] 
+[17/Nov/2016 14:06:51] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[17/Nov/2016 14:06:51] "   root " 400 -
+Not Found: /http:/www.google.com/reader/about/
+[17/Nov/2016 14:24:43] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[17/Nov/2016 14:33:35] "GET / HTTP/1.1" 200 8842
+[17/Nov/2016 15:04:34] "GET /admin/ HTTP/1.1" 200 6477
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[17/Nov/2016 15:04:37] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[17/Nov/2016 15:04:37] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[17/Nov/2016 15:04:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[17/Nov/2016 15:04:39] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:39] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:39] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:39] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:39] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:39] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:46] "GET /admin/ HTTP/1.1" 200 6477
+[17/Nov/2016 15:04:49] "GET /admin/radiusUser/radcheck/ HTTP/1.1" 200 6314
+[17/Nov/2016 15:04:51] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[17/Nov/2016 15:04:51] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[17/Nov/2016 15:04:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[17/Nov/2016 15:04:51] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[17/Nov/2016 15:04:53] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[17/Nov/2016 15:05:04] "GET /admin/ HTTP/1.1" 200 6477
+[17/Nov/2016 15:05:15] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 7033
+[17/Nov/2016 15:05:15] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[17/Nov/2016 15:05:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[17/Nov/2016 15:05:15] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[17/Nov/2016 15:05:16] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[17/Nov/2016 15:05:16] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[17/Nov/2016 15:05:22] "GET /admin/ HTTP/1.1" 200 6477
+[17/Nov/2016 15:11:23] "GET / HTTP/1.1" 200 8842
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[17/Nov/2016 16:40:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /favicon.ico
+[17/Nov/2016 18:03:30] "GET /favicon.ico HTTP/1.1" 404 2455
+Not Found: /manager/html
+[17/Nov/2016 18:37:35] "GET /manager/html HTTP/1.1" 404 2458
+Not Found: /manager/html
+[17/Nov/2016 19:22:07] "GET /manager/html HTTP/1.1" 404 2458
+[17/Nov/2016 20:02:52] "GET /admin/radiusUser/showing/ HTTP/1.1" 302 0
+[17/Nov/2016 20:02:52] "GET /admin/login/?next=/admin/radiusUser/showing/ HTTP/1.1" 200 1721
+[17/Nov/2016 20:02:52] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[17/Nov/2016 20:02:54] "POST /admin/login/?next=/admin/radiusUser/showing/ HTTP/1.1" 302 0
+[17/Nov/2016 20:02:54] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 5986
+[17/Nov/2016 20:02:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[17/Nov/2016 20:02:58] "GET /admin/login/?next=/admin/radiusUser/showing/ HTTP/1.1" 302 0
+[17/Nov/2016 20:02:59] "GET /admin/ HTTP/1.1" 200 6477
+Not Found: /axis2/axis2-admin/
+[17/Nov/2016 20:05:01] "GET /axis2/axis2-admin/ HTTP/1.1" 404 2476
+[17/Nov/2016 21:48:37] "GET / HTTP/1.1" 200 8842
+[17/Nov/2016 21:48:37] "GET / HTTP/1.1" 200 8842
+Not Found: /http:/www.baidu.com/favicon.ico
+[18/Nov/2016 04:20:49] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Nov/2016 07:57:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[18/Nov/2016 10:07:14] "GET /admin/ HTTP/1.1" 302 0
+[18/Nov/2016 10:07:14] "GET / HTTP/1.1" 200 8842
+[18/Nov/2016 10:07:14] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Not Found: /favicon.ico
+[18/Nov/2016 10:07:14] "GET /favicon.ico HTTP/1.1" 404 2455
+Not Found: /favicon.ico
+[18/Nov/2016 10:07:15] "GET /favicon.ico HTTP/1.1" 404 2455
+Not Found: /phpmyadmin/index.php
+[18/Nov/2016 10:16:01] "GET /phpmyadmin/index.php HTTP/1.1" 404 2482
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/backends/django.py", line 97, in render
+    reraise(exc, self.backend)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/backends/django.py", line 118, in reraise
+    six.reraise(exc.__class__, new, sys.exc_info()[2])
+  File "/home/dev/Downloads/Django-1.9.10/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/dev/Downloads/Django-1.9.10/django/template/engine.py", line 169, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: base.html
+[18/Nov/2016 11:30:45] "GET / HTTP/1.1" 500 116893
+[18/Nov/2016 11:31:36] "GET / HTTP/1.1" 200 8850
+[18/Nov/2016 11:31:36] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 11:31:36] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 11:31:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[18/Nov/2016 11:31:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[18/Nov/2016 11:31:41] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[18/Nov/2016 11:31:42] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+Internal Server Error: /pricing
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader.py", line 62, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/dev/Downloads/Django-1.9.10/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 2: 'content'. Did you forget to register or load this tag?
+[18/Nov/2016 11:38:51] "GET /pricing HTTP/1.1" 500 117931
+[18/Nov/2016 11:39:17] "GET /pricing HTTP/1.1" 200 3789
+[18/Nov/2016 11:41:22] "GET /pricing HTTP/1.1" 200 3791
+[18/Nov/2016 11:44:47] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:44:47] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 154
+[18/Nov/2016 11:44:53] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:44:53] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:44:54] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:44:57] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:00] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:01] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:01] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:45:02] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:03] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:05] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:28] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:29] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 11:45:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 11:45:29] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 11:45:29] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 174
+[18/Nov/2016 11:45:29] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 11:45:35] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:45:35] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:46:11] "GET /pricing HTTP/1.1" 200 3869
+[18/Nov/2016 11:46:12] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 174
+[18/Nov/2016 11:46:17] "GET / HTTP/1.1" 200 8850
+[18/Nov/2016 11:46:27] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:27] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:46:28] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:30] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:30] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:31] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:32] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:35] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:35] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:46:38] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:40] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:41] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:41] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:43] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:46] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:47] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:46:48] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:49] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:46:53] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:46:55] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:47:06] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:47:07] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:47:28] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:47:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 11:47:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 11:47:29] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 11:47:29] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:47:29] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 11:47:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 11:48:40] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:48:41] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 11:48:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 11:48:41] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 11:48:41] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 136
+[18/Nov/2016 11:48:41] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 11:48:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 11:49:13] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:49:17] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:49:17] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:49:17] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:49:20] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:49:22] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:49:23] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:49:24] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:49:24] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:49:25] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:49:25] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:50:41] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:50:44] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:50:46] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:50:46] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 136
+[18/Nov/2016 11:50:49] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:50:49] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:50:50] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:55:59] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:55:59] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0

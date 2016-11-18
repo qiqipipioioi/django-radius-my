@@ -1,35 +1,6 @@
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>首页</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/static/userWeb/css/normalize.css">
-    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/userWeb/css/custom_index.css">
-</head>
-<body "document">
-    <div "container-fluid theme-showcase" style="padding:0" role="main">
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
-            <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#" >梦想从这里开始</a>
-            </div>
-            <div >
-                <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">首页</a></li>
-                        <li><a href="pricing">购买服务</a></li>
-                        <li><a href="#">最新消息</a></li>
-                        <li><a href="#">帮助</a></li>
-                        <li class="login"><a href="#" class="btn btn-info btn-lg" role="button">登录</a></li> 
-                        <li class="login"><a href="#" class="regist btn btn-info btn-lg" role="button">注册</a></li> 
-                </ul>
-            </div>
-            </div>
-        </nav> 
-        <div class="first-page">
+{% extends "userWeb/base.html" %}
+{% block content %}
+      <div class="first-page">
           <div class="first-view">
               <h1>伟大的的梦想从这里开始</h1>
               <h2>飞翔的荷兰人</h2>
@@ -180,16 +151,4 @@
                 </ul>
             </div>
         </div>
-        <footer>
-            <div class="container-fluid foot">
-                <h5>&copy 2016 django</h5>
-            </div>
-        </footer>
-    </div> <!-- /container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+{% endblock %}
