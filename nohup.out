@@ -4790,3 +4790,482 @@ TemplateSyntaxError: Invalid block tag on line 2: 'content'. Did you forget to r
 [18/Nov/2016 11:50:50] "GET / HTTP/1.1" 200 8851
 [18/Nov/2016 11:55:59] "GET /pricing HTTP/1.1" 200 3870
 [18/Nov/2016 11:55:59] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:57:00] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:57:03] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:57:03] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 11:57:10] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:57:11] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:57:12] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 11:57:12] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:57:14] "GET /pricing HTTP/1.1" 200 3870
+[18/Nov/2016 11:57:14] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 12:03:05] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 12:03:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:06] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:06] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:03:06] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[18/Nov/2016 12:03:06] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:03:06] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 260
+[18/Nov/2016 12:03:28] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:03:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:28] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:03:28] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 201
+[18/Nov/2016 12:03:29] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:03:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 12:04:03] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:04:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:04] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:04] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 220
+[18/Nov/2016 12:04:04] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:04:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 12:04:25] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:04:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:25] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:25] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 236
+[18/Nov/2016 12:04:26] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:04:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 12:04:50] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:04:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:51] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:04:51] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 258
+[18/Nov/2016 12:04:51] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:04:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 12:05:38] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:05:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:38] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:38] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 284
+[18/Nov/2016 12:05:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:05:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 12:05:48] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 12:05:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:48] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 12:05:48] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 284
+[18/Nov/2016 12:05:48] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 12:05:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /manager/html
+[18/Nov/2016 13:07:52] "GET /manager/html HTTP/1.1" 404 2458
+[18/Nov/2016 14:06:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 14:06:43] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 284
+[18/Nov/2016 14:06:43] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 14:06:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[18/Nov/2016 14:07:04] "GET /admin/ HTTP/1.1" 200 6477
+[18/Nov/2016 14:07:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[18/Nov/2016 14:07:04] "GET /favicon.ico HTTP/1.1" 404 2455
+[18/Nov/2016 14:07:06] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:07:06] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:07:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:07:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:07:08] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[18/Nov/2016 14:07:09] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 14:07:10] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 14:07:11] "GET /media/images/leaf.png HTTP/1.1" 200 270336
+- Broken pipe from ('121.229.63.41', 14702)
+[18/Nov/2016 14:07:11] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 284
+[18/Nov/2016 14:07:15] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[18/Nov/2016 14:09:26] "GET /pricing HTTP/1.1" 200 3952
+[18/Nov/2016 14:09:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:09:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:09:26] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:09:26] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 282
+[18/Nov/2016 14:09:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:09:27] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /pricing HTTP/1.1" 200 4160
+[18/Nov/2016 14:15:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:15:26] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:16:38] "GET /pricing HTTP/1.1" 200 4160
+[18/Nov/2016 14:16:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:16:38] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:16:38] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 329
+[18/Nov/2016 14:16:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:16:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:16:38] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:17:33] "GET /pricing HTTP/1.1" 200 4160
+[18/Nov/2016 14:17:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:33] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:33] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 319
+[18/Nov/2016 14:17:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:17:33] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:17:54] "GET /pricing HTTP/1.1" 200 4160
+[18/Nov/2016 14:17:54] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:17:54] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 320
+[18/Nov/2016 14:17:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:17:54] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:18:22] "GET /pricing HTTP/1.1" 200 4161
+[18/Nov/2016 14:18:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 14:18:22] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 14:18:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 14:18:22] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 329
+[18/Nov/2016 14:18:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 14:18:23] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 14:18:33] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:18:35] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[18/Nov/2016 14:18:36] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:18:38] "GET /pricing HTTP/1.1" 200 4161
+[18/Nov/2016 14:18:38] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[18/Nov/2016 14:18:38] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 14:18:39] "GET /pricing HTTP/1.1" 200 4161
+[18/Nov/2016 14:18:40] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 14:18:42] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:18:44] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[18/Nov/2016 14:18:55] "GET /pricing HTTP/1.1" 200 4161
+[18/Nov/2016 14:18:55] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 14:19:00] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:25:24] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:25:27] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 14:25:27] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 329
+[18/Nov/2016 14:25:33] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:27:45] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 14:27:45] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 14:27:57] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:27:59] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 14:28:17] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 14:28:18] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 14:28:34] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 14:28:34] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[18/Nov/2016 16:22:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[18/Nov/2016 16:30:27] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 16:30:30] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 16:30:30] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 16:30:32] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 16:41:52] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 16:41:56] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 17:06:09] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:06:10] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 17:06:10] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 17:49:01] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:49:02] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[18/Nov/2016 17:49:03] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 17:49:07] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:49:07] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:49:08] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 17:49:09] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:49:10] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 17:49:10] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:49:12] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 17:49:29] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 17:50:50] "GET / HTTP/1.0" 200 8851
+[18/Nov/2016 20:20:12] "HEAD / HTTP/1.0" 200 0
+[18/Nov/2016 20:21:59] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 20:21:59] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 20:21:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 20:22:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 20:22:03] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[18/Nov/2016 20:22:05] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 20:22:05] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 329
+[18/Nov/2016 20:22:16] "GET /pricing HTTP/1.1" 200 4585
+[18/Nov/2016 20:22:19] "GET / HTTP/1.1" 200 8851
+Not Found: /favicon.ico
+[18/Nov/2016 20:22:35] "GET /favicon.ico HTTP/1.1" 404 2455
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2016 - 12:02:28
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('61.216.2.15', 47634)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('183.206.161.143', 22440)
+----------------------------------------
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 20:45:05
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f16d5a2ea28>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 3, in <module>
+    from userWeb import views
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 7, in <module>
+    import markdown2
+ImportError: No module named markdown2
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 21:01:19
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 21:01:29
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[18/Nov/2016 21:11:13] "GET / HTTP/1.1" 200 8851
+[18/Nov/2016 21:11:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 21:11:14] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 21:11:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 21:11:16] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[18/Nov/2016 21:11:19] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[18/Nov/2016 21:11:51] "GET / HTTP/1.1" 200 8854
+[18/Nov/2016 21:11:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 21:11:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 21:11:52] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 21:11:52] "GET /media/images/wood.png HTTP/1.1" 304 0
+[18/Nov/2016 21:11:52] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[18/Nov/2016 21:11:55] "GET /news HTTP/1.1" 200 2573
+[18/Nov/2016 21:11:56] "GET /news HTTP/1.1" 200 2573
+[18/Nov/2016 21:11:58] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 404 1698
+[18/Nov/2016 21:13:40] "GET /news HTTP/1.1" 200 2573
+[18/Nov/2016 21:13:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 21:13:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 21:13:43] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 21:13:43] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 38
+[18/Nov/2016 21:14:11] "GET /admin/ HTTP/1.1" 302 0
+[18/Nov/2016 21:14:11] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[18/Nov/2016 21:14:11] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[18/Nov/2016 21:14:12] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[18/Nov/2016 21:14:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[18/Nov/2016 21:14:12] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[18/Nov/2016 21:14:12] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[18/Nov/2016 21:14:13] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[18/Nov/2016 21:14:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[18/Nov/2016 21:14:27] "GET /admin/ HTTP/1.1" 200 6477
+[18/Nov/2016 21:14:28] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[18/Nov/2016 21:14:28] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[18/Nov/2016 21:14:28] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 21:02:16
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[18/Nov/2016 21:17:37] "GET /admin/ HTTP/1.1" 200 7116
+[18/Nov/2016 21:17:37] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Nov/2016 21:17:38] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[18/Nov/2016 21:17:38] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[18/Nov/2016 21:17:39] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[18/Nov/2016 21:17:39] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[18/Nov/2016 21:17:39] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[18/Nov/2016 21:17:39] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[18/Nov/2016 21:17:39] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[18/Nov/2016 21:17:46] "GET /admin/userWeb/news/ HTTP/1.1" 200 3484
+[18/Nov/2016 21:17:46] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[18/Nov/2016 21:17:47] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[18/Nov/2016 21:17:47] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[18/Nov/2016 21:17:47] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[18/Nov/2016 21:17:47] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[18/Nov/2016 21:17:47] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[18/Nov/2016 21:17:47] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[18/Nov/2016 21:17:48] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[18/Nov/2016 21:17:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:17:48] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[18/Nov/2016 21:17:51] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[18/Nov/2016 21:17:54] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 6479
+[18/Nov/2016 21:17:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:17:55] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[18/Nov/2016 21:17:55] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+Internal Server Error: /admin/userWeb/news/add/
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/options.py", line 1382, in changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/options.py", line 714, in log_addition
+    object_repr=force_text(object),
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/encoding.py", line 80, in force_text
+    s = six.text_type(bytes(s), encoding, errors)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[18/Nov/2016 21:18:25] "POST /admin/userWeb/news/add/ HTTP/1.1" 500 115490
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 21:17:33
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fdaf9302aa0>
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 234, in wrapper
+    filename = traceback.extract_tb(tb)[-1][0]
+TypeError: 'NoneType' object is not callable
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[18/Nov/2016 21:19:46] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 6479
+[18/Nov/2016 21:19:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:20:03] "POST /admin/userWeb/news/add/ HTTP/1.1" 200 6647
+[18/Nov/2016 21:20:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:20:11] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[18/Nov/2016 21:20:12] "GET /admin/userWeb/news/ HTTP/1.1" 200 5484
+[18/Nov/2016 21:20:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:20:13] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[18/Nov/2016 21:20:13] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[18/Nov/2016 21:20:13] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[18/Nov/2016 21:20:16] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 6479
+[18/Nov/2016 21:20:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:20:39] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[18/Nov/2016 21:20:39] "GET /admin/userWeb/news/ HTTP/1.1" 200 5805
+[18/Nov/2016 21:20:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:20:40] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[18/Nov/2016 21:20:42] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 6479
+[18/Nov/2016 21:20:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:21:02] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[18/Nov/2016 21:21:03] "GET /admin/userWeb/news/ HTTP/1.1" 200 6125
+[18/Nov/2016 21:21:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[18/Nov/2016 21:21:06] "GET / HTTP/1.1" 200 8854
+[18/Nov/2016 21:21:08] "GET /news HTTP/1.1" 200 2573
+[18/Nov/2016 21:21:08] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 38
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 18, 2016 - 21:19:43
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[18/Nov/2016 21:23:08] "GET /news HTTP/1.1" 200 3550
+[18/Nov/2016 21:23:08] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:09] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:09] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:39] "GET /news HTTP/1.1" 200 3550
+[18/Nov/2016 21:23:39] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:40] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[18/Nov/2016 21:23:40] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 60
+[18/Nov/2016 21:23:41] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 21:23:54] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 60
+[18/Nov/2016 21:23:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[18/Nov/2016 21:23:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 21:23:55] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 21:24:01] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[18/Nov/2016 21:24:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 21:24:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[18/Nov/2016 21:24:08] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[18/Nov/2016 21:26:34] "GET /news HTTP/1.1" 200 3550
+[18/Nov/2016 21:26:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[18/Nov/2016 21:26:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[18/Nov/2016 21:26:36] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 21:26:36] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[18/Nov/2016 21:26:36] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 78
+[18/Nov/2016 21:26:39] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 78
+[18/Nov/2016 21:27:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[18/Nov/2016 21:27:14] "GET /pricing HTTP/1.1" 200 4588
+[18/Nov/2016 21:27:14] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 200 329
+[18/Nov/2016 21:27:25] "GET /pricing HTTP/1.1" 200 4588
+[18/Nov/2016 21:27:28] "GET /news HTTP/1.1" 200 3550
+[18/Nov/2016 21:27:28] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 304 0
+[18/Nov/2016 21:27:31] "GET / HTTP/1.1" 200 8854
+[18/Nov/2016 21:27:40] "GET /pricing HTTP/1.1" 200 4588
+[18/Nov/2016 21:27:42] "GET /news HTTP/1.1" 200 3550
+[18/Nov/2016 21:27:42] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 304 0
+[18/Nov/2016 21:27:55] "GET / HTTP/1.1" 200 8854

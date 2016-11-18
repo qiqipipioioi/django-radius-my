@@ -7,3 +7,18 @@
   padding-right: 5%;
   margin-top: 92px;
 }
+
+.hr
+{
+    width: 80%;
+    margin-left: 10%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.11);
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.pricing_notice
+{
+  padding: 50px 10% 50px;
+}
