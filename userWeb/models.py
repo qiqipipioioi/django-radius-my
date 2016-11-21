@@ -2,7 +2,10 @@
 
 from __future__ import unicode_literals
 
+from django.contrib import admin
+from django.conf import settings
 from django.db import models
+import django.utils.timezone as timezone
 
 import os
 import sys
@@ -32,3 +35,6 @@ class News(models.Model):
 
     class Meta:
         ordering = ['-last_modified_time']
+        verbose_name_plural = "News"
+
+

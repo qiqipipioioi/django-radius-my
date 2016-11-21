@@ -5,6 +5,7 @@ from django.contrib import admin
 from django.db import models
 from django.conf import settings
 import django.utils.timezone as timezone
+import datetime
 
 import os
 import sys
@@ -37,6 +38,7 @@ class Realmgroup(models.Model):
         return str(self.realmname)
     class Meta:
         db_table = 'realmgroup'
+
 
 class Realms(models.Model):
     realmname = models.CharField(max_length=64)
@@ -75,8 +77,8 @@ class Radusergroup(models.Model):
     username = models.CharField(max_length=64)
     groupname = models.CharField(max_length=64)
     priority = models.IntegerField(default=1)
-    updatetime = models.DateTimeField(default = timezone.now, null=True)
-    endtime = models.DateTimeField(null = True)
+    updatetime = models.DateTimeField(default = datetime.datetime.now())
+    endtime = models.DateTimeField(default = datetime.datetime.now() + datetime.timedelta(days=1))
     def __str__(self):
         return str(self.username)
     class Meta:
