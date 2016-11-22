@@ -6,6 +6,7 @@ from django.contrib import admin
 from django.conf import settings
 from django.db import models
 import django.utils.timezone as timezone
+import datetime
 
 import os
 import sys
@@ -13,6 +14,28 @@ default_encoding = 'utf-8'
 if sys.getdefaultencoding() != default_encoding:
     reload(sys)
     sys.setdefaultencoding(default_encoding)
+
+
+RADOP_CHECK_TYPES = (
+    ('=', '='),
+    (':=', ':='),
+    ('==', '=='),
+    ('+=', '+='),
+    ('!=', '!='),
+    ('>', '>'),
+    ('>=', '>='),
+    ('<', '<'),
+    ('<=', '<='),
+    ('=~', '=~'),
+    ('!~', '!~'),
+    ('=*', '=*'),
+    ('!*', '!*'),
+)
+RADOP_REPLY_TYPES = (
+    ('=', '='),
+    (':=', ':='),
+    ('+=', '+='),
+)
 
 
 class News(models.Model):
@@ -38,3 +61,23 @@ class News(models.Model):
         verbose_name_plural = "News"
 
 
+class Radusergroup(models.Model):
+    username = models.CharField(max_length=64)
+    groupname = models.CharField(max_length=64)
+    priority = models.IntegerField(default=1)
+    updatetime = models.DateTimeField(default = datetime.datetime.now())
+    endtime = models.DateTimeField(default = datetime.datetime.now() + datetime.timedelta(days=1))
+    def __str__(self):
+        return str(self.username)
+    class Meta:
+        db_table = 'radusergroup'
+
+class Radcheck(models.Model):
+    username = models.CharField(max_length=64)
+    attribute = models.CharField(max_length=64, default= 'Cleartext-Password')
+    op = models.CharField(max_length=2, choices=RADOP_CHECK_TYPES, default=':=')
+    value = models.CharField(max_length=253)
+    def __str__(self):
+        return str(self.username)
+    class Meta:
+        db_table = 'radcheck'
