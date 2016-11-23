@@ -6138,3 +6138,762 @@ Quit the server with CONTROL-C.
 /home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
   url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
 
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:8: RemovedInDjango110Warning: django.core.context_processors is deprecated in favor of django.template.context_processors.
+  from django.core.context_processors import csrf
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[23/Nov/2016 14:56:29] "GET / HTTP/1.1" 200 9063
+[23/Nov/2016 14:56:29] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 14:56:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 14:56:29] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 14:56:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 14:56:29] "GET /media/images/wood.png HTTP/1.1" 304 0
+[23/Nov/2016 14:56:29] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[23/Nov/2016 14:56:31] "GET /favicon.ico HTTP/1.1" 404 2621
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 14:56:00
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[23/Nov/2016 14:56:44] "GET / HTTP/1.1" 200 9063
+[23/Nov/2016 14:58:18] "GET / HTTP/1.1" 200 9063
+[23/Nov/2016 14:58:18] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[23/Nov/2016 14:58:18] "GET /favicon.ico HTTP/1.1" 404 2621
+[23/Nov/2016 14:58:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 14:56:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7fecfda23500>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 11, in <module>
+    url(r'^login$', views.login, name = 'login'),
+AttributeError: 'module' object has no attribute 'login'
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/__init__.py", line 345, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 348, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 54, in execute
+    super(Command, self).execute(*args, **options)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 399, in execute
+    output = self.handle(*args, **options)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 93, in handle
+    self.run(**options)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.main(self.inner_run, None, options)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 333, in main
+    reloader(wrapped_main_func, args, kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 299, in python_reloader
+    reloader_thread()
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 275, in reloader_thread
+    change = fn()
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 205, in code_changed
+    stat = os.stat(filename)
+OSError: [Errno 2] No such file or directory: '/home/dev/djangowork/vpnWebProject/userWeb/views.py'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[23/Nov/2016 16:22:15] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:22:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:22:29] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:22:29] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:22:31] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:22:31] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:25:14] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:25:14] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:32:10] "GET / HTTP/1.1" 200 9067
+[23/Nov/2016 16:32:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 16:32:11] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 16:32:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 16:32:11] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[23/Nov/2016 16:32:14] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:32:14] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[23/Nov/2016 16:32:14] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[23/Nov/2016 16:32:14] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[23/Nov/2016 16:32:14] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:32:15] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /assets/ico/favicon.png
+[23/Nov/2016 16:32:15] "GET /assets/ico/favicon.png HTTP/1.1" 404 2822
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+[23/Nov/2016 16:32:16] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 2897
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[23/Nov/2016 16:32:16] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 2897
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[23/Nov/2016 16:32:16] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 2894
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[23/Nov/2016 16:32:16] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 2894
+Not Found: /favicon.ico
+[23/Nov/2016 16:32:46] "GET /favicon.ico HTTP/1.1" 404 2789
+[23/Nov/2016 16:32:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:32:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:33:31] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:33:31] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:41:31] "GET / HTTP/1.1" 200 9088
+[23/Nov/2016 16:41:31] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 16:41:31] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 16:41:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 16:41:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 16:41:31] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[23/Nov/2016 16:41:32] "GET /media/images/wood.png HTTP/1.1" 304 0
+[23/Nov/2016 16:42:31] "GET / HTTP/1.1" 200 9067
+[23/Nov/2016 16:42:31] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 16:42:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 16:42:31] "GET /media/images/wood.png HTTP/1.1" 304 0
+[23/Nov/2016 16:42:31] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 16:42:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 16:42:32] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[23/Nov/2016 16:42:42] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:42:42] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[23/Nov/2016 16:42:42] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Nov/2016 16:42:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[23/Nov/2016 16:42:59] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:42:59] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 16:43:01] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 16:43:01] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:02:37] "GET / HTTP/1.1" 200 9067
+[23/Nov/2016 17:02:38] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:02:38] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[23/Nov/2016 17:02:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:03:22] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:03:22] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:48] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:48] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:49] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:49] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:49] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:49] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:49] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:50] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:50] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:50] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:50] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:50] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:50] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:50] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:08:51] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:08:52] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 16:22:13
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f8d2aee7500>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 12, in <module>
+    url(r'^regist$', views.regist, name = 'regist'),
+AttributeError: 'module' object has no attribute 'regist'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[23/Nov/2016 17:12:22] "GET / HTTP/1.1" 200 9072
+[23/Nov/2016 17:12:23] "GET /regist HTTP/1.1" 200 3995
+[23/Nov/2016 17:12:23] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:12:29] "GET /regist HTTP/1.1" 200 3995
+[23/Nov/2016 17:12:29] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:13:20] "GET /regist HTTP/1.1" 200 3995
+[23/Nov/2016 17:16:10] "GET /regist HTTP/1.1" 200 4170
+[23/Nov/2016 17:16:10] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[23/Nov/2016 17:16:10] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:16:10] "GET /regist HTTP/1.1" 200 4170
+[23/Nov/2016 17:16:11] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:16:11] "GET /regist HTTP/1.1" 200 4170
+[23/Nov/2016 17:16:11] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:23:52] "GET /regist HTTP/1.1" 200 4191
+[23/Nov/2016 17:23:52] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:23:53] "GET /regist HTTP/1.1" 200 4191
+[23/Nov/2016 17:23:53] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:23:54] "GET /regist HTTP/1.1" 200 4191
+[23/Nov/2016 17:23:54] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:28:05] "GET /regist HTTP/1.1" 200 4174
+[23/Nov/2016 17:28:05] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:28:06] "GET /regist HTTP/1.1" 200 4174
+[23/Nov/2016 17:28:06] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:28:07] "GET /regist HTTP/1.1" 200 4174
+[23/Nov/2016 17:28:07] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:28:35] "GET /regist HTTP/1.1" 200 4061
+[23/Nov/2016 17:28:35] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:28:36] "GET /regist HTTP/1.1" 200 4061
+[23/Nov/2016 17:28:36] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:38] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:38] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[23/Nov/2016 17:30:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:39] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:39] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:39] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:40] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:40] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:41] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:41] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:41] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:30:44] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:45] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:46] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:46] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:47] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:47] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:47] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:48] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:30:48] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:31:13] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:13] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:31:13] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:13] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:31:14] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:14] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:14] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:31:15] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:42] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:43] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:31:43] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:43] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:31:44] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:31:44] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:46] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:46] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:46] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:46] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:46] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:46] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:47] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:47] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:47] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:47] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:47] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:33:47] "GET /regist HTTP/1.1" 200 4123
+[23/Nov/2016 17:33:47] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:35:37] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:37] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:35:38] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:39] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:35:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:40] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:35:40] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:40] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:35:42] "GET / HTTP/1.1" 200 9072
+[23/Nov/2016 17:35:44] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:35:44] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:36:12] "GET /regist HTTP/1.1" 200 3934
+[23/Nov/2016 17:36:12] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:36:13] "GET /regist HTTP/1.1" 200 3934
+[23/Nov/2016 17:36:13] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:36:13] "GET /regist HTTP/1.1" 200 3934
+[23/Nov/2016 17:36:14] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:36:16] "GET /regist HTTP/1.1" 200 3934
+[23/Nov/2016 17:36:16] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:38:19] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:19] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[23/Nov/2016 17:38:19] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:38:19] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[23/Nov/2016 17:38:20] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:20] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:38:21] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:21] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:38:21] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:21] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:38:21] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:22] "GET /regist HTTP/1.1" 200 4037
+[23/Nov/2016 17:38:22] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:40:26] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 17:41:20] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:41:22] "GET /static/jquery/jquery-mini.js HTTP/1.1" 304 0
+[23/Nov/2016 17:41:25] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:41:26] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:41:27] "GET /regist HTTP/1.1" 200 4038
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[23/Nov/2016 17:41:34] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 3064
+[23/Nov/2016 17:42:07] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:42:14] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:42:14] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[23/Nov/2016 17:42:14] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[23/Nov/2016 17:42:14] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[23/Nov/2016 17:42:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[23/Nov/2016 17:42:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[23/Nov/2016 17:42:15] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[23/Nov/2016 17:42:17] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /assets/ico/favicon.png
+[23/Nov/2016 17:42:17] "GET /assets/ico/favicon.png HTTP/1.1" 404 2992
+[23/Nov/2016 17:46:41] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:46:41] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[23/Nov/2016 17:50:01] "GET /regist HTTP/1.1" 200 4038
+[23/Nov/2016 17:50:03] "GET /login HTTP/1.1" 200 3909
+[23/Nov/2016 17:50:03] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /http:/www.google.com/reader/about/
+[23/Nov/2016 18:43:55] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 17:11:18
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f46604d2500>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 13, in <module>
+    url(r'^control_index$', views.control_index, name = 'control_index'),
+AttributeError: 'module' object has no attribute 'control_index'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 19:04:53
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+Internal Server Error: /control/index
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 109, in control_index
+    return render_to_response('userWeb/control/index.html',context_instance=RequestContext(request))
+  File "/home/dev/Downloads/Django-1.9.10/django/shortcuts.py", line 45, in render_to_response
+    using=using)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader.py", line 137, in render_to_string
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: userWeb/control/index.html
+[23/Nov/2016 19:05:54] "GET /control/index HTTP/1.1" 500 71878
+[23/Nov/2016 19:06:25] "GET /control/index HTTP/1.1" 200 2690
+[23/Nov/2016 19:07:29] "GET /control/index HTTP/1.1" 200 2690
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 19:05:06
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:8: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f7896dd9500>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 13, in <module>
+    url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
+AttributeError: 'module' object has no attribute 'control_userctrl'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7fbb09409500>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 14, in <module>
+    url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
+AttributeError: 'module' object has no attribute 'control_userctrl'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[23/Nov/2016 19:12:44] "GET /control/userctrl HTTP/1.1" 200 2690
+[23/Nov/2016 19:13:44] "GET /control/userctrl HTTP/1.1" 200 4308
+Not Found: /control/index
+[23/Nov/2016 19:14:07] "GET /control/index HTTP/1.1" 404 3323
+[23/Nov/2016 19:14:17] "GET /control/userctrl HTTP/1.1" 200 4308
+[23/Nov/2016 19:16:40] "GET /control/userctrl HTTP/1.1" 200 2855
+[23/Nov/2016 19:16:50] "GET /control/userctrl HTTP/1.1" 200 2855
+[23/Nov/2016 19:17:36] "GET /control/userctrl HTTP/1.1" 200 2891
+[23/Nov/2016 19:17:37] "GET /control/userctrl HTTP/1.1" 200 2891
+[23/Nov/2016 19:18:44] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:18:44] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:18:45] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:18:46] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:18:46] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:18:46] "GET /control/userctrl HTTP/1.1" 200 2918
+[23/Nov/2016 19:19:15] "GET / HTTP/1.1" 200 9072
+[23/Nov/2016 19:21:08] "GET /control/userctrl HTTP/1.1" 200 3003
+[23/Nov/2016 19:21:08] "GET /control/userctrl HTTP/1.1" 200 3003
+[23/Nov/2016 19:24:49] "GET /control/userctrl HTTP/1.1" 200 3843
+[23/Nov/2016 19:27:01] "GET /control/userctrl HTTP/1.1" 200 3924
+[23/Nov/2016 19:27:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[23/Nov/2016 19:30:21] "GET /control/userctrl HTTP/1.1" 200 2082
+[23/Nov/2016 19:30:33] "GET /control/userctrl HTTP/1.1" 200 2082
+[23/Nov/2016 19:30:33] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[23/Nov/2016 19:30:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:30:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:30:33] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 19:30:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:32:42] "GET /control/userctrl HTTP/1.1" 200 2082
+[23/Nov/2016 19:32:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:32:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:32:42] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:32:42] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 19:32:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:34:58] "GET /control/userctrl HTTP/1.1" 200 2138
+[23/Nov/2016 19:35:07] "GET /control/userctrl HTTP/1.1" 200 2138
+[23/Nov/2016 19:35:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:07] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:07] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:35:18] "GET /control/userctrl HTTP/1.1" 200 2138
+[23/Nov/2016 19:35:52] "GET /control/userctrl HTTP/1.1" 200 2138
+[23/Nov/2016 19:35:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:52] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 19:35:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:37:02] "GET /control/userctrl HTTP/1.1" 200 2101
+[23/Nov/2016 19:37:03] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 19:37:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 19:37:16] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[23/Nov/2016 19:38:21] "GET / HTTP/1.1" 200 9035
+[23/Nov/2016 19:38:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[23/Nov/2016 19:38:56] "GET /control/userctrl HTTP/1.1" 200 2101
+[23/Nov/2016 19:39:05] "GET /control/userctrl HTTP/1.1" 200 2101
+[23/Nov/2016 19:39:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:39:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:39:05] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[23/Nov/2016 19:39:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:39:05] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[23/Nov/2016 19:39:06] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:41:12] "GET /control/userctrl HTTP/1.1" 200 2123
+[23/Nov/2016 19:42:46] "GET /control/userctrl HTTP/1.1" 200 2135
+[23/Nov/2016 19:44:29] "GET /control/userctrl HTTP/1.1" 200 2127
+[23/Nov/2016 19:44:29] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 4341
+[23/Nov/2016 19:46:41] "GET /control/userctrl HTTP/1.1" 200 2127
+[23/Nov/2016 19:46:42] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 770
+[23/Nov/2016 19:46:43] "GET /control/userctrl HTTP/1.1" 200 2127
+[23/Nov/2016 19:46:43] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:48:17] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:48:18] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:48:29] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:48:30] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:48:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:48:30] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 770
+[23/Nov/2016 19:48:30] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:48:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:48:31] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:49:11] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:11] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:49:12] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:13] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:13] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:13] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:13] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:49:59] "GET /control/userctrl HTTP/1.1" 200 2219
+[23/Nov/2016 19:50:00] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /control/userctrl HTTP/1.1" 200 2219
+[23/Nov/2016 19:50:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:50:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:50:58] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:50:58] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:51:06] "GET /control/userctrl HTTP/1.1" 200 2140
+[23/Nov/2016 19:51:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:51:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:51:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:51:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:51:07] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:51:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:53:08] "GET /control/userctrl HTTP/1.1" 200 2150
+[23/Nov/2016 19:53:08] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:09] "GET /control/userctrl HTTP/1.1" 200 2150
+[23/Nov/2016 19:53:10] "GET /control/userctrl HTTP/1.1" 200 2150
+[23/Nov/2016 19:53:10] "GET /control/userctrl HTTP/1.1" 200 2150
+[23/Nov/2016 19:53:18] "GET /control/userctrl HTTP/1.1" 200 2150
+[23/Nov/2016 19:53:18] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:53:18] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:53:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:18] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:32] "GET /control/userctrl HTTP/1.1" 200 2157
+[23/Nov/2016 19:53:37] "GET /control/userctrl HTTP/1.1" 200 2157
+[23/Nov/2016 19:53:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:37] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:37] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:53:37] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:53:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /control/index
+[23/Nov/2016 19:59:10] "GET /control/index HTTP/1.1" 404 3323
+[23/Nov/2016 19:59:18] "GET /control/userctrl HTTP/1.1" 200 2157
+[23/Nov/2016 19:59:18] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:37] "GET /control/userctrl HTTP/1.1" 200 2201
+[23/Nov/2016 19:59:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:37] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:37] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:59:37] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:59:57] "GET /control/userctrl HTTP/1.1" 200 2157
+[23/Nov/2016 19:59:57] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:58] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:58] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 19:59:58] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 19:59:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:00:07] "GET /control/userctrl HTTP/1.1" 200 2113
+[23/Nov/2016 20:00:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:00:07] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:00:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:00:07] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:00:07] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:00:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:00:48] "GET /control/userctrl HTTP/1.1" 200 2181
+[23/Nov/2016 20:00:49] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:01:21] "GET /control/userctrl HTTP/1.1" 200 2202
+[23/Nov/2016 20:01:35] "GET /control/userctrl HTTP/1.1" 200 2215
+[23/Nov/2016 20:04:30] "GET /control/userctrl HTTP/1.1" 200 2201
+[23/Nov/2016 20:04:30] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:05:33] "GET /control/userctrl HTTP/1.1" 200 2226
+[23/Nov/2016 20:05:34] "GET /control/userctrl HTTP/1.1" 200 2226
+[23/Nov/2016 20:06:59] "GET /control/userctrl HTTP/1.1" 200 2239
+[23/Nov/2016 20:07:00] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /control/userctrl HTTP/1.1" 200 2239
+[23/Nov/2016 20:07:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:07:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:08:45] "GET /control/userctrl HTTP/1.1" 200 2238
+[23/Nov/2016 20:08:52] "GET /control/userctrl HTTP/1.1" 200 2238
+[23/Nov/2016 20:08:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:08:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:52] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:52] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:08:53] "GET /control/userctrl HTTP/1.1" 200 2238
+[23/Nov/2016 20:08:53] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:53] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:08:53] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:08:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:08:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:40] "GET /control/userctrl HTTP/1.1" 200 2251
+[23/Nov/2016 20:09:40] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /control/userctrl HTTP/1.1" 200 2251
+[23/Nov/2016 20:09:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:09:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:09:47] "GET /control/userctrl HTTP/1.1" 200 2251
+[23/Nov/2016 20:09:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:09:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[23/Nov/2016 20:09:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[23/Nov/2016 20:09:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0

@@ -5,8 +5,12 @@ from django.conf import settings
 
 urlpatterns = [
     url(r'^$', views.index, name = 'index'),
+    url(r'^index$', views.index, name = 'index'),
     url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
     url(r'^pricing$', views.PricingView.as_view(), name = 'pricing'),
     url(r'^news$', views.NewsView.as_view(), name = 'news'),
+    url(r'^login$', views.login, name = 'login'),
+    url(r'^regist$', views.regist, name = 'regist'),
+    url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
 ]
 
