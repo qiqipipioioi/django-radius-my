@@ -26,7 +26,8 @@
       </div>
       <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
       <div>
-           <p class="navbar-text navbar-right">hello</p>
+          <p class="navbar-text navbar-right">hello {{ username }}</p>
+          <a href="logout" class="navbar-text navbar-right">退出</a>
       </div>
       <div class="collapse navbar-collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">

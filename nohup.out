@@ -6897,3 +6897,361 @@ Not Found: /control/index
 [23/Nov/2016 20:09:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
 [23/Nov/2016 20:09:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
 [23/Nov/2016 20:09:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[23/Nov/2016 20:23:18] "GET /control/userctrl HTTP/1.1" 200 2239
+[23/Nov/2016 20:23:19] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Nov/2016 20:51:46] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /favicon.ico
+[23/Nov/2016 21:20:30] "GET /favicon.ico HTTP/1.1" 404 3317
+[23/Nov/2016 22:07:28] "GET / HTTP/1.1" 200 9035
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Nov/2016 22:13:34] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[23/Nov/2016 22:29:09] "GET / HTTP/1.1" 200 9035
+[23/Nov/2016 22:29:12] code 400, message Bad request syntax ('test')
+[23/Nov/2016 22:29:12] "test" 400 -
+Not Found: /favicon.ico
+[23/Nov/2016 22:53:46] "GET /favicon.ico HTTP/1.1" 404 3317
+Not Found: /manager/html
+[24/Nov/2016 01:08:24] "GET /manager/html HTTP/1.1" 404 3320
+Not Found: /http:/www.google.com/reader/about/
+[24/Nov/2016 02:40:24] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/httpheader.net/
+[24/Nov/2016 03:28:09] "GET http://httpheader.net/ HTTP/1.1" 404 1664
+[24/Nov/2016 03:28:19] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+[24/Nov/2016 03:28:19] 
+[24/Nov/2016 03:28:30] code 400, message Bad request syntax ('\x05\x01\x00')
+[24/Nov/2016 03:28:30] " " 400 -
+[24/Nov/2016 03:28:41] code 400, message Bad request syntax ('\x05\x01\x00')
+[24/Nov/2016 03:28:41] " " 400 -
+Not Found: /manager/html
+[24/Nov/2016 06:12:03] "GET /manager/html HTTP/1.1" 404 3320
+[24/Nov/2016 09:54:21] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 09:54:21] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Nov/2016 09:54:22] "GET /favicon.ico HTTP/1.1" 404 3317
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 23, 2016 - 19:12:05
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 09:59:54] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 09:59:54] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[24/Nov/2016 09:59:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[24/Nov/2016 09:59:54] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[24/Nov/2016 09:59:55] "GET /favicon.ico HTTP/1.1" 404 3317
+[24/Nov/2016 09:59:55] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 09:59:55] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[24/Nov/2016 09:59:55] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[24/Nov/2016 09:59:55] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 09:59:56] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+[24/Nov/2016 09:59:56] "GET /assets/ico/favicon.png HTTP/1.1" 404 3350
+[24/Nov/2016 10:00:01] "POST /login HTTP/1.1" 200 2239
+[24/Nov/2016 10:00:01] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[24/Nov/2016 10:00:27] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:00:47] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:00:47] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[24/Nov/2016 10:00:47] "GET /favicon.ico HTTP/1.1" 404 3317
+[24/Nov/2016 10:00:47] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 09:59:05
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:06:53
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:07:57] "GET / HTTP/1.1" 200 2244
+[24/Nov/2016 10:08:07] "GET / HTTP/1.1" 200 2244
+[24/Nov/2016 10:08:32] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:08:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[24/Nov/2016 10:08:32] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[24/Nov/2016 10:08:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[24/Nov/2016 10:08:33] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[24/Nov/2016 10:08:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[24/Nov/2016 10:08:36] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 10:08:36] "GET /media/images/wood.png HTTP/1.1" 200 270336
+- Broken pipe from ('121.237.137.65', 3107)
+[24/Nov/2016 10:08:36] "GET /media/images/leaf.png HTTP/1.1" 200 139264
+- Broken pipe from ('121.237.137.65', 3106)
+[24/Nov/2016 10:08:37] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[24/Nov/2016 10:08:37] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[24/Nov/2016 10:08:37] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[24/Nov/2016 10:08:37] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:08:38] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[24/Nov/2016 10:08:39] "POST /login HTTP/1.1" 200 2239
+[24/Nov/2016 10:08:39] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 770
+[24/Nov/2016 10:08:39] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:07:55
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:09:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:11:42] "POST /login HTTP/1.1" 200 2244
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:10:50
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:13:40
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:16:58] "POST /login HTTP/1.1" 200 2315
+Internal Server Error: /logout
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 116, in logout
+    response = HttpResponse('logout !!')
+NameError: global name 'HttpResponse' is not defined
+[24/Nov/2016 10:17:00] "GET /logout HTTP/1.1" 500 60556
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:14:39
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:19:54] "POST /login HTTP/1.1" 200 2315
+Internal Server Error: /logout
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 158, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view userWeb.views.logout didn't return an HttpResponse object. It returned None instead.
+[24/Nov/2016 10:19:56] "GET /logout HTTP/1.1" 500 51409
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:19:49
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:20:23] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:20:25] "GET /logout HTTP/1.1" 200 9
+[24/Nov/2016 10:22:55] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 10:22:55] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[24/Nov/2016 10:22:55] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[24/Nov/2016 10:22:55] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:22:56] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+[24/Nov/2016 10:22:56] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+[24/Nov/2016 10:22:56] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 3595
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[24/Nov/2016 10:22:56] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 3595
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[24/Nov/2016 10:22:56] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 3592
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[24/Nov/2016 10:22:57] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 3592
+[24/Nov/2016 10:23:05] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:23:05] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[24/Nov/2016 10:23:10] "GET /logout HTTP/1.1" 200 9
+[24/Nov/2016 10:23:18] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:27:49] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 10:27:49] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:27:51] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:27:55] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[24/Nov/2016 10:27:55] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[24/Nov/2016 10:27:56] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 10:27:57] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:28:03] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[24/Nov/2016 10:28:03] "GET /regist HTTP/1.1" 200 4038
+[24/Nov/2016 10:28:04] "GET /media/images/leaf.png HTTP/1.1" 200 368640
+- Broken pipe from ('121.237.137.65', 3811)
+[24/Nov/2016 10:28:04] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[24/Nov/2016 10:28:04] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[24/Nov/2016 10:28:06] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:28:07] "GET /media/images/wood.png HTTP/1.1" 200 352256
+- Broken pipe from ('121.237.137.65', 3820)
+[24/Nov/2016 10:28:07] "GET /media/images/leaf.png HTTP/1.1" 200 393216
+- Broken pipe from ('121.237.137.65', 3818)
+[24/Nov/2016 10:28:11] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[24/Nov/2016 10:28:12] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[24/Nov/2016 10:28:13] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:28:17] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[24/Nov/2016 10:28:17] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[24/Nov/2016 10:29:05] code 400, message Bad request syntax ('\xa7\x02\x00\x00')
+[24/Nov/2016 10:29:05] 
+[24/Nov/2016 10:32:10] "GET /login HTTP/1.1" 200 3909
+[24/Nov/2016 10:32:10] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:32:11] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:32:36] "GET /logout HTTP/1.1" 200 9
+[24/Nov/2016 10:32:37] "GET /logout HTTP/1.1" 200 9
+[24/Nov/2016 10:32:38] "GET /logout HTTP/1.1" 200 9
+[24/Nov/2016 10:32:43] "GET / HTTP/1.1" 200 9035
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:20:21
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:41:28] "GET /login HTTP/1.1" 200 3993
+[24/Nov/2016 10:41:28] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:41:30] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:41:32] "GET /logout HTTP/1.1" 200 4014
+[24/Nov/2016 10:41:32] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:41:47] "GET / HTTP/1.1" 200 9035
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:39:01
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:43:57] "GET /login HTTP/1.1" 200 3993
+[24/Nov/2016 10:43:57] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:44:02] "POST /login HTTP/1.1" 200 4048
+[24/Nov/2016 10:44:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:43:55
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:45:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:48:23] "POST /login HTTP/1.1" 200 4087
+[24/Nov/2016 10:48:23] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 10:47:47
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 10:52:39] "POST /login HTTP/1.1" 200 4067
+[24/Nov/2016 10:52:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:52:43] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:52:44] "GET /logout HTTP/1.1" 200 4035
+[24/Nov/2016 10:52:45] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:22] "GET /logout HTTP/1.1" 200 4035
+[24/Nov/2016 10:53:22] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:25] "GET /login HTTP/1.1" 200 4009
+[24/Nov/2016 10:53:25] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:27] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:30] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:30] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:33] "GET /login HTTP/1.1" 200 4009
+[24/Nov/2016 10:53:33] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:34] "POST /login HTTP/1.1" 200 2315
+[24/Nov/2016 10:53:39] "GET /logout HTTP/1.1" 200 4035
+[24/Nov/2016 10:53:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:53:44] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 10:54:48] "GET /login HTTP/1.1" 200 4009
+[24/Nov/2016 10:54:48] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 10:54:56] "GET /regist HTTP/1.1" 200 4038
+[24/Nov/2016 10:55:00] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 11:06:28] "GET /pricing HTTP/1.1" 200 4560
+[24/Nov/2016 11:06:28] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[24/Nov/2016 11:06:30] "GET /news HTTP/1.1" 200 3522
+[24/Nov/2016 11:06:30] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 200 78
+[24/Nov/2016 11:06:32] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 11:06:38] "GET /login HTTP/1.1" 200 4009
+[24/Nov/2016 11:06:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 11:06:40] "POST /login HTTP/1.1" 200 2315

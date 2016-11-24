@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^news$', views.NewsView.as_view(), name = 'news'),
     url(r'^login$', views.login, name = 'login'),
     url(r'^regist$', views.regist, name = 'regist'),
+    url(r'^logout$', views.logout, name = 'logout'),
     url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
 ]
 
