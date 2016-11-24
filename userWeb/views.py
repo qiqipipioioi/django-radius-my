@@ -1,9 +1,10 @@
 #coding:utf-8
 
 from django.shortcuts import render, render_to_response
+from django.conf import settings
 from django import forms
 from django.template import RequestContext
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import ListView, DetailView
 from userWeb.models import News, Radcheck, Radusergroup
 import markdown2
@@ -85,6 +86,13 @@ def login(request):
         else:
             #比较失败，还在login
             return render_to_response('userWeb/login.html', {'keywords': '您的用户名或者密码不正确,请重新输入！', 'color': 'red'}, context_instance=RequestContext(request))
+    if request.session.get('keys', False):
+        keys = request.session.get('keys')
+        try:
+            del request.session['keys']
+        except KeyError:
+            pass
+        return render_to_response('userWeb/login.html', keys, context_instance=RequestContext(request))
     return render_to_response('userWeb/login.html',context_instance=RequestContext(request))
 
 
@@ -113,7 +121,12 @@ def control_userctrl(request):
 
 
 def logout(request):
-    response = render_to_response('userWeb/login.html', {'keywords': '您已成功注销！', 'color': 'green'}, context_instance=RequestContext(request))
+    #response = render_to_response('userWeb/login.html', {'keywords': '您已成功注销！', 'color': 'green'}, context_instance=RequestContext(request))
+    response = HttpResponseRedirect('login')
+    request.session['keys'] = {}
+    request.session['keys']['keywords'] = '您已经成功注销!'
+    request.session['keys']['color'] = 'green'
+#    request.session['keys'] = {'keywords':'您已经成功注销!', 'color': 'green'}
     #清理cookie里保存username
     response.delete_cookie('username')
     return response 

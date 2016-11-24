@@ -22,19 +22,19 @@
              <span class="icon-bar"></span>
            </button>
            <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
-           <a href="##" class="navbar-brand">慕课网</a>
+           <a href="userctrl" class="navbar-brand">Dream</a>
       </div>
       <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
-      <div>
-          <p class="navbar-text navbar-right">hello {{ username }}</p>
-          <a href="logout" class="navbar-text navbar-right">退出</a>
-      </div>
       <div class="collapse navbar-collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="##">系列教程</a></li>
                 <li><a href="##">名师介绍</a></li>
                 <li><a href="##">成功案例</a></li>
                 <li><a href="##">关于我们</a></li>
+                <li><span class="navbar-text">{{ username }}
+                    <a href="logout" class="btn btn-default btn-xs" role="button">注销</a>
+                    </span>
+                </li>
             </ul>
       </div>
     </nav>
