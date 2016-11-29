@@ -1,74 +1,105 @@
 {% extends "userWeb/control/cbase.html" %}
 {% block content %}
-    <link rel="stylesheet" href="/static/userWeb/css/control/price_table.css">
+    <link rel="stylesheet" href="/static/userWeb/css/control/price.css">
     <link href='http://fonts.useso.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <div class="navbar-wrapper">
+        <div class="container-fluid">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Logo</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="userctrl" class="">我的服务</a></li>
+                            <li class="active"><a href="price">购买服务</a></li>
+                            <li><a href="#">线路列表</a></li>
+                            <li><a href="#">最新消息</a></li>
+                            <li><a href="#">帮助</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#" >Welcome  {{ username }}</a></li>
+                            <li class=""><a href="/logout">退出登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
     <section id="pricePlans">
         <ul id="plans">
             <li class="plan">
                 <ul class="planContainer">
-                    <li class="title"><h2>Plan 1</h2></li>
-                    <li class="price"><p>$10/<span>month</span></p></li>
+                    <li class="title"><h2>VIP1计划</h2></li>
+                    <li class="price"><p>10元/<span>月</span></p></li>
                     <li>
                         <ul class="options">
-                            <li>2x <span>option 1</span></li>
-                            <li>Free <span>option 2</span></li>
-                            <li>Unlimited <span>option 3</span></li>
-                            <li>Unlimited <span>option 4</span></li>
-                            <li>1x <span>option 5</span></li>
+                            <li>1台 <span>设备同时在线</span></li>
+                            <li>5G <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
                         </ul>
                     </li>
-                    <li class="button"><a href="#">Purchase</a></li>
+                    <li class="button"><a href="#">立即购买</a></li>
                 </ul>
             </li>
 
             <li class="plan">
                 <ul class="planContainer">
-                    <li class="title"><h2 class="bestPlanTitle">Plan 2</h2></li>
-                    <li class="price"><p class="bestPlanPrice">$20/month</p></li>
+                    <li class="title"><h2 class="bestPlanTitle">最受欢迎计划</h2></li>
+                    <li class="price"><p class="bestPlanPrice">20元/月</p></li>
                     <li>
                         <ul class="options">
-                            <li>2x <span>option 1</span></li>
-                            <li>Free <span>option 2</span></li>
-                            <li>Unlimited <span>option 3</span></li>
-                            <li>Unlimited <span>option 4</span></li>
-                            <li>1x <span>option 5</span></li>
+                            <li>2台 <span>设备同时在线</span></li>
+                            <li>20G <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
                         </ul>
                     </li>
-                    <li class="button"><a class="bestPlanButton" href="#">Purchase</a></li>
+                    <li class="button"><a class="bestPlanButton" href="#">立即购买</a></li>
                 </ul>
             </li>
 
             <li class="plan">
                 <ul class="planContainer">
-                    <li class="title"><h2>Plan 3</h2></li>
-                    <li class="price"><p>$30/<span>month</span></p></li>
+                    <li class="title"><h2>VIP3计划</h2></li>
+                    <li class="price"><p>30元/<span>月</span></p></li>
                     <li>
                         <ul class="options">
-                            <li>2x <span>option 1</span></li>
-                            <li>Free <span>option 2</span></li>
-                            <li>Unlimited <span>option 3</span></li>
-                            <li>Unlimited <span>option 4</span></li>
-                            <li>1x <span>option 5</span></li>
+                            <li>2台 <span>设备同时在线</span></li>
+                            <li>无限 <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
                         </ul>
                     </li>
-                    <li class="button"><a href="#">Purchase</a></li>
+                    <li class="button"><a href="#">立即购买</a></li>
                 </ul>
             </li>
 
             <li class="plan">
                 <ul class="planContainer">
-                    <li class="title"><h2>Plan 4</h2></li>
-                    <li class="price"><p>$40/<span>month</span></p></li>
+                    <li class="title"><h2>VIP4计划</h2></li>
+                    <li class="price"><p>50元/<span>月</span></p></li>
                     <li>
                         <ul class="options">
-                            <li>2x <span>option 1</span></li>
-                            <li>Free <span>option 2</span></li>
-                            <li>Unlimited <span>option 3</span></li>
-                            <li>Unlimited <span>option 4</span></li>
-                            <li>1x <span>option 5</span></li>
+                            <li>5台 <span>设备同时在线</span></li>
+                            <li>无限 <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
                         </ul>
                     </li>
-                    <li class="button"><a href="#">Purchase</a></li>
+                    <li class="button"><a href="#">立即购买</a></li>
                 </ul>
             </li>
         </ul> <!-- End ul#plans -->

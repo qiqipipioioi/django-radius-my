@@ -1,11 +1,13 @@
 .myaccount
 {
-  min-height: 600px;
-  margin-top: 92px;
+  min-height: 92%;
+  margin-top: 80px;
+  margin-bottom: -80px;
   padding-top: 30px;
+  padding-bottom: 100px;
   padding-left: 10%;
   padding-right: 10%;
-/*  background: rgba(226, 226, 226, 0.4); */
+  background: rgba(226, 226, 226, 0.4); 
 }
 
 
@@ -28,6 +30,11 @@
 .header 
 {
   padding: 10px 0;
+}
+
+.header h2
+{
+  padding-left: 10px;
 }
 
 .hr
