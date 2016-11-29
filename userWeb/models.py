@@ -81,3 +81,20 @@ class Radcheck(models.Model):
         return str(self.username)
     class Meta:
         db_table = 'radcheck'
+
+class Showing(models.Model):
+    username = models.CharField(max_length=253)
+    secret = models.CharField(max_length=253)
+    groupname = models.CharField(max_length=64)
+    updatetime = models.DateTimeField()
+    endtime = models.DateTimeField()
+    connections_now = models.IntegerField()
+    connections_limits = models.CharField(max_length=253)
+    traffic_now = models.IntegerField()
+    traffic_limits = models.CharField(max_length=253)
+    speed_limits = models.CharField(max_length=253)
+    class Meta:
+        db_table = 'view_showing'
+        managed = False
+    def __unicode__(self):
+        return self.username

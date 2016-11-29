@@ -7703,3 +7703,2470 @@ SyntaxError: invalid syntax
 /home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
   url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
 
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[24/Nov/2016 17:50:43] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 17:50:47] "GET /login HTTP/1.1" 200 3992
+[24/Nov/2016 17:50:49] "GET /media/images/leaf.png HTTP/1.1" 200 237568
+- Broken pipe from ('121.237.137.65', 1735)
+[24/Nov/2016 17:50:49] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 17:50:49] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[24/Nov/2016 17:51:02] "POST /login HTTP/1.1" 200 2354
+[24/Nov/2016 17:51:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[24/Nov/2016 17:51:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 770
+[24/Nov/2016 17:51:03] "GET /static//font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 98024
+- Broken pipe from ('121.237.137.65', 1761)
+Not Found: /favicon.ico
+[24/Nov/2016 17:51:05] "GET /favicon.ico HTTP/1.1" 404 3487
+[24/Nov/2016 17:51:10] "GET /logout HTTP/1.1" 302 0
+[24/Nov/2016 17:51:11] "GET /login HTTP/1.1" 200 4019
+[24/Nov/2016 17:51:14] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[24/Nov/2016 17:51:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /assets/ico/favicon.png
+[24/Nov/2016 17:51:15] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+[24/Nov/2016 17:51:22] "POST /login HTTP/1.1" 200 4050
+[24/Nov/2016 17:51:25] "GET /media/images/wood.png HTTP/1.1" 200 212992
+- Broken pipe from ('121.237.137.65', 1736)
+[24/Nov/2016 17:51:28] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[24/Nov/2016 17:51:37] "POST /login HTTP/1.1" 200 2354
+[24/Nov/2016 17:51:50] "GET / HTTP/1.1" 200 2354
+[24/Nov/2016 17:51:57] "GET /logout HTTP/1.1" 302 0
+[24/Nov/2016 17:51:57] "GET /login HTTP/1.1" 200 4019
+[24/Nov/2016 17:52:01] "GET / HTTP/1.1" 200 9035
+[24/Nov/2016 17:55:59] "GET /admin/ HTTP/1.1" 302 0
+[24/Nov/2016 17:55:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[24/Nov/2016 17:55:59] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[24/Nov/2016 17:56:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[24/Nov/2016 17:56:20] "GET /admin/ HTTP/1.1" 200 7964
+[24/Nov/2016 17:59:13] "GET /admin/ HTTP/1.1" 200 7964
+[24/Nov/2016 17:59:23] "GET /admin/userWeb/news/ HTTP/1.1" 200 5978
+[24/Nov/2016 17:59:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[24/Nov/2016 17:59:25] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[24/Nov/2016 17:59:28] "GET /admin/ HTTP/1.1" 200 7964
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[24/Nov/2016 17:59:35] "GET /admin/radiusUser/showing/ HTTP/1.1" 200 6580
+[24/Nov/2016 17:59:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[24/Nov/2016 17:59:45] "GET /admin/ HTTP/1.1" 200 7964
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Nov/2016 18:27:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.google.com/reader/about/
+[24/Nov/2016 19:19:20] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Nov/2016 20:45:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[24/Nov/2016 21:36:04] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /manager/html
+[25/Nov/2016 00:05:48] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /manager/html
+[25/Nov/2016 00:10:08] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Nov/2016 01:54:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[25/Nov/2016 03:13:01] "GET / HTTP/1.0" 200 9035
+[25/Nov/2016 03:15:20] "HEAD / HTTP/1.1" 200 0
+[25/Nov/2016 04:49:38] "GET / HTTP/1.1" 200 9035
+[25/Nov/2016 05:44:18] "GET / HTTP/1.1" 200 9035
+[25/Nov/2016 07:17:12] "GET / HTTP/1.0" 200 9035
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Nov/2016 08:52:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[25/Nov/2016 10:15:43] "GET / HTTP/1.1" 200 9035
+[25/Nov/2016 10:15:46] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[25/Nov/2016 10:15:47] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 10:15:47] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[25/Nov/2016 10:15:48] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[25/Nov/2016 10:15:48] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:15:48] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 10:15:48] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+[25/Nov/2016 10:15:48] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+[25/Nov/2016 10:15:57] "POST /login HTTP/1.1" 200 2478
+[25/Nov/2016 10:15:57] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[25/Nov/2016 10:15:57] "GET /favicon.ico HTTP/1.1" 404 3487
+[25/Nov/2016 10:15:58] "GET /logout HTTP/1.1" 302 0
+[25/Nov/2016 10:15:59] "GET /login HTTP/1.1" 200 4019
+[25/Nov/2016 10:15:59] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 10:16:00] "POST /login HTTP/1.1" 200 2478
+[25/Nov/2016 10:16:26] "GET /static/bootstrap/css/bootstrap-theme.min.css.map HTTP/1.1" 200 25648
+[25/Nov/2016 10:21:01] "POST /login HTTP/1.1" 200 2533
+[25/Nov/2016 10:21:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:21:01] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:21:01] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:21:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:21:01] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:21:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:22:26] "POST /login HTTP/1.1" 200 2572
+[25/Nov/2016 10:22:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:22:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:22:26] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:22:26] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 808
+[25/Nov/2016 10:22:26] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:22:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:22:44] "POST /login HTTP/1.1" 200 2572
+[25/Nov/2016 10:22:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 808
+[25/Nov/2016 10:24:32] "GET / HTTP/1.1" 200 9035
+[25/Nov/2016 10:24:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:24:40] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[25/Nov/2016 10:24:40] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[25/Nov/2016 10:24:40] "GET /favicon.ico HTTP/1.1" 404 3487
+[25/Nov/2016 10:24:42] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 10:24:42] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:24:42] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[25/Nov/2016 10:24:42] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 10:24:42] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+[25/Nov/2016 10:24:43] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+[25/Nov/2016 10:24:43] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 3595
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[25/Nov/2016 10:24:43] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 3595
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[25/Nov/2016 10:24:43] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 3592
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[25/Nov/2016 10:24:43] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 3592
+[25/Nov/2016 10:24:44] "POST /login HTTP/1.1" 200 2572
+[25/Nov/2016 10:24:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 808
+[25/Nov/2016 10:43:07] "POST /login HTTP/1.1" 200 3378
+[25/Nov/2016 10:43:07] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:44:28] "POST /login HTTP/1.1" 200 3378
+[25/Nov/2016 10:44:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:44:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:44:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 828
+[25/Nov/2016 10:44:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:44:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:44:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:49:29] "POST /login HTTP/1.1" 200 3396
+[25/Nov/2016 10:49:29] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:54:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "POST /login HTTP/1.1" 200 3396
+[25/Nov/2016 10:57:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:57:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "POST /login HTTP/1.1" 200 3703
+[25/Nov/2016 10:58:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:58:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 10:59:58] "POST /login HTTP/1.1" 200 3673
+[25/Nov/2016 11:00:48] "POST /login HTTP/1.1" 200 3673
+[25/Nov/2016 11:00:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 828
+[25/Nov/2016 11:00:48] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:00:48] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:00:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:00:49] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:00:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:11:45] "POST /login HTTP/1.1" 200 3705
+[25/Nov/2016 11:11:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:12:06] "POST /login HTTP/1.1" 200 3705
+[25/Nov/2016 11:12:16] "POST /login HTTP/1.1" 200 3705
+[25/Nov/2016 11:15:45] "POST /login HTTP/1.1" 200 3737
+[25/Nov/2016 11:15:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:17:33] "POST /login HTTP/1.1" 200 3737
+[25/Nov/2016 11:17:52] "POST /login HTTP/1.1" 200 3737
+[25/Nov/2016 11:18:19] "POST /login HTTP/1.1" 200 3737
+[25/Nov/2016 11:20:19] "POST /login HTTP/1.1" 200 3737
+[25/Nov/2016 11:20:19] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:20:19] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:20:19] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:20:19] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 849
+[25/Nov/2016 11:20:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:20:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:22:22] "POST /login HTTP/1.1" 200 3749
+[25/Nov/2016 11:22:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:27:17] "POST /login HTTP/1.1" 200 3729
+[25/Nov/2016 11:27:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:29:31] "POST /login HTTP/1.1" 200 3625
+[25/Nov/2016 11:29:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:30:00] "POST /login HTTP/1.1" 200 3640
+[25/Nov/2016 11:34:26] "POST /login HTTP/1.1" 200 3678
+[25/Nov/2016 11:34:26] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:34:43] "POST /login HTTP/1.1" 200 3678
+[25/Nov/2016 11:35:52] "POST /login HTTP/1.1" 200 3710
+[25/Nov/2016 11:35:53] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:36:52] "POST /login HTTP/1.1" 200 3710
+[25/Nov/2016 11:38:01] "POST /login HTTP/1.1" 200 3710
+[25/Nov/2016 11:38:01] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 895
+[25/Nov/2016 11:39:11] "POST /login HTTP/1.1" 200 3710
+[25/Nov/2016 11:39:11] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+[25/Nov/2016 11:39:13] "POST /login HTTP/1.1" 200 3710
+[25/Nov/2016 11:39:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "POST /login HTTP/1.1" 200 3736
+[25/Nov/2016 11:39:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:39:48] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "POST /login HTTP/1.1" 200 3762
+[25/Nov/2016 11:40:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:40:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "POST /login HTTP/1.1" 200 3762
+[25/Nov/2016 11:40:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:40:52] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 921
+[25/Nov/2016 11:41:03] "POST /login HTTP/1.1" 200 3762
+[25/Nov/2016 11:41:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:03] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:03] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+[25/Nov/2016 11:41:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:41:03] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "POST /login HTTP/1.1" 200 3762
+[25/Nov/2016 11:41:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 11:41:33] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "POST /login HTTP/1.1" 200 4055
+[25/Nov/2016 12:26:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:26:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "POST /login HTTP/1.1" 200 4040
+[25/Nov/2016 12:27:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "POST /login HTTP/1.1" 200 4026
+[25/Nov/2016 12:27:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:27:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "POST /login HTTP/1.1" 200 4041
+[25/Nov/2016 12:28:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:28:03] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:29:37] "GET /login HTTP/1.1" 200 3992
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+Not Found: /assets/ico/favicon.png
+[25/Nov/2016 12:29:38] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 3595
+[25/Nov/2016 12:29:38] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[25/Nov/2016 12:29:38] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 3595
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[25/Nov/2016 12:29:39] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 3592
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[25/Nov/2016 12:29:39] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 3592
+[25/Nov/2016 12:41:06] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 12:41:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:41:06] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[25/Nov/2016 12:41:06] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 304 0
+[25/Nov/2016 12:41:06] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[25/Nov/2016 12:41:06] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 12:41:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 12:41:08] "POST /login HTTP/1.1" 200 4044
+[25/Nov/2016 12:41:08] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+Not Found: /favicon.ico
+[25/Nov/2016 12:41:09] "GET /favicon.ico HTTP/1.1" 404 3487
+[25/Nov/2016 12:41:33] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 12:41:38] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 12:41:39] "GET / HTTP/1.1" 200 4044
+[25/Nov/2016 12:41:42] "GET /logout HTTP/1.1" 302 0
+[25/Nov/2016 12:41:42] "GET /login HTTP/1.1" 200 4019
+[25/Nov/2016 12:41:42] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 12:41:49] "GET / HTTP/1.1" 200 9035
+[25/Nov/2016 12:44:11] "GET / HTTP/1.1" 200 9035
+Not Found: /manager/html
+[25/Nov/2016 13:57:32] "GET /manager/html HTTP/1.1" 404 3490
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 24, 2016 - 17:46:20
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Not Found: /manager/html
+[25/Nov/2016 14:15:37] "GET /manager/html HTTP/1.1" 404 3490
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 14:12:57
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f7e8e63c938>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 3, in <module>
+    from userWeb import views
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 9, in <module>
+    from userWeb.models import News, Radcheck, Radusergroup, showing
+ImportError: cannot import name showing
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 14:29:43] "GET /login HTTP/1.1" 200 3992
+[25/Nov/2016 14:29:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 14:29:44] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[25/Nov/2016 14:29:44] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[25/Nov/2016 14:29:44] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 304 0
+[25/Nov/2016 14:29:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 14:29:44] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 14:29:46] "POST /login HTTP/1.1" 200 4044
+[25/Nov/2016 14:29:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 15:31:40] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:31:41] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:31:41] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:31:41] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:31:41] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:31:41] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:31:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:32:50] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:32:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:51] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:51] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:51] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:32:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:32:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:32:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:29:04
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 15:34:13] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:34:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:34:13] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:34:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:34:13] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:34:13] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:34:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:34:12
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 15:35:31] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:35:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:35:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:35:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:35:34] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:35:30
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 15:36:03] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:36:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:03] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:03] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:03] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:36:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /control/userctrl HTTP/1.1" 200 4325
+[25/Nov/2016 15:36:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:36:04] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:35:58
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 15:36:25] "GET /control/userctrl HTTP/1.1" 200 4322
+[25/Nov/2016 15:36:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:25] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:25] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[25/Nov/2016 15:36:25] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Nov/2016 15:36:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /manager/html
+[25/Nov/2016 15:51:15] "GET /manager/html HTTP/1.1" 404 3490
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:36:19
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+Internal Server Error: /control/userctrl
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 139, in control_userctrl
+    return render_to_response('userWeb/control/userctrl.html', infos.__dict__ , context_instance=RequestContext(request))
+UnboundLocalError: local variable 'infos' referenced before assignment
+[25/Nov/2016 15:56:28] "GET /control/userctrl HTTP/1.1" 500 61650
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:55:41
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:58:10
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 15:58:35
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fdcf5ab9938>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 3, in <module>
+    from userWeb import views
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 141
+    '''
+      ^
+SyntaxError: invalid syntax
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[25/Nov/2016 16:31:38] "GET /logout HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[25/Nov/2016 16:31:38] "GET /login HTTP/1.1" 200 4019
+[25/Nov/2016 16:31:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2016 16:31:38] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[25/Nov/2016 16:31:38] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[25/Nov/2016 16:31:38] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 304 0
+[25/Nov/2016 16:31:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[25/Nov/2016 16:31:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Nov/2016 16:31:45] "GET / HTTP/1.1" 200 9035
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[25/Nov/2016 16:31:47] "GET /control/userctrl HTTP/1.1" 200 4292
+[25/Nov/2016 16:31:48] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[25/Nov/2016 16:31:49] "GET /logout HTTP/1.1" 302 0
+[25/Nov/2016 16:31:50] "GET /login HTTP/1.1" 200 4019
+[25/Nov/2016 16:31:50] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /manager/html
+[25/Nov/2016 18:38:32] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Nov/2016 19:29:37] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[25/Nov/2016 22:22:45] "GET / HTTP/1.0" 200 9035
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Nov/2016 22:51:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[25/Nov/2016 23:01:39] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[26/Nov/2016 01:36:51] "HEAD / HTTP/1.0" 200 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Nov/2016 06:22:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[26/Nov/2016 11:24:03] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[26/Nov/2016 17:16:33] "GET /admin HTTP/1.1" 301 0
+[26/Nov/2016 17:16:33] "GET /admin/ HTTP/1.1" 200 7964
+[26/Nov/2016 17:16:33] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[26/Nov/2016 17:16:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[26/Nov/2016 17:16:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Not Found: /favicon.ico
+[26/Nov/2016 17:16:34] "GET /favicon.ico HTTP/1.1" 404 3487
+[26/Nov/2016 17:16:36] "GET /admin/ HTTP/1.1" 302 0
+[26/Nov/2016 17:16:36] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[26/Nov/2016 17:16:36] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8032
+[26/Nov/2016 17:16:36] "GET /admin HTTP/1.1" 301 0
+[26/Nov/2016 17:16:36] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[26/Nov/2016 17:16:36] "GET /static/admin/js/calendar.js HTTP/1.1" 200 6875
+[26/Nov/2016 17:16:36] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[26/Nov/2016 17:16:36] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[26/Nov/2016 17:16:36] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 18563
+[26/Nov/2016 17:16:36] "GET /admin/ HTTP/1.1" 302 0
+[26/Nov/2016 17:16:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 17:16:37] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[26/Nov/2016 17:16:37] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[26/Nov/2016 17:16:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[26/Nov/2016 17:16:37] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[26/Nov/2016 17:16:38] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[26/Nov/2016 17:16:39] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[26/Nov/2016 17:16:39] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[26/Nov/2016 17:16:43] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+[26/Nov/2016 17:16:47] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8130
+[26/Nov/2016 17:16:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Nov/2016 18:03:23] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[26/Nov/2016 18:05:55] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8130
+[26/Nov/2016 18:05:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:07:14] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8130
+[26/Nov/2016 18:07:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:07:33] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8130
+[26/Nov/2016 18:07:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:08:20] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8130
+[26/Nov/2016 18:08:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2016 - 16:31:33
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[26/Nov/2016 18:10:31] "GET /admin/ HTTP/1.1" 200 7963
+[26/Nov/2016 18:10:32] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8029
+[26/Nov/2016 18:10:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:10:46] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8127
+[26/Nov/2016 18:10:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:12:37] "POST /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8127
+[26/Nov/2016 18:12:37] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[26/Nov/2016 18:12:37] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[26/Nov/2016 18:12:37] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[26/Nov/2016 18:12:46] "GET /admin/radiusUser/ HTTP/1.1" 200 3141
+[26/Nov/2016 18:12:47] "GET /admin/radiusUser/radusergroup/ HTTP/1.1" 200 8029
+[26/Nov/2016 18:12:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+Not Found: /admin/radiususer/
+[26/Nov/2016 18:13:12] "GET /admin/radiususer/ HTTP/1.1" 404 6527
+Not Found: /login.action
+[26/Nov/2016 19:07:40] "POST /login.action HTTP/1.1" 404 3491
+[26/Nov/2016 19:59:23] code 400, message Bad request syntax ('\xa7\x02\x00\x00')
+[26/Nov/2016 19:59:23] 
+Not Found: /http:/httpbin.org/get
+[26/Nov/2016 21:02:14] "GET http://httpbin.org/get?show_env=1 HTTP/1.1" 404 1672
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[26/Nov/2016 23:06:21] "GET / HTTP/1.0" 200 9035
+Not Found: /manager/html
+[26/Nov/2016 23:24:00] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /admin-console/
+[27/Nov/2016 00:37:18] "HEAD /admin-console/ HTTP/1.1" 404 0
+Not Found: /web-console/ServerInfo.jsp
+[27/Nov/2016 00:37:19] "HEAD /web-console/ServerInfo.jsp HTTP/1.1" 404 0
+Not Found: /jmx-console/HtmlAdaptor
+[27/Nov/2016 00:37:19] "HEAD /jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo HTTP/1.1" 404 0
+Not Found: /invoker/JMXInvokerServlet
+[27/Nov/2016 00:37:20] "HEAD /invoker/JMXInvokerServlet HTTP/1.1" 404 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Nov/2016 01:00:16] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Nov/2016 03:11:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[27/Nov/2016 08:04:20] "GET /manager/html HTTP/1.1" 404 3490
+[27/Nov/2016 09:08:55] "GET / HTTP/1.1" 200 9035
+Not Found: /manager/html
+[27/Nov/2016 10:26:28] "GET /manager/html HTTP/1.1" 404 3490
+[27/Nov/2016 10:43:33] "GET / HTTP/1.1" 200 9035
+[27/Nov/2016 10:43:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[27/Nov/2016 10:43:33] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[27/Nov/2016 10:43:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[27/Nov/2016 10:43:34] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[27/Nov/2016 10:43:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[27/Nov/2016 10:43:37] "GET /login HTTP/1.1" 200 3992
+[27/Nov/2016 10:43:38] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[27/Nov/2016 10:43:38] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[27/Nov/2016 10:43:38] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[27/Nov/2016 10:43:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[27/Nov/2016 10:43:39] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[27/Nov/2016 10:43:39] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[27/Nov/2016 10:43:40] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /assets/ico/favicon.png
+[27/Nov/2016 10:43:40] "GET /assets/ico/favicon.png HTTP/1.1" 404 3520
+[27/Nov/2016 10:43:42] "POST /login HTTP/1.1" 200 4050
+[27/Nov/2016 10:43:42] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[27/Nov/2016 10:43:45] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[27/Nov/2016 10:43:46] "GET /control/userctrl HTTP/1.1" 200 4346
+[27/Nov/2016 10:43:46] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+[27/Nov/2016 10:43:46] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+Not Found: /favicon.ico
+[27/Nov/2016 10:43:47] "GET /favicon.ico HTTP/1.1" 404 3487
+[27/Nov/2016 10:44:02] "GET /login HTTP/1.1" 200 3992
+[27/Nov/2016 10:44:02] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[27/Nov/2016 10:44:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[27/Nov/2016 10:44:02] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[27/Nov/2016 10:44:02] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[27/Nov/2016 10:44:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[27/Nov/2016 10:44:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[27/Nov/2016 10:44:06] "GET /static//font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 98024
+[27/Nov/2016 10:44:12] "GET / HTTP/1.1" 200 9035
+[27/Nov/2016 10:44:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[27/Nov/2016 10:44:12] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[27/Nov/2016 10:44:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[27/Nov/2016 10:44:12] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[27/Nov/2016 10:44:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[27/Nov/2016 10:44:17] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[27/Nov/2016 10:44:18] "GET /media/images/leaf.png HTTP/1.1" 200 286720
+- Broken pipe from ('111.206.36.146', 43540)
+[27/Nov/2016 10:44:42] "GET /control/userctrl HTTP/1.1" 200 4292
+[27/Nov/2016 10:44:43] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+[27/Nov/2016 10:44:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[27/Nov/2016 10:44:43] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[27/Nov/2016 10:44:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[27/Nov/2016 10:44:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[27/Nov/2016 10:44:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[27/Nov/2016 10:46:55] "GET /control/userctrl HTTP/1.1" 200 4346
+[27/Nov/2016 10:46:56] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[27/Nov/2016 10:46:56] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[27/Nov/2016 10:46:56] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[27/Nov/2016 10:46:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[27/Nov/2016 10:46:56] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[27/Nov/2016 10:46:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Nov/2016 12:44:38] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /login.action
+[27/Nov/2016 15:55:07] "POST /login.action HTTP/1.1" 404 3491
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Nov/2016 16:31:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[27/Nov/2016 18:17:41] "GET / HTTP/1.1" 200 9035
+Not Found: /http:/clientapi.ipip.net/echo.php
+[28/Nov/2016 02:37:07] "GET http://clientapi.ipip.net/echo.php?info=20161128023719 HTTP/1.1" 404 1724
+[28/Nov/2016 02:37:07] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00')
+[28/Nov/2016 02:37:07] 
+[28/Nov/2016 02:37:12] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[28/Nov/2016 02:37:12] " " 400 -
+[28/Nov/2016 02:37:33] code 400, message Bad request syntax ('\x04\x01\x1f\x00\x00\x00\x00\x00\x00')
+[28/Nov/2016 02:37:33] "      " 400 -
+Not Found: /http:/www.google.com/reader/about/
+[28/Nov/2016 05:53:28] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+[28/Nov/2016 10:25:30] "HEAD / HTTP/1.0" 200 0
+[28/Nov/2016 10:41:19] "GET /admin HTTP/1.1" 301 0
+[28/Nov/2016 10:41:19] "GET / HTTP/1.1" 200 9035
+[28/Nov/2016 10:41:20] "GET /admin/ HTTP/1.1" 302 0
+[28/Nov/2016 10:41:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[28/Nov/2016 10:41:20] "GET / HTTP/1.1" 200 9035
+[28/Nov/2016 10:41:21] "GET / HTTP/1.1" 200 9035
+[28/Nov/2016 13:30:11] "GET / HTTP/1.1" 200 9035
+Not Found: /http:/www.google.com/reader/about/
+[28/Nov/2016 14:32:39] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Nov/2016 14:42:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[28/Nov/2016 15:13:43] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Nov/2016 15:52:01] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[28/Nov/2016 16:39:29] "GET /manager/html HTTP/1.1" 404 3490
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Nov/2016 17:06:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Nov/2016 17:26:55] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[28/Nov/2016 18:02:21] "GET /manager/html HTTP/1.1" 404 3490
+[28/Nov/2016 18:35:30] "GET / HTTP/1.1" 200 9035
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 26, 2016 - 18:10:16
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f77ee226938>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 16, in <module>
+    url(r'^control/price$', views.control_price, name = 'control_price'),
+AttributeError: 'module' object has no attribute 'control_price'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[28/Nov/2016 20:08:47] "GET / HTTP/1.1" 200 9035
+[28/Nov/2016 20:08:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[28/Nov/2016 20:08:47] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 4341
+[28/Nov/2016 20:08:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[28/Nov/2016 20:08:48] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[28/Nov/2016 20:08:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[28/Nov/2016 20:08:53] "GET /media/images/wood.png HTTP/1.1" 200 406246
+[28/Nov/2016 20:08:53] "GET /media/images/leaf.png HTTP/1.1" 200 436863
+[28/Nov/2016 20:08:53] "GET /login HTTP/1.1" 200 3992
+[28/Nov/2016 20:08:54] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[28/Nov/2016 20:08:54] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[28/Nov/2016 20:08:54] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[28/Nov/2016 20:08:54] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+Not Found: /assets/ico/favicon.png
+[28/Nov/2016 20:09:01] "GET /assets/ico/favicon.png HTTP/1.1" 404 3704
+[28/Nov/2016 20:09:01] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[28/Nov/2016 20:09:08] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[28/Nov/2016 20:09:09] "GET /control/userctrl HTTP/1.1" 200 4353
+[28/Nov/2016 20:09:09] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[28/Nov/2016 20:09:10] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 928
+[28/Nov/2016 20:12:13] "GET /control/userctrl HTTP/1.1" 200 4364
+[28/Nov/2016 20:12:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[28/Nov/2016 20:12:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[28/Nov/2016 20:12:13] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[28/Nov/2016 20:12:13] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[28/Nov/2016 20:12:14] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[28/Nov/2016 20:12:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Not Found: /control/control/price
+[28/Nov/2016 20:12:15] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /control/control/price
+[28/Nov/2016 20:12:19] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /control/control/price
+[28/Nov/2016 20:12:52] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /manager/html
+[29/Nov/2016 04:28:30] "GET /manager/html HTTP/1.1" 404 3674
+Not Found: /http:/www.google.com/reader/about/
+[29/Nov/2016 06:58:48] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/favicon.ico
+[29/Nov/2016 09:11:18] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[29/Nov/2016 09:19:19] "GET / HTTP/1.1" 200 9035
+Not Found: /control/control/price
+[29/Nov/2016 09:52:24] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /control/control/price
+[29/Nov/2016 09:54:55] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /control/control/price
+[29/Nov/2016 09:56:12] "GET /control/control/price HTTP/1.1" 404 3701
+Not Found: /control/control/price
+[29/Nov/2016 09:57:16] "GET /control/control/price HTTP/1.1" 404 3701
+[29/Nov/2016 09:58:03] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 09:58:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:03] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:03] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 09:58:03] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Nov/2016 09:58:03] "GET /favicon.ico HTTP/1.1" 404 3671
+[29/Nov/2016 09:58:05] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 09:58:06] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:06] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 09:58:06] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:06] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+[29/Nov/2016 09:58:06] "GET /assets/ico/favicon.png HTTP/1.1" 404 3704
+[29/Nov/2016 09:58:07] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 09:58:07] "GET /control/userctrl HTTP/1.1" 200 4356
+[29/Nov/2016 09:58:08] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:12] "GET /control/price HTTP/1.1" 200 3698
+[29/Nov/2016 09:58:12] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3772
+[29/Nov/2016 09:58:32] "GET /control/userctrl HTTP/1.1" 200 4302
+[29/Nov/2016 09:58:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:33] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:33] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 09:58:33] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 09:58:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 09:58:37] "GET /control/price HTTP/1.1" 200 3698
+[29/Nov/2016 09:58:37] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3772
+Internal Server Error: /control/price
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 157, in control_price
+    return render_to_response('userWeb/control/price.html',context_instance=RequestContext(request))
+  File "/home/dev/Downloads/Django-1.9.10/django/shortcuts.py", line 45, in render_to_response
+    using=using)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader.py", line 137, in render_to_string
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: userWeb/control/price.html
+[29/Nov/2016 10:00:34] "GET /control/price HTTP/1.1" 500 71297
+Internal Server Error: /control/price
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 157, in control_price
+    return render_to_response('userWeb/control/price.html',context_instance=RequestContext(request))
+  File "/home/dev/Downloads/Django-1.9.10/django/shortcuts.py", line 45, in render_to_response
+    using=using)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader.py", line 137, in render_to_string
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: userWeb/control/price.html
+[29/Nov/2016 10:01:03] "GET /control/price HTTP/1.1" 500 71275
+[29/Nov/2016 10:01:41] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:05:44] "GET /control/userctrl HTTP/1.1" 200 4356
+[29/Nov/2016 10:06:12] "GET /control/userctrl HTTP/1.1" 200 4356
+[29/Nov/2016 10:06:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:06:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:06:12] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:06:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:06:12] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:06:12] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 951
+[29/Nov/2016 10:07:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:25] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:27] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:27] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:28] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:28] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:28] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:29] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:57] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:57] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:57] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:57] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 968
+[29/Nov/2016 10:12:57] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3833
+[29/Nov/2016 10:12:57] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:12:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:12:58] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:12:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:13:02] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:13:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 968
+[29/Nov/2016 10:13:02] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:13:29] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:13:29] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:13:29] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3856
+[29/Nov/2016 10:13:45] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:13:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:13:45] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:13:52] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:13:52] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:14:10] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:14:10] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:14:10] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:14:18] "GET /control/price HTTP/1.1" 200 6236
+[29/Nov/2016 10:14:18] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:14:33] "GET /control/price HTTP/1.1" 200 5950
+[29/Nov/2016 10:14:33] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:14:33] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:16:46] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:16:46] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:16:46] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:16:47] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:16:51] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:16:51] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:16:57] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:16:59] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:16:59] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:17:00] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:17:00] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:17:25] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:17:25] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:28:26] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:28:26] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:28:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:29:13] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:29:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:29:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:29:13] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:29:13] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:29:13] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:29:13] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:29:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:31:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:31:59] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:31:59] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:33:43] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:33:43] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:33:43] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:34:15] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:34:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:34:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:35:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:35:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:35:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:35:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:35:56] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:35:56] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:36:05] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:36:05] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:05] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:05] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:36:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:36:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:36:35] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:36:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:36:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:36:57] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:36:59] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:36:59] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:37:01] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:37:02] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:37:02] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:37:04] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:37:04] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:37:05] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:37:06] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:37:07] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:37:07] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:37:08] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:37:09] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:37:09] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:37:10] "GET /control/userctrl HTTP/1.1" 200 4362
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 28, 2016 - 20:04:32
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2016 - 10:38:21
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fe2bab8b938>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 3, in <module>
+    from userWeb import views
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 161
+    
+        ^
+IndentationError: unexpected unindent
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[29/Nov/2016 10:39:57] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:39:57] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:40:00] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:02] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:02] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:40:04] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:04] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:05] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:06] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:23] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:25] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:25] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:40:25] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:26] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:27] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:28] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:28] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:29] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:31] "GET /logout HTTP/1.1" 302 0
+[29/Nov/2016 10:40:31] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 10:40:31] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:40:36] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:39] "GET /pricing HTTP/1.1" 200 4560
+[29/Nov/2016 10:40:39] "GET /static/userWeb/css/custom_pricing.css HTTP/1.1" 304 0
+[29/Nov/2016 10:40:40] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:41] "GET /news HTTP/1.1" 200 3522
+[29/Nov/2016 10:40:41] "GET /static/userWeb/css/custom_news.css HTTP/1.1" 304 0
+[29/Nov/2016 10:40:42] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:44] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:45] "GET /pricing HTTP/1.1" 200 4560
+[29/Nov/2016 10:40:46] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:47] "GET /news HTTP/1.1" 200 3522
+[29/Nov/2016 10:40:48] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:40:56] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 10:40:56] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:40:57] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 10:40:57] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:40:59] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:40:59] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:00] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:41:01] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:41:01] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:41:02] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:41:03] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:41:06] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:41:07] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:41:24] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 10:41:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:25] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:25] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:41:25] "GET /media/images/leaf.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Nov/2016 10:41:25] "GET /favicon.ico HTTP/1.1" 404 3671
+[29/Nov/2016 10:41:27] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 10:41:27] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:27] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[29/Nov/2016 10:41:27] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:41:27] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /assets/ico/favicon.png
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+[29/Nov/2016 10:41:28] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 3779
+[29/Nov/2016 10:41:28] "GET /assets/ico/favicon.png HTTP/1.1" 404 3704
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[29/Nov/2016 10:41:28] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 3779
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[29/Nov/2016 10:41:28] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 3776
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[29/Nov/2016 10:41:28] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 3776
+[29/Nov/2016 10:41:29] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 10:41:29] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:41:29] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 968
+[29/Nov/2016 10:41:36] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:41:36] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3857
+[29/Nov/2016 10:46:44] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:46:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:46:44] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3906
+[29/Nov/2016 10:46:56] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:46:56] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3906
+[29/Nov/2016 10:46:57] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:46:57] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:47:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:47:06] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:06] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3906
+[29/Nov/2016 10:47:18] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:20] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:20] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:21] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:24] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:25] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:25] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:27] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:27] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:28] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:28] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:29] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:29] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:30] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 10:47:30] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 10:47:35] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:47:51] "GET /logout HTTP/1.1" 302 0
+[29/Nov/2016 10:47:51] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 10:47:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:47:57] "GET /control/userctrl HTTP/1.1" 200 4308
+[29/Nov/2016 10:48:00] "GET /logout HTTP/1.1" 302 0
+[29/Nov/2016 10:48:00] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 10:48:00] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:49:52] "GET /control/price HTTP/1.1" 200 5956
+[29/Nov/2016 10:49:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 10:49:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:49:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 10:49:52] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 968
+[29/Nov/2016 10:49:53] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3906
+[29/Nov/2016 10:49:53] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 10:49:53] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2016 - 10:39:54
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[29/Nov/2016 10:50:54] "GET / HTTP/1.1" 200 9035
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[29/Nov/2016 10:50:56] "GET /control/userctrl HTTP/1.1" 200 4308
+[29/Nov/2016 10:50:56] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2016 - 10:50:50
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[29/Nov/2016 10:52:23] "GET /control/userctrl HTTP/1.1" 200 4308
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2016 - 10:52:20
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[29/Nov/2016 10:52:44] "GET /control/userctrl HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[29/Nov/2016 10:52:45] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 10:52:53] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 10:52:53] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 10:52:55] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 10:52:55] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 10:52:56] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[29/Nov/2016 10:52:56] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:53:00] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 10:53:01] "GET /logout HTTP/1.1" 302 0
+[29/Nov/2016 10:53:01] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 10:53:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 29, 2016 - 10:52:39
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[29/Nov/2016 10:59:50] "GET /logout HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[29/Nov/2016 10:59:50] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 10:59:50] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[29/Nov/2016 10:59:50] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /script
+[29/Nov/2016 11:39:08] "GET /script HTTP/1.1" 404 3656
+Not Found: /cgi/common.cgi
+[29/Nov/2016 12:08:23] "GET /cgi/common.cgi HTTP/1.0" 404 3675
+Not Found: /stssys.htm
+[29/Nov/2016 12:08:24] "GET /stssys.htm HTTP/1.0" 404 3663
+[29/Nov/2016 12:08:25] "GET / HTTP/1.0" 200 9035
+Not Found: /command.php
+[29/Nov/2016 12:08:26] "POST /command.php HTTP/1.0" 404 3667
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[29/Nov/2016 12:45:47] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /script
+[29/Nov/2016 12:49:02] "GET /script HTTP/1.1" 404 3656
+Not Found: //autoshell.txt
+[29/Nov/2016 13:36:26] "PUT //autoshell.txt HTTP/1.1" 404 3680
+[29/Nov/2016 14:17:37] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[29/Nov/2016 14:17:37] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 14:17:38] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 14:17:39] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 14:17:42] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 304 0
+[29/Nov/2016 14:17:46] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 14:17:48] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 14:17:49] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 14:17:50] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 14:17:51] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 14:17:53] "GET /control/price HTTP/1.1" 200 5961
+[29/Nov/2016 14:17:57] "GET /control/userctrl HTTP/1.1" 200 4362
+[29/Nov/2016 14:42:46] "GET / HTTP/1.1" 200 4304
+[29/Nov/2016 14:42:46] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Nov/2016 14:42:46] "GET /favicon.ico HTTP/1.1" 404 3671
+[29/Nov/2016 14:43:02] "GET / HTTP/1.1" 200 4318
+[29/Nov/2016 14:56:44] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:56:44] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 200 770
+[29/Nov/2016 14:58:04] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:04] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:05] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:05] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:38] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:38] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:40] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:40] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:50] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:50] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:52] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:52] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:53] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 14:58:53] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 14:58:57] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:00:47] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 15:00:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:00:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:00:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:00:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:00:48] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:00:48] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:00:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 240
+[29/Nov/2016 15:01:20] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 15:01:20] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:20] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:20] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:21] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 239
+[29/Nov/2016 15:01:21] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 15:01:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:23] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:24] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[29/Nov/2016 15:01:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 15:01:53] "GET / HTTP/1.1" 200 4403
+[29/Nov/2016 15:01:54] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:01:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:03:59] "GET /logout HTTP/1.1" 302 0
+[29/Nov/2016 15:04:00] "GET /login HTTP/1.1" 200 4019
+[29/Nov/2016 15:04:00] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /assets/ico/favicon.png
+[29/Nov/2016 15:04:00] "GET /assets/ico/favicon.png HTTP/1.1" 404 3704
+[29/Nov/2016 15:04:03] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 15:04:03] "GET /control/userctrl HTTP/1.1" 200 4447
+[29/Nov/2016 15:04:03] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:04:03] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:05] "GET /control/userctrl HTTP/1.1" 200 4447
+[29/Nov/2016 15:05:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:05] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:05] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 241
+[29/Nov/2016 15:05:07] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:05:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /control/userctrl HTTP/1.1" 200 4447
+[29/Nov/2016 15:05:40] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 244
+[29/Nov/2016 15:05:40] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:05:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:16:17] "GET /control/userctrl HTTP/1.1" 200 4468
+[29/Nov/2016 15:16:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:16:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:16:17] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:16:17] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:16:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:16:18] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:16:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:16:39] "GET /control/price HTTP/1.1" 200 5958
+[29/Nov/2016 15:16:39] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3904
+[29/Nov/2016 15:16:49] "GET /control/userctrl HTTP/1.1" 200 4468
+[29/Nov/2016 15:17:33] "GET /control/userctrl HTTP/1.1" 200 4468
+[29/Nov/2016 15:17:33] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:33] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:33] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 247
+[29/Nov/2016 15:17:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:17:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:17:44] "GET /control/userctrl HTTP/1.1" 200 4468
+[29/Nov/2016 15:17:44] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:44] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:44] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:17:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 247
+[29/Nov/2016 15:17:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:17:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:18:12] "GET /control/userctrl HTTP/1.1" 200 4479
+[29/Nov/2016 15:18:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:12] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:12] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:13] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:13] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:18:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:18:16] "GET /control/userctrl HTTP/1.1" 200 4479
+[29/Nov/2016 15:18:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:18] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:18] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:18] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:18:19] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:18:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:23:06] "GET /control/userctrl HTTP/1.1" 200 4462
+[29/Nov/2016 15:23:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:06] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:06] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:07] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:32] "GET /control/userctrl HTTP/1.1" 200 4462
+[29/Nov/2016 15:23:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:33] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:33] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:33] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:23:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:23:36] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /control/userctrl HTTP/1.1" 200 4468
+[29/Nov/2016 15:25:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 286
+[29/Nov/2016 15:25:17] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:25:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:26:46] "GET /control/userctrl HTTP/1.1" 200 4469
+[29/Nov/2016 15:26:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:26:47] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:26:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:26:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:26:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 247
+[29/Nov/2016 15:26:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:26:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /control/userctrl HTTP/1.1" 200 4469
+[29/Nov/2016 15:28:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 286
+[29/Nov/2016 15:28:05] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:28:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:28:56] "GET /control/userctrl HTTP/1.1" 200 4469
+[29/Nov/2016 15:28:56] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:57] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:57] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:28:59] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:29:00] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 291
+[29/Nov/2016 15:29:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:30:46] "GET /control/userctrl HTTP/1.1" 200 4469
+[29/Nov/2016 15:30:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:30:46] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:30:46] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:30:46] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:30:46] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 437
+[29/Nov/2016 15:30:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:30:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:31:51] "GET /control/userctrl HTTP/1.1" 200 4469
+[29/Nov/2016 15:31:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:31:52] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:31:52] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:31:52] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:31:52] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 439
+[29/Nov/2016 15:31:52] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:31:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:33:21] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:33:23] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:33:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:33:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:33:47] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:33:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:47] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:33:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 437
+[29/Nov/2016 15:33:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:33:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:25] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:34:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:25] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:25] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:25] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 437
+[29/Nov/2016 15:34:26] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:38] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:34:38] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:38] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:38] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:38] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 399
+[29/Nov/2016 15:34:38] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:55] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:34:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:55] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:55] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:34:56] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 437
+[29/Nov/2016 15:34:57] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:34:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:12] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:35:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:13] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:13] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:13] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 436
+[29/Nov/2016 15:35:13] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:35:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:15] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:35:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:35:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:43] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:35:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:43] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:43] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:43] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:35:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:51] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:35:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:51] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:51] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:35:51] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:35:51] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:35:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:36:00] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:36:00] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:25] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:36:25] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:25] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:25] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:26] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:36:26] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:26] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:34] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:36:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:34] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:34] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:36:34] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:43] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:36:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:43] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:43] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:36:43] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:36:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:36:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:38:32] "GET / HTTP/1.1" 200 9035
+[29/Nov/2016 15:38:33] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 15:38:33] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 15:38:38] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 15:38:38] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:38:38] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 200 770
+[29/Nov/2016 15:38:38] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:39:22] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:39:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:22] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:22] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:39:23] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:39:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:39:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:39:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 15:39:33] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:39:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:34] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:34] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:39:34] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:39:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:39:37] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 435
+[29/Nov/2016 15:40:32] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:40:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 433
+[29/Nov/2016 15:40:33] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:40:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:40:44] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:40:44] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:44] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:44] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:40:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 433
+[29/Nov/2016 15:40:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:40:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:41:47] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:41:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:47] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 397
+[29/Nov/2016 15:41:48] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:41:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:41:53] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:41:53] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:53] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:53] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:53] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:53] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 397
+[29/Nov/2016 15:41:53] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:41:55] "GET /control/userctrl HTTP/1.1" 200 4470
+[29/Nov/2016 15:41:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 15:41:55] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 397
+[29/Nov/2016 15:41:55] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:55] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:55] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:55] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:41:56] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[29/Nov/2016 15:45:16] "GET /control/userctrl HTTP/1.1" 200 4455
+[29/Nov/2016 15:45:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:16] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:16] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:16] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:16] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:45:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:45:40] "GET /control/userctrl HTTP/1.1" 200 4439
+[29/Nov/2016 15:45:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:42] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:42] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 15:45:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 15:45:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /control/userctrl HTTP/1.1" 200 5059
+[29/Nov/2016 16:02:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:02:42] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:02:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:05:05] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 16:05:05] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 16:05:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:05] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:05] "GET /media/images/wood.png HTTP/1.1" 304 0
+[29/Nov/2016 16:05:05] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[29/Nov/2016 16:05:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:05:06] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:05:09] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 16:05:09] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 16:05:11] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 16:05:11] "GET /control/userctrl HTTP/1.1" 200 4167
+[29/Nov/2016 16:05:11] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /control/userctrl HTTP/1.1" 200 4440
+[29/Nov/2016 16:05:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:05:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:05:34] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:13:35] "GET /control/userctrl HTTP/1.1" 200 4440
+[29/Nov/2016 16:13:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:35] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:38] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:38] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:13:38] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /control/userctrl HTTP/1.1" 200 4586
+[29/Nov/2016 16:13:49] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:13:49] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:13:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:15:28] "GET /control/userctrl HTTP/1.1" 200 4584
+[29/Nov/2016 16:15:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:15:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:15:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:15:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:15:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:15:29] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:15:29] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:17:31] "GET /control/userctrl HTTP/1.1" 200 4588
+[29/Nov/2016 16:17:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:17:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:19:00] "GET /control/userctrl HTTP/1.1" 200 4537
+[29/Nov/2016 16:19:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:19:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:19:00] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:19:00] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:19:01] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:19:01] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:19:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /control/userctrl HTTP/1.1" 200 4503
+[29/Nov/2016 16:20:47] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:20:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:20:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:21:04] "GET /control/userctrl HTTP/1.1" 200 4510
+[29/Nov/2016 16:21:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:05] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:06] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:07] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:08] "GET /control/userctrl HTTP/1.1" 200 4510
+[29/Nov/2016 16:21:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:21:08] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:09] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:11] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:21:11] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:21:11] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[29/Nov/2016 16:21:11] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:01] "GET /control/userctrl HTTP/1.1" 200 4511
+[29/Nov/2016 16:22:02] "GET /control/userctrl HTTP/1.1" 200 4511
+[29/Nov/2016 16:22:03] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:03] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:03] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:03] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:03] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:22:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:22:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:23:27] "GET /control/userctrl HTTP/1.1" 200 4507
+[29/Nov/2016 16:23:29] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:23:29] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:23:30] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:23:30] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:23:30] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 427
+[29/Nov/2016 16:23:30] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:23:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:29:41] "GET /control/userctrl HTTP/1.1" 200 4507
+[29/Nov/2016 16:29:42] "GET /control/userctrl HTTP/1.1" 200 4507
+[29/Nov/2016 16:29:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:29:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:29:43] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:29:43] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:29:44] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 459
+[29/Nov/2016 16:29:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:29:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:31:22] "GET /control/userctrl HTTP/1.1" 200 4602
+[29/Nov/2016 16:31:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:31:24] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:31:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:31:24] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:31:24] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:31:24] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:31:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /control/userctrl HTTP/1.1" 200 4609
+[29/Nov/2016 16:34:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:14] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /control/userctrl HTTP/1.1" 200 4611
+[29/Nov/2016 16:34:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /control/userctrl HTTP/1.1" 200 4611
+[29/Nov/2016 16:34:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:34:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:34:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /control/userctrl HTTP/1.1" 200 4614
+[29/Nov/2016 16:35:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:35:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:36:33] "GET /control/userctrl HTTP/1.1" 200 4640
+[29/Nov/2016 16:36:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:36:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:36:34] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:36:34] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 16:36:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:36:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:36:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 16:37:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 16:37:22] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /control/userctrl HTTP/1.1" 200 4701
+[29/Nov/2016 17:01:49] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:01:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /control/userctrl HTTP/1.1" 200 4701
+[29/Nov/2016 17:01:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:01:51] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:01:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 17:05:54] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 17:05:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /media/images/wood.png HTTP/1.1" 304 0
+[29/Nov/2016 17:05:54] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[29/Nov/2016 17:05:56] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 17:05:56] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 17:05:57] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 17:05:57] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:05:58] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 511
+[29/Nov/2016 17:06:34] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:06:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:34] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:34] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:34] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 492
+[29/Nov/2016 17:06:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:06:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:06:46] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:06:46] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:46] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:46] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:46] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:06:47] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 511
+[29/Nov/2016 17:06:47] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:06:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:08:54] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:08:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:08:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:08:54] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:08:54] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:08:54] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 537
+[29/Nov/2016 17:08:54] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:08:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:09:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 536
+[29/Nov/2016 17:09:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:09:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:09:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:09:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:09:59] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:09:59] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:59] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:59] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:59] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:09:59] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 557
+[29/Nov/2016 17:09:59] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:10:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:10:14] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:10:14] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:10:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:10:14] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:10:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:10:14] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 557
+[29/Nov/2016 17:10:14] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:10:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:12] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 555
+[29/Nov/2016 17:12:12] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:12] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:21] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:21] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:22] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 557
+[29/Nov/2016 17:12:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:23] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:23] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:23] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:24] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:24] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:25] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:25] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:27] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:27] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 200 770
+[29/Nov/2016 17:12:27] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:27] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[29/Nov/2016 17:12:27] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[29/Nov/2016 17:12:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 17:12:41] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:42] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:42] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:42] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:42] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 557
+[29/Nov/2016 17:12:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:45] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:46] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:12:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:49] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:55] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:55] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:12:55] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:12:55] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 17:14:08] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:14:08] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:14:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /control/userctrl HTTP/1.1" 200 4697
+[29/Nov/2016 17:17:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:17:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:04] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:24:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:24:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:42] "GET /control/userctrl HTTP/1.1" 200 4667
+[29/Nov/2016 17:24:42] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:42] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:43] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:24:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:24:45] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:26:11] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:26:11] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:26:11] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:26:11] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:26:11] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:26:11] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:26:12] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:26:13] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:29:56] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:29:56] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:29:56] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:29:56] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:29:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:29:56] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 589
+[29/Nov/2016 17:29:56] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:29:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:30:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 589
+[29/Nov/2016 17:30:04] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:04] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:30:18] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 589
+[29/Nov/2016 17:30:18] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:18] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:35] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 17:30:36] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 17:30:37] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 17:30:37] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /media/images/wood.png HTTP/1.1" 304 0
+[29/Nov/2016 17:30:37] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[29/Nov/2016 17:30:39] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 17:30:39] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 17:30:40] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 17:30:40] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:30:40] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:30:40] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 589
+[29/Nov/2016 17:31:24] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:31:24] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:31:28] "GET /control/price HTTP/1.1" 200 5958
+[29/Nov/2016 17:31:28] "GET /static/userWeb/css/control/price_table.css HTTP/1.1" 200 3904
+[29/Nov/2016 17:31:46] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:31:46] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:33:45] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:33:45] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:33:45] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:33:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:33:45] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:33:45] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 591
+[29/Nov/2016 17:33:45] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:33:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:06] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:34:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:06] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 591
+[29/Nov/2016 17:34:06] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:34:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 591
+[29/Nov/2016 17:34:23] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:48] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:34:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:48] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:49] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:34:49] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 591
+[29/Nov/2016 17:34:49] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:34:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:35:00] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:35:00] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:35:00] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:35:00] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:35:00] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 591
+[29/Nov/2016 17:35:00] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:35:00] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:35:01] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:31] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:36:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:35] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:36:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:35] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:35] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:35] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:37] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:38] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:36:49] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:36:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:37:14] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:37:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:37:14] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:37:14] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:37:15] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:37:15] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:37:15] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:37:15] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:38:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 570
+[29/Nov/2016 17:38:02] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:38:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /control/userctrl HTTP/1.1" 200 4740
+[29/Nov/2016 17:38:19] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 570
+[29/Nov/2016 17:38:19] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:38:19] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /control/userctrl HTTP/1.1" 200 4866
+[29/Nov/2016 17:43:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:43:27] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /control/userctrl HTTP/1.1" 200 4872
+[29/Nov/2016 17:44:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:06] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:44:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /control/userctrl HTTP/1.1" 200 4878
+[29/Nov/2016 17:44:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:44:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:44:33] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /control/userctrl HTTP/1.1" 200 4934
+[29/Nov/2016 17:46:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:46:17] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /control/userctrl HTTP/1.1" 200 4992
+[29/Nov/2016 17:57:17] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:57:17] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /control/userctrl HTTP/1.1" 200 4992
+[29/Nov/2016 17:57:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[29/Nov/2016 17:57:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 17:57:35] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[29/Nov/2016 18:00:32] "GET /control/userctrl HTTP/1.1" 200 5036
+[29/Nov/2016 18:00:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:00:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /control/userctrl HTTP/1.1" 200 4992
+[29/Nov/2016 18:01:02] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:01:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:01:03] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:03:49] "GET /control/userctrl HTTP/1.1" 200 4998
+[29/Nov/2016 18:03:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:03:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:03:50] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:03:50] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:13] "GET /control/userctrl HTTP/1.1" 200 5000
+[29/Nov/2016 18:04:14] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:14] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:14] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:14] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:14] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[29/Nov/2016 18:04:14] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 570
+[29/Nov/2016 18:04:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Nov/2016 18:04:15] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[29/Nov/2016 18:04:15] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /control/userctrl HTTP/1.1" 200 4998
+[29/Nov/2016 18:04:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:27] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:04:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:04:53] "GET /control/userctrl HTTP/1.1" 200 4998
+[29/Nov/2016 18:04:54] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:04:54] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[29/Nov/2016 18:07:43] "GET /control/userctrl HTTP/1.1" 302 0
+[29/Nov/2016 18:07:44] "GET /index HTTP/1.1" 200 9035
+[29/Nov/2016 18:07:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /media/images/wood.png HTTP/1.1" 304 0
+[29/Nov/2016 18:07:44] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[29/Nov/2016 18:07:46] "GET /login HTTP/1.1" 200 3992
+[29/Nov/2016 18:07:46] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[29/Nov/2016 18:07:48] "POST /login HTTP/1.1" 302 0
+[29/Nov/2016 18:07:48] "GET /control/userctrl HTTP/1.1" 200 4992
+[29/Nov/2016 18:07:48] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:49] "GET /control/userctrl HTTP/1.1" 200 4929
+[29/Nov/2016 18:08:49] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:49] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:49] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:49] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:49] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:50] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:08:50] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:08:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /control/userctrl HTTP/1.1" 200 4925
+[29/Nov/2016 18:09:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[29/Nov/2016 18:09:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:09:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[29/Nov/2016 18:14:28] "GET / HTTP/1.1" 200 9035

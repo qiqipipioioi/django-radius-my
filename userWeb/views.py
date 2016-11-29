@@ -6,8 +6,9 @@ from django import forms
 from django.template import RequestContext
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import ListView, DetailView
-from userWeb.models import News, Radcheck, Radusergroup
+from userWeb.models import News, Radcheck, Radusergroup, Showing
 import markdown2
+import datetime
 
 '''
 class IndexView(ListView):
@@ -79,7 +80,7 @@ def login(request):
         radc = Radcheck.objects.filter(username = username, value = password)
         if radc:
             #比较成功，跳转index
-            response = render_to_response('userWeb/control/userctrl.html', {'username': username}, context_instance=RequestContext(request))
+            response = HttpResponseRedirect('control/userctrl')
             #将username写入浏览器cookie,失效时间为3600
             response.set_cookie('username',username,3600)
             return response
@@ -117,8 +118,28 @@ def regist(request):
 
 def control_userctrl(request):
     username = request.COOKIES.get('username','')
-    return render_to_response('userWeb/control/userctrl.html', {'username': username}, context_instance=RequestContext(request))
-
+    if username != '':
+        try:
+            infos = Showing.objects.get(username = username)
+            traffic_limits = infos.__dict__['traffic_limits']
+            traffic_now = infos.__dict__['traffic_now']
+            end_time = infos.__dict__['endtime'].replace(tzinfo=None)
+            if infos.__dict__['connections_now'] == None:
+                infos.__dict__['connections_now'] = 0
+            if traffic_now >= traffic_limits:
+                infos.__dict__['statu'] = '停用(流量超出限制)'
+                infos.__dict__['statu_color'] = 'red'
+            elif end_time < datetime.datetime.now():
+                infos.__dict__['statu'] = '停用(已过期)'
+                infos.__dict__['statu_color'] = 'red'
+            else:
+                infos.__dict__['statu'] = '正常'
+                infos.__dict__['statu_color'] = 'green'
+            return render_to_response('userWeb/control/userctrl.html', infos.__dict__ , context_instance=RequestContext(request))
+        except:
+            return render_to_response('userWeb/control/userctrl.html', context_instance=RequestContext(request))
+    else:
+        return HttpResponseRedirect('/index')
 
 def logout(request):
     #response = render_to_response('userWeb/login.html', {'keywords': '您已成功注销！', 'color': 'green'}, context_instance=RequestContext(request))
@@ -130,3 +151,11 @@ def logout(request):
     #清理cookie里保存username
     response.delete_cookie('username')
     return response 
+
+
+def control_price(request):
+    try:
+        username = request.COOKIES.get('username','')
+        return render_to_response('userWeb/control/price.html', {'username': username}, context_instance=RequestContext(request))
+    except:
+        return HttpResponseRedirect('/index')

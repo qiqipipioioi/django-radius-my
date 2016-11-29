@@ -13,5 +13,6 @@ urlpatterns = [
     url(r'^regist$', views.regist, name = 'regist'),
     url(r'^logout$', views.logout, name = 'logout'),
     url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
+    url(r'^control/price$', views.control_price, name = 'control_price'),
 ]
 

@@ -83,6 +83,7 @@ class Radusergroup(models.Model):
         return str(self.username)
     class Meta:
         db_table = 'radusergroup'
+        verbose_name_plural = "radusergroup"
 
 class Radcheck(models.Model):
     username = models.CharField(max_length=64)
