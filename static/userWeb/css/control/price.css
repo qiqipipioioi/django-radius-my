@@ -25,8 +25,8 @@ body {
 #pricePlans {
 	zoom: 1;
     min-height: 650px;
-    margin-top:92px;
-    padding-top: 150px;
+    margin-top: 80px;
+    padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -218,3 +218,17 @@ body {
 	border: 2px solid #ff9c70;
 }
 
+
+
+.hr
+{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top:15px;
+    margin-bottom:30px;
+}
+
+.headbar
+{
+    min-height: 70px;
+}

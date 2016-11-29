@@ -27,15 +27,11 @@
     border-top-right-radius:5px;
 }
 
-.header 
+.headbar 
 {
-  padding: 10px 0;
+  padding: 10px 8%;
 }
 
-.header h2
-{
-  padding-left: 10px;
-}
 
 .hr
 {
