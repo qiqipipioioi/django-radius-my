@@ -44,11 +44,17 @@ class News(models.Model):
         ('p', 'Published'),
     )
 
+    CATEGORIES = (
+        ('info', 'info'),
+        ('danger', 'danger'),
+    )
+
     title = models.CharField('标题', max_length=70, default='No title!')
     body = models.TextField('正文', null=True)
     created_time = models.DateTimeField('创建时间', auto_now_add=True, null=True)
     last_modified_time = models.DateTimeField('修改时间', auto_now=True, null=True)
     status = models.CharField('文章状态', max_length=1, choices=STATUS_CHOICES, null=True)
+    category = models.CharField('文章类别', max_length=20, choices=CATEGORIES, null=True)
     views = models.PositiveIntegerField('浏览量', default=0)
     likes = models.PositiveIntegerField('点赞数', default=0)
     topped = models.BooleanField('置顶', default=False)

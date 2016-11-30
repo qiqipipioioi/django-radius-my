@@ -13299,3 +13299,271 @@ Not Found: /favicon.ico
 [30/Nov/2016 16:00:21] "GET /control/price HTTP/1.1" 200 6401
 [30/Nov/2016 16:00:22] "GET /control/userctrl HTTP/1.1" 200 5237
 [30/Nov/2016 16:00:23] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 16:07:55] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2016 - 15:20:22
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Not Found: /http:/clientapi.ipip.net/echo.php
+[30/Nov/2016 16:11:16] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 1720
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2016 - 16:10:21
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[30/Nov/2016 16:17:15] "GET / HTTP/1.1" 200 9035
+[30/Nov/2016 16:17:17] "GET /admin/ HTTP/1.1" 302 0
+[30/Nov/2016 16:17:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[30/Nov/2016 16:17:18] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:18] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:18] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:18] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2016 16:17:18] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2016 16:17:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[30/Nov/2016 16:17:27] "GET /admin/ HTTP/1.1" 200 7963
+[30/Nov/2016 16:17:27] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[30/Nov/2016 16:17:27] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2016 16:17:27] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /admin/userWeb/news/ HTTP/1.1" 200 5978
+[30/Nov/2016 16:17:31] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:17:31] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[30/Nov/2016 16:17:31] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[30/Nov/2016 16:17:32] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[30/Nov/2016 16:17:38] "GET /admin/userWeb/news/4/change/ HTTP/1.1" 200 7260
+[30/Nov/2016 16:17:39] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:39] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[30/Nov/2016 16:17:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:17:51] "POST /admin/userWeb/news/4/change/ HTTP/1.1" 302 0
+[30/Nov/2016 16:17:51] "GET /admin/userWeb/news/ HTTP/1.1" 200 6124
+[30/Nov/2016 16:17:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:17:53] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[30/Nov/2016 16:17:54] "GET /admin/userWeb/news/3/change/ HTTP/1.1" 200 7267
+[30/Nov/2016 16:17:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:17:58] "POST /admin/userWeb/news/3/change/ HTTP/1.1" 302 0
+[30/Nov/2016 16:17:58] "GET /admin/userWeb/news/ HTTP/1.1" 200 6124
+[30/Nov/2016 16:17:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:18:00] "GET /admin/userWeb/news/2/change/ HTTP/1.1" 200 7267
+[30/Nov/2016 16:18:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:18:05] "POST /admin/userWeb/news/2/change/ HTTP/1.1" 302 0
+[30/Nov/2016 16:18:05] "GET /admin/userWeb/news/ HTTP/1.1" 200 6124
+[30/Nov/2016 16:18:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 16:18:20] "GET /admin/ HTTP/1.1" 200 8821
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2016 - 16:13:58
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[30/Nov/2016 17:19:51] "GET /control/news HTTP/1.1" 200 7250
+[30/Nov/2016 17:19:51] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:19:51] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:19:52] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /control/news HTTP/1.1" 200 7250
+[30/Nov/2016 17:20:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:20:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:20:51] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[30/Nov/2016 17:20:53] "GET /logout HTTP/1.1" 302 0
+[30/Nov/2016 17:20:54] "GET /login HTTP/1.1" 200 4019
+[30/Nov/2016 17:20:54] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[30/Nov/2016 17:21:00] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[30/Nov/2016 17:21:00] "GET /control/userctrl HTTP/1.1" 200 5237
+[30/Nov/2016 17:21:02] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[30/Nov/2016 17:21:04] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 17:21:06] "GET /control/lines HTTP/1.1" 200 6026
+[30/Nov/2016 17:21:06] "GET /static/userWeb/css/control/lines.css HTTP/1.1" 304 0
+[30/Nov/2016 17:21:06] "GET /media/icons/flag_hk.png HTTP/1.1" 304 0
+[30/Nov/2016 17:21:07] "GET /control/price HTTP/1.1" 200 6401
+[30/Nov/2016 17:21:07] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+[30/Nov/2016 17:21:08] "GET /control/userctrl HTTP/1.1" 200 5237
+[30/Nov/2016 17:21:11] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 17:21:15] "GET /logout HTTP/1.1" 302 0
+[30/Nov/2016 17:21:15] "GET /login HTTP/1.1" 200 4019
+[30/Nov/2016 17:21:16] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[30/Nov/2016 17:21:17] "GET /control/news HTTP/1.1" 200 7250
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+November 30, 2016 - 17:18:24
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[30/Nov/2016 17:23:00] "GET /control/news HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[30/Nov/2016 17:23:00] "GET /index HTTP/1.1" 200 9035
+[30/Nov/2016 17:23:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /media/images/wood.png HTTP/1.1" 304 0
+[30/Nov/2016 17:23:01] "GET /media/images/leaf.png HTTP/1.1" 304 0
+[30/Nov/2016 17:23:02] "GET /login HTTP/1.1" 200 3992
+[30/Nov/2016 17:23:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[30/Nov/2016 17:23:04] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[30/Nov/2016 17:23:04] "GET /control/userctrl HTTP/1.1" 200 5237
+[30/Nov/2016 17:23:05] "GET /control/lines HTTP/1.1" 200 6026
+[30/Nov/2016 17:23:06] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 17:23:06] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[30/Nov/2016 17:23:52] "GET /control/lines HTTP/1.1" 200 6026
+[30/Nov/2016 17:23:53] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 17:23:53] "GET /control/lines HTTP/1.1" 200 6026
+[30/Nov/2016 17:23:54] "GET /control/price HTTP/1.1" 200 6401
+[30/Nov/2016 17:23:55] "GET /control/userctrl HTTP/1.1" 200 5237
+[30/Nov/2016 17:23:56] "GET /control/news HTTP/1.1" 200 7255
+[30/Nov/2016 17:28:22] "GET /control/news HTTP/1.1" 200 7251
+[30/Nov/2016 17:28:22] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[30/Nov/2016 17:28:22] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:28:23] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[30/Nov/2016 17:28:23] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:28:23] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:28:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:29:30] "GET /control/news HTTP/1.1" 200 9041
+[30/Nov/2016 17:29:31] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:29:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:29:32] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[30/Nov/2016 17:30:34] "GET /control/news HTTP/1.1" 200 8946
+[30/Nov/2016 17:31:07] "GET /control/news HTTP/1.1" 200 4910
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+November 30, 2016 - 17:22:57
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[30/Nov/2016 17:33:03] "GET /admin/userWeb/news/ HTTP/1.1" 200 5978
+[30/Nov/2016 17:33:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:33:12] "POST /admin/userWeb/news/ HTTP/1.1" 200 2681
+[30/Nov/2016 17:33:14] "POST /admin/userWeb/news/ HTTP/1.1" 302 0
+[30/Nov/2016 17:33:15] "GET /admin/userWeb/news/ HTTP/1.1" 200 3602
+[30/Nov/2016 17:33:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:33:19] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 7060
+[30/Nov/2016 17:33:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:34:02] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[30/Nov/2016 17:34:02] "GET /admin/userWeb/news/ HTTP/1.1" 200 5492
+[30/Nov/2016 17:34:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:34:05] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 7060
+[30/Nov/2016 17:34:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:34:44] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[30/Nov/2016 17:34:45] "GET /admin/userWeb/news/ HTTP/1.1" 200 5841
+[30/Nov/2016 17:34:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:34:48] "GET /admin/userWeb/news/add/ HTTP/1.1" 200 7060
+[30/Nov/2016 17:34:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[30/Nov/2016 17:35:13] "POST /admin/userWeb/news/add/ HTTP/1.1" 302 0
+[30/Nov/2016 17:35:13] "GET /admin/userWeb/news/ HTTP/1.1" 200 6154
+[30/Nov/2016 17:35:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[30/Nov/2016 17:35:51] "GET /control/news HTTP/1.1" 200 5003
+[30/Nov/2016 17:36:26] "GET /control/news HTTP/1.1" 302 0
+[30/Nov/2016 17:36:26] "GET /index HTTP/1.1" 200 9035
+[30/Nov/2016 17:36:27] "GET /login HTTP/1.1" 200 3992
+[30/Nov/2016 17:36:28] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Not Found: /assets/ico/favicon.png
+[30/Nov/2016 17:36:28] "GET /assets/ico/favicon.png HTTP/1.1" 404 4070
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+[30/Nov/2016 17:36:28] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 4145
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[30/Nov/2016 17:36:29] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 4145
+[30/Nov/2016 17:36:29] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[30/Nov/2016 17:36:29] "GET /control/userctrl HTTP/1.1" 200 5237
+[30/Nov/2016 17:36:29] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:36:29] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 304 0
+[30/Nov/2016 17:36:30] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:36:33] "GET /control/news HTTP/1.1" 200 5003
+[30/Nov/2016 17:36:33] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:45:09] "GET /control/news HTTP/1.1" 200 5036
+[30/Nov/2016 17:45:09] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:45:09] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:45:38] "GET /control/news HTTP/1.1" 200 5015
+[30/Nov/2016 17:50:07] "GET /control/news HTTP/1.1" 200 5015
+[30/Nov/2016 17:50:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+[30/Nov/2016 17:50:07] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[30/Nov/2016 17:50:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Nov/2016 17:50:08] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[30/Nov/2016 17:58:10] "GET /control/news HTTP/1.1" 200 5226
+[30/Nov/2016 17:58:10] "GET /static/userWeb/css/control/news.css HTTP/1.1" 304 0
+[30/Nov/2016 17:58:28] "GET /logout HTTP/1.1" 302 0
+[30/Nov/2016 17:58:28] "GET /login HTTP/1.1" 200 4019
+[30/Nov/2016 17:58:29] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677

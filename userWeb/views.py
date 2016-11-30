@@ -154,23 +154,27 @@ def logout(request):
 
 
 def control_price(request):
-    try:
-        username = request.COOKIES.get('username','')
+    username = request.COOKIES.get('username','')
+    if username != '':
         return render_to_response('userWeb/control/price.html', {'username': username}, context_instance=RequestContext(request))
-    except:
+    else:
         return HttpResponseRedirect('/index')
 
 
 def control_lines(request):
-    try:
-        username = request.COOKIES.get('username','')
+    username = request.COOKIES.get('username','')
+    if username != '':
         return render_to_response('userWeb/control/lines.html', {'username': username}, context_instance=RequestContext(request))
-    except:
+    else:
         return HttpResponseRedirect('/index')
 
 def control_news(request):
-    try:
-        username = request.COOKIES.get('username','')
-        return render_to_response('userWeb/control/news.html', {'username': username}, context_instance=RequestContext(request))
-    except:
+    username = request.COOKIES.get('username','')
+    if username != '':
+        news_list = News.objects.filter(status='p').order_by('-last_modified_time')
+        for news in news_list:
+            news.body = markdown2.markdown(news.body,
+                extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
+        return render_to_response('userWeb/control/news.html', {'username': username, 'newslist': news_list}, context_instance=RequestContext(request))
+    else:
         return HttpResponseRedirect('/index')
