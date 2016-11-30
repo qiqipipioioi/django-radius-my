@@ -14,5 +14,7 @@ urlpatterns = [
     url(r'^logout$', views.logout, name = 'logout'),
     url(r'^control/userctrl$', views.control_userctrl, name = 'control_userctrl'),
     url(r'^control/price$', views.control_price, name = 'control_price'),
+    url(r'^control/lines$', views.control_lines, name = 'control_lines'),
+    url(r'^control/news$', views.control_news, name = 'control_news'),
 ]
 

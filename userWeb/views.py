@@ -159,3 +159,18 @@ def control_price(request):
         return render_to_response('userWeb/control/price.html', {'username': username}, context_instance=RequestContext(request))
     except:
         return HttpResponseRedirect('/index')
+
+
+def control_lines(request):
+    try:
+        username = request.COOKIES.get('username','')
+        return render_to_response('userWeb/control/lines.html', {'username': username}, context_instance=RequestContext(request))
+    except:
+        return HttpResponseRedirect('/index')
+
+def control_news(request):
+    try:
+        username = request.COOKIES.get('username','')
+        return render_to_response('userWeb/control/news.html', {'username': username}, context_instance=RequestContext(request))
+    except:
+        return HttpResponseRedirect('/index')

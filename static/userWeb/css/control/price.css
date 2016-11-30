@@ -208,12 +208,12 @@ body {
 	        transition: all .25s;
 }
 
-.planContainer .button a:hover {
+.planContainer .button a:hover, .planContainer .button a:active {
 	background: #1aa600;
 	color: #fff;
 }
 
-.planContainer .button a.bestPlanButton:hover {
+.planContainer .button a.bestPlanButton:hover, .planContainer .button a.bestPlanButton:active {
 	background: #ff9c70;
 	border: 2px solid #ff9c70;
 }
