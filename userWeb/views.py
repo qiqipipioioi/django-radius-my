@@ -106,7 +106,7 @@ def regist(request):
         radc = Radcheck.objects.filter(username = username, value = password)
         if radc:
             #比较成功，跳转index
-            response = render_to_response('userWeb/control/userctrl.html',context_instance=RequestContext(request))
+            response = render_to_response('userWeb/control/userctrl.html', {'username': username}, context_instance=RequestContext(request))
             #将username写入浏览器cookie,失效时间为3600
             response.set_cookie('username',username,3600)
             return response

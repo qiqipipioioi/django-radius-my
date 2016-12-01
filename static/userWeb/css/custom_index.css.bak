@@ -1,8 +1,7 @@
 .first-page
 {
-  min-height: 400px;
+  min-height: 700px;
   margin-top:80;
-  padding-bottom: 30px;
   background: #4dc137;
 }
 
@@ -24,29 +23,15 @@
 {
   margin-left:0;
   margin-right:0;
-  padding-top: 30px;
-  padding-left: 10%;
-  padding-right: 10%;
   text-align: center;
 }
 
-.formword
-{
-  color: #fff;
-  margin-top: -10px;
-}
 
 .form-control
 {
   background: rgb(26, 166, 0);
   color: #fff;
   height: 45px;
-  border-color: #09ba32;
-}
-
-.form-control:focus
-{
-  border-color: rgb(40, 234, 85);
 }
 
 .form-control::-webkit-input-placeholder { color: rgba(196, 227, 255, 0.8); }
@@ -77,12 +62,13 @@
 
 .second-page
 {
-  min-height: 400px;
-  padding-bottom: 100px;
+  height:0;
+  padding-bottom: 45%;
   padding-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
   background: #25dbe4;
+  color: #fff;
 }
 
 
@@ -91,4 +77,92 @@
   text-align: center;
 }
 
+.buypage
+{
+  margin-left:0;
+  margin-right:0;
+  padding: 10px;
+}
+
+.product
+{
+  height: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.buy-box
+{
+  margin: 50px;
+  border-style:solid;
+  border-color: #25dbe4;
+  border-width: 1px;
+  transition:border-color 2s;
+  -moz-transition:border-color 2s; /* Firefox 4 */
+  -webkit-transition:border-color 2s; /* Safari and Chrome */
+  -o-transition:border-color 2s; /* Opera */
+}
+
+.buy-box:hover
+{
+  margin: 50px;
+  border-style:solid;
+  border-color: #fff;
+  border-width: 1px;
+}
+
+.buy-words
+{
+  padding-bottom: 20px;
+}  
+
+
+
+.third-page
+{
+  height:0;
+  padding-bottom: 70%;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #000;
+}
+
+
+.ft
+{
+  text-align: center;
+  margin-bottom: -70px;
+}
+
+.featurepage1
+{
+  padding: 70px 25px 40px;
+}
+
+
+.featurepage2
+{
+  padding: 70px 25px 70px;
+}
+
+.feature
+{
+  height: 250px;
+  text-align: center;
+  color: #000;
+}
+
+
+.feature-box
+{
+  padding: 70px;
+}
+
+
+.feature-words
+{
+  padding-bottom: 20px;
+}  
 

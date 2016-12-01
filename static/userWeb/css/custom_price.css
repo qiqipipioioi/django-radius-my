@@ -1,0 +1,72 @@
+.panel {
+
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; /* Firefox 4 */
+    -webkit-transition: all .5s ease-in-out; /* Safari and Chrome */
+    -o-transition: all .5s ease-in-out; /* Opera */
+    -ms-transition: all .5s ease-in-out; /* IE9 (maybe) */
+
+}
+
+
+.panel:hover {
+    transform: scale(1.1);
+}
+
+.panel-white {
+    background-color: #fff;
+}
+.panel .title {
+  font-size: 32px;
+  color: #828282;
+  margin: 0;
+    padding: 0;
+}
+.panel .subtitle {
+  margin:0;
+  padding: 0;
+font-size: 28px;
+  color: #828282;
+}
+.panel .text {
+  font-size: 16px;
+  color: #828282;
+}
+.panel .price {
+  color: #73b822;
+  font-size: 35px;
+  font-weight: 600;
+}
+.panel .price-hr {
+    width: 85%;
+    border: 0px;
+    background-color: #73b822;
+    color: #73b822;
+    height: 1px;
+}
+.panel .hr {
+    width: 85%;
+    border: 0px;
+    background-color: #eeeeee;
+    color: #eeeeee;
+    height: 1px;
+}
+.btn-green {
+    background-color: #73b822;
+    color: #fff;
+    width: 90%;
+    font-size: 16px;
+}
+.panel-footer {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.btn-green:hover {
+    color: #fff;
+}
+.list-group-item {
+border: 0px;
+margin: 0;
+padding: 0;
+}
