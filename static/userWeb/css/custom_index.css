@@ -86,9 +86,28 @@
 }
 
 
-.pd
+.shead
 {
   text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
 }
 
+.third-page
+{
+  min-height: 500px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
+.thead
+{
+  padding: 50px 0;
+}
+
+.third-page .row
+{
+  padding: 20px 0;
+}

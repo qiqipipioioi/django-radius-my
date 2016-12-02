@@ -1,6 +1,7 @@
 body
 {
 height: 100%;
+font-family: Microsoft YaHei;
 }
 
 .navbar-nav>li {
@@ -92,7 +93,7 @@ border: none;
 
 .fourth-page
 {
-  background: rgba(59,59,59,1);
+  background: rgba(22, 22, 22, 0.91);
   color: #fff;
   height: 120px;
   margin-top: 50px;
@@ -108,21 +109,65 @@ border: none;
 {
   margin-top: -10px;
   margin-left: 30px;
-  width: 120px
+  width: 120px;
+  background-color: rgb(9, 186, 50);
+  border-color: rgb(9, 186, 50);
+  transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s; /* Firefox 4 */
+  -webkit-transition: background-color 0.5s, color 0.5s; /* Safari and Chrome */
+  -o-transition: background-color 0.5s, color 0.5s; /* Opera */
 }
 
 
-.forth-login:hover, .forth-login:focus
+.forth-login:hover, .forth-login:focus,.forth-login:active, .forth-login:visited
 {
   background-color: #59c323;
   border-color: #59c323;
   color: #fff;
 }
 
-footer .foot
+
+.footer-nav
+{
+  background: #161616;
+  color: #fff;
+  min-height: 250px;
+  padding-top: 20px;
+}
+
+.footer-nav h5
+{
+  padding-left:38px;
+}
+
+.footer-nav ul
+{
+    list-style-type:none;  
+    margin:0px;  
+}
+
+
+.footer-nav a
+{
+  color: rgba(232, 248, 236, 0.62);
+  font-size: 12px;
+  text-decoration: none;
+  transition:  color 0.5s;
+  -moz-transition: color 0.5s; /* Firefox 4 */
+  -webkit-transition: color 0.5s; /* Safari and Chrome */
+  -o-transition:  color 0.5s; /* Opera */
+}
+
+.footer-nav a:hover
+{
+  color: #fff;
+}
+
+
+.footer-bottom 
 {
   background: #000;
-  color: #fff;
+  color: rgba(232, 248, 236, 0.62);
   text-align: center;
   height: 80px;
   padding-top: 20px;

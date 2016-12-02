@@ -8,6 +8,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="/static/userWeb/css/normalize.css">
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static/userWeb/css/base.css">
 </head>
 <body "document">
@@ -17,7 +18,7 @@
             <div class="forth-cont">
                 <ul class="list-inline">
                     <li>
-                        <h2>欢迎您的关注</h2>
+                        <h3>欢迎您的关注</h3>
                     </li>
                     <li>
                         <button type="button" class="forth-login btn btn-info btn-lg">注册</button>
@@ -25,10 +26,54 @@
                 </ul>
             </div>
         </div>
-        <footer>
-            <div class="container-fluid foot">
-                <h5>&copy 2016 django</h5>
+
+        <footer class="footer-nav hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h5>Pricing</h5>
+                        <ul>
+                            <li><a href="/pricing/">Vultr Cloud Compute (VC2)</a></li>
+                            <li><a href="/pricing/blockstorage/">Block Storage</a></li>
+                            <li><a href="/pricing/dedicatedcloud/">Dedicated Instances</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h5>Features</h5>
+                        <ul>
+                            <li><a href="/features/">Vultr Cloud Compute (VC2)</a></li>
+                            <li><a href="/features/blockstorage/">Block Storage</a></li>
+                            <li><a href="/features/dedicatedcloud/">Dedicated Cloud</a></li>
+                            <li><a href="/locations/">Datacenter Locations</a></li>
+                            <li><a href="/features/controlpanel/">Control Panel</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="/faq/">FAQ</a></li>
+                            <li><a href="/api/">API</a></li>
+                            <li><a href="/docs/">Vultr Docs</a></li>
+                            <li><a href="/benchmarks/">Benchmarks</a></li>
+                            <li><a href="/status/">Server Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="/about/">About Us</a></li>
+                            <li><a href="/news/">News</a></li>
+                            <li><a href="/affiliate/">Logos &amp; Banners</a></li>
+                            <li><a href="/corporate/careers/">Careers</a></li>
+                            <li><a href="/sla/">SLA</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </footer>
+
+        <footer class="footer-bottom">
+                <h5>Copyright 2016 &copy Logo LLC. All rights reserved.</h5>
         </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -37,6 +82,7 @@
     <script src="http://cdn.bootcss.com/hammer.js/2.0.8/hammer.min.js"></script>
     <script src="/static/userWeb/js/carousel.js"></script>
 	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/userWeb/js/control/news.js"></script>
     <script src="/static/userWeb/js/control/cbase.js"></script>
 </body>
 </html>

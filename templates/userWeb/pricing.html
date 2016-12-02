@@ -1,52 +1,111 @@
-{% extends "userWeb/base.html"  %}
+{% extends "userWeb/base.html" %}
 {% block content %}
-        <link rel="stylesheet" href="/static/userWeb/css/custom_price.css">
-        <div class="pricing-first">
-            <div class="pd"><h1>世界的颜色</h1></div>
-            <div class="container-fluid buypage">
-              <div class="row">
-                <div class="product col-xs-4 col-md-4 cols-lg-4">
-                    <div class="buy-box">
-                        <div class="buy-img">
-                            <img src="/media/images/wood.png" class="img-responsive" alt="Responsive image">
-                        </div>
-                        <div class="buy-words">
-                            <h3>第一章</h3>
-                            <h4>踏破马蹄无处寻</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="product col-xs-4 col-md-4 cols-lg-4">
-                    <div class="buy-box">
-                        <div class="buy-img">
-                            <img src="/media/images/wood.png" class="img-responsive" alt="Responsive image">
-                        </div>
-                        <div class="buy-words">
-                            <h3>第一章</h3>
-                            <h4>踏破马蹄无处寻</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="product col-xs-4 col-md-4 cols-lg-4">
-                    <div class="buy-box">
-                        <div class="buy-img">
-                            <img src="/media/images/wood.png" class="img-responsive" alt="Responsive image">
-                        </div>
-                        <div class="buy-words">
-                            <h3>第一章</h3>
-                            <h4>踏破马蹄无处寻</h4>
-                        </div>
-                    </div>
-                </div>
-              </div>  
-            </div>
+      <link rel="stylesheet" href="/static/userWeb/css/control/price.css">
+      <div class="navbar-wrapper">
+          <div class="container-fluid">
+              <nav class="navbar navbar-fixed-top">
+                  <div class="container">
+                      <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#">Logo</a>
+                      </div>
+                      <div id="navbar" class="navbar-collapse collapse">
+                          <ul class="nav navbar-nav">
+                              <li><a href="/index" class="">主页</a></li>
+                              <li class="active"><a href="/pricing">购买套餐</a></li>
+                              <li><a href="/news">最新消息</a></li>
+                              <li><a href="/help">帮助</a></li>
+                          </ul>
+                          <ul class="nav navbar-nav pull-right">
+                            <li><a href="login">登录</a></li> 
+                            <li><a href="regist">注册</a></li>
+
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+
+
+    <section id="pricePlans">
+        <div class="headbar">
+            <h2>购买服务</h2>
+            <div class="hr"></div>
         </div>
-        <div class='hr'></div>
-        <div class="pricing_notice">
-            <h1>购买须知</h1>
-            <h2>1.怎样支付</h1>
-                <p>支付宝，微信都可以</p>
-            <h2>2.是否可以使用信用卡付款</h2>
-                <p>可以</p>
-        </div>
+        <ul id="plans">
+            <li class="plan">
+                <ul class="planContainer">
+                    <li class="title"><h3>VIP1计划</h3></li>
+                    <li class="price"><p>10元/<span>月</span></p></li>
+                    <li>
+                        <ul class="options">
+                            <li>1台 <span>设备同时在线</span></li>
+                            <li>5G <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
+                        </ul>
+                    </li>
+                    <li class="button"><a href="#">立即购买</a></li>
+                </ul>
+            </li>
+
+            <li class="plan">
+                <ul class="planContainer">
+                    <li class="title"><h2 class="bestPlanTitle">最受欢迎计划</h2></li>
+                    <li class="price"><p class="bestPlanPrice">20元/月</p></li>
+                    <li>
+                        <ul class="options">
+                            <li>2台 <span>设备同时在线</span></li>
+                            <li>20G <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
+                        </ul>
+                    </li>
+                    <li class="button"><a class="bestPlanButton" href="#">立即购买</a></li>
+                </ul>
+            </li>
+
+            <li class="plan">
+                <ul class="planContainer">
+                    <li class="title"><h3>VIP3计划</h3></li>
+                    <li class="price"><p>30元/<span>月</span></p></li>
+                    <li>
+                        <ul class="options">
+                            <li>2台 <span>设备同时在线</span></li>
+                            <li>无限 <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
+                        </ul>
+                    </li>
+                    <li class="button"><a href="#">立即购买</a></li>
+                </ul>
+            </li>
+
+            <li class="plan">
+                <ul class="planContainer">
+                    <li class="title"><h3>VIP4计划</h3></li>
+                    <li class="price"><p>50元/<span>月</span></p></li>
+                    <li>
+                        <ul class="options">
+                            <li>5台 <span>设备同时在线</span></li>
+                            <li>无限 <span>每月流量</span></li>
+                            <li>无限制 <span>线路</span></li>
+                            <li>9折 <span>季付</span></li>
+                            <li>7折 <span>年付</span></li>
+                        </ul>
+                    </li>
+                    <li class="button"><a href="#">立即购买</a></li>
+                </ul>
+            </li>
+        </ul> <!-- End ul#plans -->
+    </section>
 {% endblock %}
