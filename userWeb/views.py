@@ -144,7 +144,11 @@ def login(request):
             #比较成功，跳转index
             response = HttpResponseRedirect('control/userctrl')
             #将username写入浏览器cookie,失效时间为3600
-            response.set_cookie('username',username,3600)
+            remember = request.POST.getlist('check_auto_login')
+            if remember == []:
+                response.set_cookie('username',username,3600)
+            elif remember == [u'on']:
+                response.set_cookie('username',username,3600*24*7)
             return response
         else:
             #比较失败，还在login

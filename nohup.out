@@ -18120,3 +18120,154 @@ Quit the server with CONTROL-C.
 /home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
   url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
 
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:11:20] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 22:11:25] "GET /login HTTP/1.1" 200 4412
+[06/Dec/2016 22:11:26] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:11:33] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[06/Dec/2016 22:11:33] "GET /control/userctrl HTTP/1.1" 200 5318
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:10:12
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:220: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[06/Dec/2016 22:15:05] "GET /logout HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:15:05] "GET /login HTTP/1.1" 200 4439
+[06/Dec/2016 22:15:06] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:15:09] "POST /login HTTP/1.1" 200 4470
+[06/Dec/2016 22:15:10] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 147, in login
+    remember = request.POST['check_auto_login']
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'check_auto_login'"
+[06/Dec/2016 22:15:17] "POST /login HTTP/1.1" 500 66773
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:14:49
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:223: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 150, in login
+    except MultiValueDictKeyError:
+NameError: global name 'MultiValueDictKeyError' is not defined
+[06/Dec/2016 22:17:12] "POST /login HTTP/1.1" 500 62762
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:17:05
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:223: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[06/Dec/2016 22:17:58] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:17:59] "GET /control/userctrl HTTP/1.1" 200 5281
+[06/Dec/2016 22:18:37] "GET /logout HTTP/1.1" 302 0
+[06/Dec/2016 22:18:37] "GET /login HTTP/1.1" 200 4439
+[06/Dec/2016 22:18:37] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:18:40] "POST /login HTTP/1.1" 302 0
+[06/Dec/2016 22:18:40] "GET /control/userctrl HTTP/1.1" 200 5281
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:17:54
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+error
+error
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:223: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[06/Dec/2016 22:19:41] "GET /logout HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:19:42] "GET /login HTTP/1.1" 200 4439
+[06/Dec/2016 22:19:43] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:19:46] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[06/Dec/2016 22:19:46] "GET /control/userctrl HTTP/1.1" 200 5281
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:19:26
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+error
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:224: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
