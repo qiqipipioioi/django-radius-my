@@ -16,5 +16,9 @@ urlpatterns = [
     url(r'^control/price$', views.control_price, name = 'control_price'),
     url(r'^control/lines$', views.control_lines, name = 'control_lines'),
     url(r'^control/news$', views.control_news, name = 'control_news'),
+    url(r'^account/activate/(?P<token>\w+.[-_\w]*\w+.[-_\w]*\w+)/$', views.confirm_regist,name='confirm_regist'),
+    url(r'^getbackpasswd$', views.getbackpasswd, name = 'getbackpasswd'),
+    url(r'^control/resetpasswd/(?P<token>\w+.[-_\w]*\w+.[-_\w]*\w+)/$', views.resetpasswd1,name='resetpasswd1'),
+    url(r'^resetpassword$', views.resetpasswd2, name = 'resetpasswd2'),
 ]
 

@@ -5,12 +5,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>dream: login</title>
+        <title>Bootstrap Login Form Template</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
         <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/static//font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/static/userWeb/css/login_form-elements.css">
         <link rel="stylesheet" href="/static/userWeb/css/login_style.css">
 
@@ -42,32 +42,26 @@
                         	<div class="form-top">
                         		<div class="form-top-left">
                                     <a href="/index"><h2>Logo</h2></a>
-                            		<p>请登录</p>
+                            		<p>请重置您的密码</p>
+                                    <p>{{ username }}</p>
                         		</div>
                         		<div class="form-top-right">
                         			<i class="fa fa-key"></i>
                         		</div>
                             </div>
                             <div class="form-bottom">
-                                <div><p style="color: {{ color }}">{{ keywords }}</p>
-                                </div>
+                                <div><p style="color: {{ color }}">{{ info }}</p></div>
 			                    <form role="form" action="" method="post" class="login-form">
                                     {% csrf_token %}
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-username">Username</label>
-			                        	<input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
-			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
-			                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        	<input type="password" name="form-password" placeholder="Choose a Password..." class="form-password form-control" id="form-password">
 			                        </div>
-                                      <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox" value="1" name="check_auto_login" id="check_auto_login"/>一周内自动登录
-                                        </label>
-                                      </div>
-                                      <a href="getbackpasswd">忘记密码?</a>
-			                        <button type="submit" class="btn">登录</button>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-repassword">rePassword</label>
+			                        	<input type="password" name="form-repassword" placeholder="Comfirm your Password..." class="form-password form-control" id="form-repassword">
+                                    </div>
+			                        <button type="submit" class="btn">重置密码</button>
 			                    </form>
 		                    </div>
                         </div>
@@ -80,7 +74,7 @@
 
 
         <!-- Javascript -->
-        <script src="/static/jquery/jquery-min.js"></script>
+        <script src="/static/jquery/jquery-mini.js"></script>
         <script src="/static/bootstrap/js/bootstrap.min.js"></script>
         
         <!--[if lt IE 10]>

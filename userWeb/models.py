@@ -38,6 +38,23 @@ RADOP_REPLY_TYPES = (
 )
 
 
+class userlist(models.Model):
+    STATUS_CHOICES = (
+            (0, 'not verified'),
+            (1, 'verified'),
+        )
+    username = models.CharField(max_length = 64)
+    password = models.CharField(max_length = 64)
+    statu = models.IntegerField(default = 0, choices = STATUS_CHOICES)
+
+    def __str__(self):
+        return self.username
+
+    class Meta:
+        verbose_name_plural = "user_list"
+        db_table = "userWeb_userList"
+
+
 class News(models.Model):
     STATUS_CHOICES = (
         ('d', 'Draft'),

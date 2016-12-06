@@ -16204,3 +16204,1919 @@ Not Found: /favicon.ico
 [02/Dec/2016 14:19:16] "GET /news HTTP/1.1" 200 8061
 [02/Dec/2016 14:19:19] "GET /index HTTP/1.1" 200 17755
 [02/Dec/2016 14:19:20] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[02/Dec/2016 17:19:04] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:19:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+[02/Dec/2016 17:19:05] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:05] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:06] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:19:23] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:23] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:24] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[02/Dec/2016 17:19:26] "GET /index HTTP/1.1" 200 17755
+[02/Dec/2016 17:19:26] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:26] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:26] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:26] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:26] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:27] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:27] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[02/Dec/2016 17:19:27] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:27] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:28] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:28] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:29] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:19:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:30] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /news HTTP/1.1" 200 8061
+[02/Dec/2016 17:19:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:34] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:35] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:19:35] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[02/Dec/2016 17:19:36] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:23] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:51:24] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:24] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:25] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:25] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:25] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:26] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:26] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:26] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:26] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:26] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Dec/2016 17:51:27] "GET /index HTTP/1.1" 200 17755
+[02/Dec/2016 17:51:27] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:27] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[02/Dec/2016 17:51:28] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[02/Dec/2016 17:51:51] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:51:52] "GET /news HTTP/1.1" 200 8061
+[02/Dec/2016 17:51:52] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+Not Found: /help
+[02/Dec/2016 17:51:52] "GET /help HTTP/1.1" 404 4016
+[02/Dec/2016 17:51:56] "GET /pricing HTTP/1.1" 200 9074
+[02/Dec/2016 17:51:57] "GET /news HTTP/1.1" 200 8061
+[02/Dec/2016 17:51:59] "GET /index HTTP/1.1" 200 17755
+[02/Dec/2016 18:04:41] "GET / HTTP/1.1" 200 17755
+[02/Dec/2016 18:04:41] "GET / HTTP/1.1" 200 17755
+[02/Dec/2016 18:04:42] "GET /admin HTTP/1.1" 301 0
+[02/Dec/2016 18:04:42] "GET /admin/ HTTP/1.1" 302 0
+[02/Dec/2016 18:04:42] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[02/Dec/2016 18:04:42] "GET / HTTP/1.1" 200 17755
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 02, 2016 - 17:19:02
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 02, 2016 - 19:31:29
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 02, 2016 - 19:45:27
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 02, 2016 - 19:45:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fbd6e40f500>
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 249, in raise_last_exception
+    six.reraise(*_exception)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/dev/Downloads/Django-1.9.10/django/apps/registry.py", line 115, in populate
+    app_config.ready()
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "/home/dev/Downloads/Django-1.9.10/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/admin.py", line 2, in <module>
+    from userWeb.models import News, userList
+ImportError: cannot import name userList
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[02/Dec/2016 19:47:55] "GET /admin HTTP/1.1" 301 0
+[02/Dec/2016 19:47:55] "GET /admin/ HTTP/1.1" 200 9648
+[02/Dec/2016 19:47:55] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[02/Dec/2016 19:47:56] "GET /static/admin/css/base.css HTTP/1.1" 200 15955
+[02/Dec/2016 19:47:56] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[02/Dec/2016 19:47:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[02/Dec/2016 19:47:56] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[02/Dec/2016 19:47:56] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[02/Dec/2016 19:47:56] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[02/Dec/2016 19:47:56] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[02/Dec/2016 19:47:56] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[02/Dec/2016 19:47:59] "GET /admin/userWeb/userlist/ HTTP/1.1" 200 3509
+[02/Dec/2016 19:47:59] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[02/Dec/2016 19:48:00] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[02/Dec/2016 19:48:00] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[02/Dec/2016 19:48:00] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7173
+[02/Dec/2016 19:48:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[02/Dec/2016 19:48:00] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[02/Dec/2016 19:48:00] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[02/Dec/2016 19:48:00] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[02/Dec/2016 19:48:00] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[02/Dec/2016 19:48:00] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[02/Dec/2016 19:48:03] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[02/Dec/2016 19:48:52] "GET /admin/userWeb/userlist/add/ HTTP/1.1" 200 5136
+[02/Dec/2016 19:48:52] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[02/Dec/2016 19:48:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[02/Dec/2016 19:48:53] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[02/Dec/2016 19:49:02] "POST /admin/userWeb/userlist/add/ HTTP/1.1" 302 0
+[02/Dec/2016 19:49:03] "GET /admin/userWeb/userlist/ HTTP/1.1" 200 5050
+[02/Dec/2016 19:49:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3375
+[02/Dec/2016 19:49:03] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+Not Found: /manager/html
+[03/Dec/2016 04:07:58] "GET /manager/html HTTP/1.1" 404 4040
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Not Found: /http:/www.baidu.com/favicon.ico
+[03/Dec/2016 05:54:11] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/favicon.ico
+[03/Dec/2016 06:48:47] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Dec/2016 06:54:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[03/Dec/2016 06:54:44] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /manager/html
+[03/Dec/2016 07:01:59] "GET /manager/html HTTP/1.1" 404 4040
+Not Found: /manager/html
+[03/Dec/2016 07:24:53] "GET /manager/html HTTP/1.1" 404 4040
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[03/Dec/2016 09:02:07] "GET / HTTP/1.1" 200 17755
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Dec/2016 09:19:59] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /axis2
+[03/Dec/2016 09:27:25] "GET /axis2 HTTP/1.1" 404 4019
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 02, 2016 - 19:47:46
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('202.142.78.106', 40629)
+----------------------------------------
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 03, 2016 - 10:19:52
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[03/Dec/2016 10:27:20] "GET /admin HTTP/1.1" 301 0
+[03/Dec/2016 10:27:20] "GET /admin/ HTTP/1.1" 302 0
+[03/Dec/2016 10:27:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[03/Dec/2016 10:27:20] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[03/Dec/2016 10:27:21] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[03/Dec/2016 10:27:21] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[03/Dec/2016 10:27:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[03/Dec/2016 10:27:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[03/Dec/2016 10:27:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[03/Dec/2016 10:27:26] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 10:27:27] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[03/Dec/2016 10:27:27] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 10:27:27] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 10:27:27] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 10:27:27] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 10:27:27] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 10:27:27] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 10:27:27] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 10:27:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 10:27:28] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 10:27:28] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 10:27:29] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[03/Dec/2016 10:27:29] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[03/Dec/2016 10:27:45] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 10:27:46] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+[03/Dec/2016 10:29:02] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 10:29:03] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+[03/Dec/2016 10:29:15] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 11:24:28] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 11:24:28] "GET /index?t=1480735479531 HTTP/1.1" 200 17755
+[03/Dec/2016 11:24:28] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[03/Dec/2016 11:24:28] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[03/Dec/2016 11:27:45] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 11:28:17] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 11:44:22] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 11:44:23] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 13:11:02] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:11:02] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:11:02] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:11:02] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:11:02] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[03/Dec/2016 13:11:02] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 13:11:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:11:03] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:11:04] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:11:04] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[03/Dec/2016 13:11:04] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:11:04] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:11:29] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:11:48] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:12:02] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:12:05] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 13:12:05] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+Not Found: /favicon.ico
+[03/Dec/2016 13:12:05] "GET /favicon.ico HTTP/1.1" 404 4037
+[03/Dec/2016 13:12:05] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 13:13:25] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:13:25] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:13:38] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:13:40] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:13:46] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:14:01] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 13:14:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:14:01] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:14:01] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:14:01] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+[03/Dec/2016 13:14:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:14:02] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:14:02] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:14:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:14:02] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:14:02] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:14:14] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:14:31] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:14:33] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:14:39] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 13:14:39] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+[03/Dec/2016 13:14:40] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 13:15:22] "GET / HTTP/1.1" 200 17755
+Not Found: /favicon.ico
+[03/Dec/2016 13:15:29] "GET /favicon.ico HTTP/1.1" 404 4037
+[03/Dec/2016 13:15:32] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:15:32] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:15:32] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:15:32] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:15:32] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 13:15:32] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[03/Dec/2016 13:15:32] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:15:32] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:15:32] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:15:32] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:15:32] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:15:32] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:15:35] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.eot? HTTP/1.1" 200 20127
+[03/Dec/2016 13:15:35] "GET /static/font-awesome/fonts/fontawesome-webfont.eot? HTTP/1.1" 200 165742
+[03/Dec/2016 13:15:47] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:16:05] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:16:15] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:16:16] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:16:16] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[03/Dec/2016 13:16:16] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:16:16] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:16:16] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 13:16:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:16:16] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:16:16] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:16:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:16:16] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:16:17] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:16:18] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[03/Dec/2016 13:16:18] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[03/Dec/2016 13:16:34] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 13:16:35] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:16:35] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+[03/Dec/2016 13:16:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:16:35] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:16:35] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 13:16:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:16:35] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:16:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:16:36] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:16:36] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:16:36] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:16:38] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+[03/Dec/2016 13:16:38] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 98024
+Not Found: /favicon.ico
+[03/Dec/2016 13:16:38] "GET /favicon.ico HTTP/1.1" 404 4037
+[03/Dec/2016 13:16:38] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:16:49] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:17:03] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:17:23] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:17:33] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:17:34] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[03/Dec/2016 13:17:34] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[03/Dec/2016 13:17:34] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[03/Dec/2016 13:17:34] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[03/Dec/2016 13:17:34] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[03/Dec/2016 13:17:34] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[03/Dec/2016 13:17:35] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[03/Dec/2016 13:17:35] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[03/Dec/2016 13:17:35] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:17:36] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[03/Dec/2016 13:17:36] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[03/Dec/2016 13:17:36] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+[03/Dec/2016 13:17:37] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 98024
+[03/Dec/2016 13:18:17] "GET / HTTP/1.1" 200 17755
+Not Found: /favicon.ico
+[03/Dec/2016 13:18:21] "GET /favicon.ico HTTP/1.1" 404 4037
+[03/Dec/2016 13:19:07] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 13:19:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[03/Dec/2016 13:19:07] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[03/Dec/2016 13:19:07] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[03/Dec/2016 13:19:15] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 14:17:51] "GET / HTTP/1.1" 200 17755
+Not Found: /favicon.ico
+[03/Dec/2016 14:17:51] "GET /favicon.ico HTTP/1.1" 404 4037
+[03/Dec/2016 14:18:22] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 14:18:23] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 14:18:26] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 14:23:16] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 14:23:17] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 14:23:18] "GET /pricing HTTP/1.1" 200 9074
+[03/Dec/2016 14:25:09] "GET /news HTTP/1.1" 200 8061
+[03/Dec/2016 14:25:12] "GET /index HTTP/1.1" 200 17755
+[03/Dec/2016 16:08:10] "GET /admin HTTP/1.1" 301 0
+[03/Dec/2016 16:08:10] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 16:08:28] "GET /admin/ HTTP/1.1" 302 0
+[03/Dec/2016 16:08:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[03/Dec/2016 16:08:40] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 16:08:52] "GET / HTTP/1.1" 200 17755
+Not Found: /http:/www.google.com/reader/about/
+[03/Dec/2016 17:05:20] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Dec/2016 17:33:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[03/Dec/2016 18:03:08] "GET /admin HTTP/1.1" 301 0
+[03/Dec/2016 18:03:08] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:09] "GET /admin/ HTTP/1.1" 302 0
+[03/Dec/2016 18:03:09] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:09] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[03/Dec/2016 18:03:09] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:23] "GET /admin HTTP/1.1" 301 0
+[03/Dec/2016 18:03:23] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:24] "GET /admin/ HTTP/1.1" 302 0
+[03/Dec/2016 18:03:24] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[03/Dec/2016 18:03:24] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:38] "GET /admin HTTP/1.1" 301 0
+[03/Dec/2016 18:03:38] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:38] "GET /admin/ HTTP/1.1" 302 0
+[03/Dec/2016 18:03:38] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 18:03:39] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[03/Dec/2016 18:03:39] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 19:18:41] "GET / HTTP/1.1" 200 17755
+[03/Dec/2016 21:18:41] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00')
+[03/Dec/2016 21:18:41] 
+[03/Dec/2016 21:18:46] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[03/Dec/2016 21:18:46] " " 400 -
+[03/Dec/2016 21:18:59] code 400, message Bad request syntax ('\x04\x01\x1f\x00\x00\x00\x00\x00\x00')
+[03/Dec/2016 21:18:59] "      " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Dec/2016 02:20:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Dec/2016 05:11:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[04/Dec/2016 06:09:41] "GET / HTTP/1.0" 200 17755
+Not Found: //jmx-console/HtmlAdaptor
+[04/Dec/2016 07:02:45] "GET //jmx-console/HtmlAdaptor HTTP/1.1" 404 4071
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Dec/2016 13:42:14] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[04/Dec/2016 14:03:51] "GET / HTTP/1.1" 200 17755
+Not Found: /phpmyadmin/index.php
+[04/Dec/2016 14:52:19] "HEAD /phpmyadmin/index.php HTTP/1.1" 404 0
+Not Found: //jmx-console/HtmlAdaptor
+[04/Dec/2016 15:45:19] "GET //jmx-console/HtmlAdaptor HTTP/1.1" 404 4071
+[04/Dec/2016 20:53:05] "GET / HTTP/1.1" 200 17755
+Not Found: /http:/www.baidu.com/favicon.ico
+[04/Dec/2016 23:19:16] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.google.com/reader/about/
+[05/Dec/2016 01:43:33] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Dec/2016 03:12:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[05/Dec/2016 07:16:27] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Dec/2016 09:35:47] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[05/Dec/2016 09:40:30] "GET / HTTP/1.0" 200 17755
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Dec/2016 12:00:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[05/Dec/2016 13:18:31] "GET /admin HTTP/1.1" 301 0
+[05/Dec/2016 13:18:31] "GET / HTTP/1.1" 200 17755
+[05/Dec/2016 13:18:31] "GET /admin/ HTTP/1.1" 302 0
+[05/Dec/2016 13:18:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[05/Dec/2016 13:18:32] "GET / HTTP/1.1" 200 17755
+[05/Dec/2016 13:18:32] "GET / HTTP/1.1" 200 17755
+[05/Dec/2016 15:28:56] "GET / HTTP/1.1" 200 17755
+[05/Dec/2016 15:28:57] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[05/Dec/2016 15:28:57] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[05/Dec/2016 15:28:57] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[05/Dec/2016 15:28:57] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[05/Dec/2016 15:28:57] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[05/Dec/2016 15:28:57] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[05/Dec/2016 15:28:57] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[05/Dec/2016 15:28:58] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[05/Dec/2016 15:28:58] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[05/Dec/2016 15:28:58] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[05/Dec/2016 15:28:59] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /favicon.ico
+[05/Dec/2016 15:29:00] "GET /favicon.ico HTTP/1.1" 404 4037
+[05/Dec/2016 15:29:08] "GET /pricing HTTP/1.1" 200 9074
+[05/Dec/2016 15:29:10] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+Not Found: /help
+[05/Dec/2016 15:29:18] "GET /help HTTP/1.1" 404 4016
+[05/Dec/2016 15:29:29] "GET /index HTTP/1.1" 200 17755
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Dec/2016 18:02:29] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[05/Dec/2016 19:40:27] "GET / HTTP/1.0" 200 17755
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Dec/2016 01:35:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[06/Dec/2016 05:59:32] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+[06/Dec/2016 08:31:55] "GET / HTTP/1.1" 200 17755
+Not Found: /script
+[06/Dec/2016 08:31:56] "GET /script HTTP/1.1" 404 4022
+Not Found: /jenkins/script
+[06/Dec/2016 08:31:56] "GET /jenkins/script HTTP/1.1" 404 4046
+[06/Dec/2016 08:31:56] "GET /login HTTP/1.1" 200 3992
+Not Found: /jmx-console
+[06/Dec/2016 08:31:56] "GET /jmx-console HTTP/1.1" 404 4037
+Not Found: /manager/html
+[06/Dec/2016 08:31:57] "GET /manager/html HTTP/1.1" 404 4040
+Not Found: /msd
+[06/Dec/2016 08:31:57] "GET /msd HTTP/1.1" 404 4013
+Not Found: /mySqlDumper
+[06/Dec/2016 08:31:58] "GET /mySqlDumper HTTP/1.1" 404 4037
+Not Found: /msd1.24stable
+[06/Dec/2016 08:31:59] "GET /msd1.24stable HTTP/1.1" 404 4043
+Not Found: /msd1.24.4
+[06/Dec/2016 08:31:59] "GET /msd1.24.4 HTTP/1.1" 404 4031
+Not Found: /mysqldumper
+[06/Dec/2016 08:31:59] "GET /mysqldumper HTTP/1.1" 404 4037
+Not Found: /MySQLDumper
+[06/Dec/2016 08:31:59] "GET /MySQLDumper HTTP/1.1" 404 4037
+Not Found: /mysql
+[06/Dec/2016 08:31:59] "GET /mysql HTTP/1.1" 404 4019
+Not Found: /sql
+[06/Dec/2016 08:32:06] "GET /sql HTTP/1.1" 404 4013
+Not Found: /phpmyadmin
+[06/Dec/2016 08:32:07] "GET /phpmyadmin HTTP/1.1" 404 4034
+Not Found: /phpMyAdmin
+[06/Dec/2016 08:32:07] "GET /phpMyAdmin HTTP/1.1" 404 4034
+Not Found: /mysql
+[06/Dec/2016 08:32:08] "GET /mysql HTTP/1.1" 404 4019
+Not Found: /sql
+[06/Dec/2016 08:32:08] "GET /sql HTTP/1.1" 404 4013
+Not Found: /myadmin
+[06/Dec/2016 08:32:08] "GET /myadmin HTTP/1.1" 404 4025
+Not Found: /phpMyAdmin-4.2.1-all-languages
+[06/Dec/2016 08:32:08] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 4094
+Not Found: /phpMyAdmin-4.2.1-english
+[06/Dec/2016 08:32:09] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 4076
+[06/Dec/2016 08:32:10] "GET / HTTP/1.1" 200 17755
+Not Found: /sqlite/main.php
+[06/Dec/2016 08:32:10] "GET /sqlite/main.php HTTP/1.1" 404 4049
+Not Found: /SQLiteManager-1.2.4/main.php
+[06/Dec/2016 08:32:21] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 4088
+Not Found: /sqlitemanager/main.php
+[06/Dec/2016 08:32:21] "GET /sqlitemanager/main.php HTTP/1.1" 404 4070
+Not Found: /SQlite/main.php
+[06/Dec/2016 08:32:21] "GET /SQlite/main.php HTTP/1.1" 404 4049
+Not Found: /SQLiteManager/main.php
+[06/Dec/2016 08:32:22] "GET /SQLiteManager/main.php HTTP/1.1" 404 4070
+Not Found: /favicon.ico
+[06/Dec/2016 09:06:29] "GET /favicon.ico HTTP/1.1" 404 4037
+[06/Dec/2016 12:48:15] "GET / HTTP/1.1" 200 17755
+Not Found: /script
+[06/Dec/2016 12:48:16] "GET /script HTTP/1.1" 404 4022
+Not Found: /jenkins/script
+[06/Dec/2016 12:48:18] "GET /jenkins/script HTTP/1.1" 404 4046
+[06/Dec/2016 12:48:19] "GET /login HTTP/1.1" 200 3992
+Not Found: /jmx-console
+[06/Dec/2016 12:48:20] "GET /jmx-console HTTP/1.1" 404 4037
+Not Found: /manager/html
+[06/Dec/2016 12:48:22] "GET /manager/html HTTP/1.1" 404 4040
+Not Found: /msd
+[06/Dec/2016 12:48:22] "GET /msd HTTP/1.1" 404 4013
+Not Found: /mySqlDumper
+[06/Dec/2016 12:48:23] "GET /mySqlDumper HTTP/1.1" 404 4037
+Not Found: /msd1.24stable
+[06/Dec/2016 12:48:24] "GET /msd1.24stable HTTP/1.1" 404 4043
+Not Found: /msd1.24.4
+[06/Dec/2016 12:48:25] "GET /msd1.24.4 HTTP/1.1" 404 4031
+Not Found: /mysqldumper
+[06/Dec/2016 12:48:26] "GET /mysqldumper HTTP/1.1" 404 4037
+Not Found: /MySQLDumper
+[06/Dec/2016 12:48:27] "GET /MySQLDumper HTTP/1.1" 404 4037
+Not Found: /mysql
+[06/Dec/2016 12:48:28] "GET /mysql HTTP/1.1" 404 4019
+Not Found: /sql
+[06/Dec/2016 12:48:29] "GET /sql HTTP/1.1" 404 4013
+Not Found: /phpmyadmin
+[06/Dec/2016 12:48:29] "GET /phpmyadmin HTTP/1.1" 404 4034
+Not Found: /phpMyAdmin
+[06/Dec/2016 12:48:30] "GET /phpMyAdmin HTTP/1.1" 404 4034
+Not Found: /mysql
+[06/Dec/2016 12:48:31] "GET /mysql HTTP/1.1" 404 4019
+Not Found: /sql
+[06/Dec/2016 12:48:32] "GET /sql HTTP/1.1" 404 4013
+Not Found: /myadmin
+[06/Dec/2016 12:48:33] "GET /myadmin HTTP/1.1" 404 4025
+Not Found: /phpMyAdmin-4.2.1-all-languages
+[06/Dec/2016 12:48:33] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 4094
+Not Found: /phpMyAdmin-4.2.1-english
+[06/Dec/2016 12:48:34] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 4076
+[06/Dec/2016 12:48:35] "GET / HTTP/1.1" 200 17755
+Not Found: /sqlite/main.php
+[06/Dec/2016 12:48:35] "GET /sqlite/main.php HTTP/1.1" 404 4049
+Not Found: /SQLite/SQLiteManager-1.2.4/main.php
+[06/Dec/2016 12:48:36] "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1" 404 4109
+Not Found: /SQLiteManager-1.2.4/main.php
+[06/Dec/2016 12:48:37] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 4088
+Not Found: /sqlitemanager/main.php
+[06/Dec/2016 12:48:37] "GET /sqlitemanager/main.php HTTP/1.1" 404 4070
+Not Found: /SQlite/main.php
+[06/Dec/2016 12:48:37] "GET /SQlite/main.php HTTP/1.1" 404 4049
+Not Found: /SQLiteManager/main.php
+[06/Dec/2016 12:48:38] "GET /SQLiteManager/main.php HTTP/1.1" 404 4070
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 03, 2016 - 10:23:17
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:04:15
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f5575223cf8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 3, in <module>
+    from userWeb import views
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 154
+    radc = .objects.filter(username = username, value = password)
+           ^
+SyntaxError: invalid syntax
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:18:53
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:35:49] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 18:35:50] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[06/Dec/2016 18:35:50] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[06/Dec/2016 18:35:50] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[06/Dec/2016 18:35:50] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[06/Dec/2016 18:35:50] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[06/Dec/2016 18:35:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[06/Dec/2016 18:35:51] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[06/Dec/2016 18:35:51] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[06/Dec/2016 18:35:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[06/Dec/2016 18:35:51] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[06/Dec/2016 18:35:52] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[06/Dec/2016 18:35:52] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[06/Dec/2016 18:35:52] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[06/Dec/2016 18:35:53] "GET /regist HTTP/1.1" 200 4294
+[06/Dec/2016 18:35:54] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[06/Dec/2016 18:35:54] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[06/Dec/2016 18:35:57] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+Not Found: /assets/ico/favicon.png
+[06/Dec/2016 18:35:57] "GET /assets/ico/favicon.png HTTP/1.1" 404 4070
+[06/Dec/2016 18:37:11] "GET /regist HTTP/1.1" 200 4481
+[06/Dec/2016 18:37:28] "POST /regist HTTP/1.1" 200 4532
+[06/Dec/2016 18:37:40] "POST /regist HTTP/1.1" 200 4511
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:33:43
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:38:45] "POST /regist HTTP/1.1" 200 4532
+Internal Server Error: /regist
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 159, in regist
+    send_mail(username, token_confirm)
+NameError: global name 'send_mail' is not defined
+[06/Dec/2016 18:38:59] "POST /regist HTTP/1.1" 500 63239
+Not Found: /favicon.ico
+[06/Dec/2016 18:38:59] "GET /favicon.ico HTTP/1.1" 404 4037
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:38:43
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:40:43] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 18:40:44] "GET /regist HTTP/1.1" 200 4481
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=615\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J3d3dy54eHguY29tL2FjY291bnQvYWN0aXZhdGUvSW5GcGNXbHdhWEJwYjJsdmFVQXhOak11\r\nWTI5dElnLkN5Z25OQS5HdzZsMS1lNjlLTlJaYnNtQXpNMDRBal9fT1EnPnd3dy54eHguY29tL2Fj\r\nY291bnQvYWN0aXZhdGUvSW5GcGNXbHdhWEJwYjJsdmFVQXhOak11WTI5dElnLkN5Z25OQS5HdzZs\r\nMS1lNjlLTlJaYnNtQXpNMDRBal9fT1E8L2E+PGg0PuS4k+S4mueahOacjeWKoTwvaDQ+PC9odG1s\r\nPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+[06/Dec/2016 18:40:54] "POST /regist HTTP/1.1" 200 4558
+[06/Dec/2016 18:41:02] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 18:41:02] "GET /admin/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[06/Dec/2016 18:41:03] "GET /favicon.ico HTTP/1.1" 404 4037
+[06/Dec/2016 18:41:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:39:28
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:42:39
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f64db0becf8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 19, in <module>
+    url(r'^account/activate/(?P<token>\w+.[-_\w]*\w+.[-_\w]*\w+)/$', views.confirm_token,name='active_user')
+AttributeError: 'module' object has no attribute 'confirm_token'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=631\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J2h0dHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FY\r\nQnBiMmx2YVVBeE5qTXVZMjl0SWcuQ3lnb0ZBLlhBQ2tqWlpoOFJYUUpxZ3FCMDg5RFY4N0lKOCc+\r\nd3d3Lnh4eC5jb20vYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FYQnBiMmx2YVVBeE5qTXVZMjl0\r\nSWcuQ3lnb0ZBLlhBQ2tqWlpoOFJYUUpxZ3FCMDg5RFY4N0lKODwvYT48aDQ+5LiT5Lia55qE5pyN\r\n5YqhPC9oND48L2h0bWw+\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:44:37] "POST /regist HTTP/1.1" 200 4558
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:44:14
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=651\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J2h0dHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FY\r\nQnBiMmx2YVVBeE5qTXVZMjl0SWcuQ3lnb1dnLlAwZFZ1cUJ3LUZwUEczU29iNzZYd1gwWFFaOCc+\r\naHR0cDovLzQ1LjEyNy45OS4xODg6ODA4MC9hY2NvdW50L2FjdGl2YXRlL0luRnBjV2x3YVhCcGIy\r\nbHZhVUF4TmpNdVkyOXRJZy5DeWdvV2cuUDBkVnVxQnctRnBQRzNTb2I3Nlh3WDBYUVo4PC9hPjxo\r\nND7kuJPkuJrnmoTmnI3liqE8L2g0PjwvaHRtbD4=\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:45:47] "POST /regist HTTP/1.1" 200 4558
+[06/Dec/2016 18:45:52] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygoWg.P0dVuqBw-FpPG3Sob76XwX0XQZ8 HTTP/1.1" 301 0
+Internal Server Error: /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygoWg.P0dVuqBw-FpPG3Sob76XwX0XQZ8/
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 175, in confirm_regist
+    radc = radcheck.objects.create(username = username, value = user.password)
+NameError: global name 'radcheck' is not defined
+[06/Dec/2016 18:45:53] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygoWg.P0dVuqBw-FpPG3Sob76XwX0XQZ8/ HTTP/1.1" 500 62857
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:45:20
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=651\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J2h0dHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FY\r\nQnBiMmx2YVVBeE5qTXVZMjl0SWcuQ3lnb2xRLi1mbE94RDROYTB4bEE3TnlqLVpUY21LSmt2SSc+\r\naHR0cDovLzQ1LjEyNy45OS4xODg6ODA4MC9hY2NvdW50L2FjdGl2YXRlL0luRnBjV2x3YVhCcGIy\r\nbHZhVUF4TmpNdVkyOXRJZy5DeWdvbFEuLWZsT3hENE5hMHhsQTdOeWotWlRjbUtKa3ZJPC9hPjxo\r\nND7kuJPkuJrnmoTmnI3liqE8L2g0PjwvaHRtbD4=\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:46:46] "POST /regist HTTP/1.1" 200 4558
+[06/Dec/2016 18:46:50] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygolQ.-flOxD4Na0xlA7Nyj-ZTcmKJkvI HTTP/1.1" 301 0
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.updatetime received a naive datetime (2016-12-06 18:46:20.829575) while time zone support is active.
+  RuntimeWarning)
+
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.endtime received a naive datetime (2016-12-07 18:46:20.829635) while time zone support is active.
+  RuntimeWarning)
+
+[06/Dec/2016 18:46:51] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygolQ.-flOxD4Na0xlA7Nyj-ZTcmKJkvI/ HTTP/1.1" 302 0
+Not Found: /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygolQ.-flOxD4Na0xlA7Nyj-ZTcmKJkvI/control/userctrl
+[06/Dec/2016 18:46:51] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygolQ.-flOxD4Na0xlA7Nyj-ZTcmKJkvI/control/userctrl HTTP/1.1" 404 4533
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:46:21
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=651\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J2h0dHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FY\r\nQnBiMmx2YVVBeE5qTXVZMjl0SWcuQ3lncEZBLmNtbm1fR2pYLU42RFhvU1Q4anRHRW1YTWJkYyc+\r\naHR0cDovLzQ1LjEyNy45OS4xODg6ODA4MC9hY2NvdW50L2FjdGl2YXRlL0luRnBjV2x3YVhCcGIy\r\nbHZhVUF4TmpNdVkyOXRJZy5DeWdwRkEuY21ubV9HalgtTjZEWG9TVDhqdEdFbVhNYmRjPC9hPjxo\r\nND7kuJPkuJrnmoTmnI3liqE8L2g0PjwvaHRtbD4=\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:48:53] "POST /regist HTTP/1.1" 200 4558
+[06/Dec/2016 18:48:58] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygpFA.cmnm_GjX-N6DXoST8jtGEmXMbdc HTTP/1.1" 301 0
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.updatetime received a naive datetime (2016-12-06 18:48:42.397384) while time zone support is active.
+  RuntimeWarning)
+
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.endtime received a naive datetime (2016-12-07 18:48:42.397479) while time zone support is active.
+  RuntimeWarning)
+
+[06/Dec/2016 18:48:58] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygpFA.cmnm_GjX-N6DXoST8jtGEmXMbdc/ HTTP/1.1" 302 0
+Not Found: /userWeb/control/userctrl
+[06/Dec/2016 18:48:58] "GET /userWeb/control/userctrl HTTP/1.1" 404 4308
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:48:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=651\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@163.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5a6M5oiQ55So5oi36aqM6K+B77yaPC9wPjxhIGhy\r\nZWY9J2h0dHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FY\r\nQnBiMmx2YVVBeE5qTXVZMjl0SWcuQ3lncGFBLkZ0Qk5DVVlYN1RwVF9HeEJ0ZFM1NTV4dnY5TSc+\r\naHR0cDovLzQ1LjEyNy45OS4xODg6ODA4MC9hY2NvdW50L2FjdGl2YXRlL0luRnBjV2x3YVhCcGIy\r\nbHZhVUF4TmpNdVkyOXRJZy5DeWdwYUEuRnRCTkNVWVg3VHBUX0d4QnRkUzU1NXh2djlNPC9hPjxo\r\nND7kuJPkuJrnmoTmnI3liqE8L2g0PjwvaHRtbD4=\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 18:50:18] "POST /regist HTTP/1.1" 200 4558
+[06/Dec/2016 18:50:26] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygpaA.FtBNCUYX7TpT_GxBtdS555xvv9M HTTP/1.1" 301 0
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.updatetime received a naive datetime (2016-12-06 18:49:41.347856) while time zone support is active.
+  RuntimeWarning)
+
+/home/dev/Downloads/Django-1.9.10/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Radusergroup.endtime received a naive datetime (2016-12-07 18:49:41.347935) while time zone support is active.
+  RuntimeWarning)
+
+[06/Dec/2016 18:50:27] "GET /account/activate/InFpcWlwaXBpb2lvaUAxNjMuY29tIg.CygpaA.FtBNCUYX7TpT_GxBtdS555xvv9M/ HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[06/Dec/2016 18:50:27] "GET /control/userctrl HTTP/1.1" 200 5301
+[06/Dec/2016 18:50:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 616
+[06/Dec/2016 18:50:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 200 3107
+[06/Dec/2016 18:50:28] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 23409
+[06/Dec/2016 18:50:40] "GET /logout HTTP/1.1" 302 0
+[06/Dec/2016 18:50:40] "GET /login HTTP/1.1" 200 4019
+[06/Dec/2016 18:50:40] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[06/Dec/2016 18:50:40] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 18:50:41] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[06/Dec/2016 18:50:48] "POST /login HTTP/1.1" 302 0
+[06/Dec/2016 18:50:48] "GET /control/userctrl HTTP/1.1" 200 5301
+[06/Dec/2016 18:50:56] "GET /logout HTTP/1.1" 302 0
+[06/Dec/2016 18:50:57] "GET /login HTTP/1.1" 200 4019
+[06/Dec/2016 18:50:58] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:49:41
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 19:06:34] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 19:10:16] "GET /regist HTTP/1.1" 200 4496
+[06/Dec/2016 19:10:21] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 19:10:32] "GET /pricing HTTP/1.1" 200 9074
+[06/Dec/2016 19:10:32] "GET /static/userWeb/css/control/price.css HTTP/1.1" 200 4221
+[06/Dec/2016 19:10:33] "GET /news HTTP/1.1" 200 8061
+[06/Dec/2016 19:10:34] "GET /static/userWeb/css/control/news.css HTTP/1.1" 200 3022
+[06/Dec/2016 19:10:35] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 19:10:36] "GET /regist HTTP/1.1" 200 4496
+[06/Dec/2016 19:10:48] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 19:12:46] "GET /regist HTTP/1.1" 200 4496
+[06/Dec/2016 19:12:48] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 19:12:49] "GET /login HTTP/1.1" 200 3986
+[06/Dec/2016 19:12:50] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:17:35] "GET /login HTTP/1.1" 200 4276
+[06/Dec/2016 19:17:35] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:17:53] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 19:17:55] "GET /login HTTP/1.1" 200 4276
+[06/Dec/2016 19:17:56] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:18:27] "GET /login HTTP/1.1" 200 4283
+[06/Dec/2016 19:18:27] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:18:28] "GET /login HTTP/1.1" 200 4283
+[06/Dec/2016 19:18:29] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:23:11] "GET /login HTTP/1.1" 200 4332
+[06/Dec/2016 19:23:11] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:24:15] "GET /login HTTP/1.1" 200 4400
+[06/Dec/2016 19:24:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 19:24:31] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+[06/Dec/2016 19:47:27] "GET / HTTP/1.1" 200 17755
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 18:56:38
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fee49326cf8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 20
+    url(r'^getbackpasswd$', views.getbackpasswd, name = 'getbackpasswd'),
+      ^
+SyntaxError: invalid syntax
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 20:37:21] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 20:37:21] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:21] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:21] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:21] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:22] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[06/Dec/2016 20:37:22] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[06/Dec/2016 20:37:22] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[06/Dec/2016 20:37:22] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[06/Dec/2016 20:37:22] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[06/Dec/2016 20:37:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[06/Dec/2016 20:37:23] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[06/Dec/2016 20:37:24] "GET /login HTTP/1.1" 200 4412
+[06/Dec/2016 20:37:24] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[06/Dec/2016 20:37:24] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 20:37:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[06/Dec/2016 20:37:26] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 20:37:28] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 20:37:50] "POST /getbackpasswd HTTP/1.1" 200 3746
+[06/Dec/2016 20:37:51] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 20:38:45] "POST /getbackpasswd HTTP/1.1" 200 3785
+[06/Dec/2016 20:38:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Dec/2016 20:38:46] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 304 0
+[06/Dec/2016 20:38:46] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Dec/2016 20:38:46] "GET /static/userWeb/css/login_style.css HTTP/1.1" 304 0
+[06/Dec/2016 20:38:46] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 20:38:47] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+Internal Server Error: /getbackpasswd
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 209, in getbackpasswd
+    if user.statu == 1:
+AttributeError: 'QuerySet' object has no attribute 'statu'
+[06/Dec/2016 20:40:46] "POST /getbackpasswd HTTP/1.1" 500 62552
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 20:37:19
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=643\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9hY3RpdmF0ZS9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aEVBQS5rQVpnMkxneXp2UlZ5ejBVc2JuckVQLVQtQmsnPmh0dHA6Ly80\r\nNS4xMjcuOTkuMTg4OjgwODAvYWNjb3VudC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2YVVC\r\neGNTNWpiMjBpLkN5aEVBQS5rQVpnMkxneXp2UlZ5ejBVc2JuckVQLVQtQms8L2E+PGg0PuS4k+S4\r\nmueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 20:43:45] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 20:43:45] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 20:43:39
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 20:45:40] "GET / HTTP/1.0" 200 17755
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 20:45:17
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7fe6fa9c1cf8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 21, in <module>
+    url(r'^control/resetpasswd/(?P<token>\w+.[-_\w]*\w+.[-_\w]*\w+)/$', views.resetpasswd,name='resetpasswd'),
+AttributeError: 'module' object has no attribute 'resetpasswd'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Unhandled exception in thread started by <function wrapper at 0x7f1ddef26cf8>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 116, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/checks/urls.py", line 23, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/vpnWebProject/urls.py", line 21, in <module>
+    url(r'', include('userWeb.urls', namespace='userWeb', app_name='userWeb')),
+  File "/home/dev/Downloads/Django-1.9.10/django/conf/urls/__init__.py", line 52, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/urls.py", line 21, in <module>
+    url(r'^control/resetpasswd/(?P<token>\w+.[-_\w]*\w+.[-_\w]*\w+)/$', views.resetpasswd,name='resetpasswd'),
+AttributeError: 'module' object has no attribute 'resetpasswd'
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:08:37
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:16:28] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 21:16:28] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[06/Dec/2016 21:16:28] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[06/Dec/2016 21:16:36] "GET /login HTTP/1.1" 200 4412
+[06/Dec/2016 21:16:37] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:17:02] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 21:17:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aEwwdy54bXJ5b3JLS1Ryem9aMHB5Q1ducjM5Q3NnM1knPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aEwwdy54bXJ5b3JLS1Ryem9aMHB5Q1ducjM5Q3NnM1k8L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+[06/Dec/2016 21:17:09] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 21:17:09] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:17:17] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y HTTP/1.1" 301 0
+[06/Dec/2016 21:17:20] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 302 0
+[06/Dec/2016 21:17:22] "GET /index HTTP/1.1" 200 17755
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:16:21
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+Internal Server Error: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 249, in resetpasswd1
+    return render_to_response('/resetpasswd.html' ,context_instance=RequestContext(request))
+  File "/home/dev/Downloads/Django-1.9.10/django/shortcuts.py", line 45, in render_to_response
+    using=using)
+  File "/home/dev/Downloads/Django-1.9.10/django/template/loader.py", line 137, in render_to_string
+    raise TemplateDoesNotExist(template_name, chain=chain)
+TemplateDoesNotExist: /resetpasswd.html
+[06/Dec/2016 21:29:04] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 500 73470
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:28:58
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:31:10] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 200 4079
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/assets/ico/favicon.png
+[06/Dec/2016 21:31:11] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 21:31:17] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 302 0
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/login
+[06/Dec/2016 21:31:17] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/login HTTP/1.1" 404 5103
+[06/Dec/2016 21:33:04] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 200 4079
+[06/Dec/2016 21:33:11] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 302 0
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/login
+[06/Dec/2016 21:33:13] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/login HTTP/1.1" 404 5103
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:31:06
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[06/Dec/2016 21:35:54] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 200 36
+[06/Dec/2016 21:36:01] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y HTTP/1.1" 301 0
+[06/Dec/2016 21:36:04] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhL0w.xmryorKKTrzoZ0pyCWnr39Csg3Y/ HTTP/1.1" 200 36
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Dec/2016 21:36:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFFTUS5wWk5ueUhXRFM4LXluSGN1YWFWSUtlWnFUOG8nPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFFTUS5wWk5ueUhXRFM4LXluSGN1YWFWSUtlWnFUOG88L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:36:11] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 21:36:13] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:36:31] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQSQ.pZNnyHWDS8-ynHcuaaVIKeZqT8o HTTP/1.1" 301 0
+[06/Dec/2016 21:36:33] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQSQ.pZNnyHWDS8-ynHcuaaVIKeZqT8o/ HTTP/1.1" 200 4079
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQSQ.pZNnyHWDS8-ynHcuaaVIKeZqT8o/assets/ico/favicon.png
+[06/Dec/2016 21:36:34] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQSQ.pZNnyHWDS8-ynHcuaaVIKeZqT8o/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 21:36:41] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQSQ.pZNnyHWDS8-ynHcuaaVIKeZqT8o/ HTTP/1.1" 302 0
+[06/Dec/2016 21:36:41] "GET /login HTTP/1.1" 200 4462
+[06/Dec/2016 21:36:44] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:37:18] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 21:37:21] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFF5QS5iU1RkWHpPOWhFRmJETkpQQmZPcmVPZUpPY28nPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFF5QS5iU1RkWHpPOWhFRmJETkpQQmZPcmVPZUpPY288L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+[06/Dec/2016 21:38:21] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 21:38:22] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:38:30] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco HTTP/1.1" 301 0
+[06/Dec/2016 21:38:30] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/ HTTP/1.1" 200 4079
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/assets/ico/favicon.png
+[06/Dec/2016 21:38:32] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 21:38:37] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/ HTTP/1.1" 302 0
+[06/Dec/2016 21:38:38] "GET /login HTTP/1.1" 200 4462
+[06/Dec/2016 21:38:38] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:35:37
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:39:51] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 21:39:52] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFJMQS41TDdhMktsRjE2OWNhTms3LXQ5QjFKR0Z6amcnPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFJMQS41TDdhMktsRjE2OWNhTms3LXQ5QjFKR0Z6amc8L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+[06/Dec/2016 21:39:59] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 21:40:02] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:40:12] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/ HTTP/1.1" 200 4098
+[06/Dec/2016 21:40:20] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhQyA.bSTdXzO9hEFbDNJPBfOreOeJOco/ HTTP/1.1" 302 0
+[06/Dec/2016 21:40:21] "GET /login HTTP/1.1" 200 4462
+[06/Dec/2016 21:40:21] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:40:29] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[06/Dec/2016 21:40:30] "GET /control/userctrl HTTP/1.1" 200 5318
+[06/Dec/2016 21:40:34] "GET /resetpassword HTTP/1.1" 200 4098
+[06/Dec/2016 21:40:41] "POST /resetpassword HTTP/1.1" 302 0
+[06/Dec/2016 21:40:41] "GET /login HTTP/1.1" 200 4462
+[06/Dec/2016 21:40:41] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:42:18] "POST /login HTTP/1.1" 302 0
+[06/Dec/2016 21:42:19] "GET /control/userctrl HTTP/1.1" 200 5281
+[06/Dec/2016 21:42:24] "GET /control/price HTTP/1.1" 200 6435
+[06/Dec/2016 21:42:46] "GET /control/userctrl HTTP/1.1" 200 5281
+[06/Dec/2016 21:43:01] "GET /control/price HTTP/1.1" 200 6435
+[06/Dec/2016 21:43:04] "GET /control/lines HTTP/1.1" 200 6060
+[06/Dec/2016 21:43:04] "GET /static/userWeb/css/control/lines.css HTTP/1.1" 200 476
+[06/Dec/2016 21:43:06] "GET /media/icons/flag_hk.png HTTP/1.1" 200 3336
+[06/Dec/2016 21:43:08] "GET /control/news HTTP/1.1" 200 5260
+[06/Dec/2016 21:43:11] "GET /control/lines HTTP/1.1" 200 6060
+[06/Dec/2016 21:43:12] "GET /control/price HTTP/1.1" 200 6435
+[06/Dec/2016 21:43:13] "GET /control/userctrl HTTP/1.1" 200 5281
+[06/Dec/2016 21:43:17] "GET /control/userctrl HTTP/1.1" 200 5281
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[06/Dec/2016 21:47:59] "GET /login HTTP/1.1" 200 4412
+[06/Dec/2016 21:48:00] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:48:03] "POST /login HTTP/1.1" 302 0
+[06/Dec/2016 21:48:03] "GET /control/userctrl HTTP/1.1" 200 5281
+[06/Dec/2016 21:48:07] "GET / HTTP/1.1" 200 5240
+[06/Dec/2016 21:48:10] "GET /control/price HTTP/1.1" 200 6435
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:39:47
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('49.74.84.122', 4560)
+----------------------------------------
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:48:46
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:178: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:188: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:217: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:230: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+[06/Dec/2016 21:57:42] "GET /logout HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:57:43] "GET /login HTTP/1.1" 200 4439
+[06/Dec/2016 21:57:43] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:57:45] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 21:57:45] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+Internal Server Error: /getbackpasswd
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dev/djangowork/vpnWebProject/userWeb/views.py", line 213, in getbackpasswd
+    send_getpass_mail(username, token_confirm)
+NameError: global name 'token_confirm' is not defined
+[06/Dec/2016 21:57:48] "POST /getbackpasswd HTTP/1.1" 500 62592
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:57:38
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:178: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:188: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:214: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:219: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:232: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 21:59:15] "GET /getbackpasswd HTTP/1.1" 200 3743
+[06/Dec/2016 21:59:15] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFZ0US5PYk9FM3BFTXN1bWRGRUFYSTZkVE5iTEVHeVUnPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFZ0US5PYk9FM3BFTXN1bWRGRUFYSTZkVE5iTEVHeVU8L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+[06/Dec/2016 21:59:23] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 21:59:23] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 21:59:28] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhVtQ.ObOE3pEMsumdFEAXI6dTNbLEGyU HTTP/1.1" 301 0
+[06/Dec/2016 21:59:28] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhVtQ.ObOE3pEMsumdFEAXI6dTNbLEGyU/ HTTP/1.1" 200 4098
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhVtQ.ObOE3pEMsumdFEAXI6dTNbLEGyU/assets/ico/favicon.png
+[06/Dec/2016 21:59:29] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhVtQ.ObOE3pEMsumdFEAXI6dTNbLEGyU/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 21:59:36] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhVtQ.ObOE3pEMsumdFEAXI6dTNbLEGyU/ HTTP/1.1" 200 36
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 21:59:14
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:218: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFhkdy5OeGZ4bnhPOF95cDNFMEFqLWkzbHQzc1dmOUUnPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFhkdy5OeGZ4bnhPOF95cDNFMEFqLWkzbHQzc1dmOUU8L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:06:49] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 22:06:49] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:06:54] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhXdw.NxfxnxO8_yp3E0Aj-i3lt3sWf9E HTTP/1.1" 301 0
+[06/Dec/2016 22:06:54] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhXdw.NxfxnxO8_yp3E0Aj-i3lt3sWf9E/ HTTP/1.1" 200 4098
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhXdw.NxfxnxO8_yp3E0Aj-i3lt3sWf9E/assets/ico/favicon.png
+[06/Dec/2016 22:06:55] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhXdw.NxfxnxO8_yp3E0Aj-i3lt3sWf9E/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 22:06:59] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhXdw.NxfxnxO8_yp3E0Aj-i3lt3sWf9E/ HTTP/1.1" 200 36
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:06:42
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fc2a9154cf8>
+Traceback (most recent call last):
+  File "/home/dev/Downloads/Django-1.9.10/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/management/commands/runserver.py", line 137, in inner_run
+    ipv6=self.use_ipv6, threading=threading)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 198, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 235, in serve_forever
+    r, w, e = _eintr_retry(select.select, [self], [], [],
+AttributeError: 'NoneType' object has no attribute 'select'
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:218: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+send: 'AUTH PLAIN AHFpcWlwaXBpb2lvaUBxcS5jb20AdHV4dW4xOTg4\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<qiqipipioioi@qq.com> size=647\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: u'rcpt TO:<qiqipipioioi@qq.com>\r\n'
+reply: '250 Ok\r\n'
+reply: retcode (250); Msg: Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/html; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nSubject: =?utf-8?b?5rOo5YaM55So5oi36aqM6K+B5L+h5oGv?=\r\n\r\nPGh0bWw+PGg0PuWwiuaVrOeahOeUqOaIt++8jOasoui/juS9v+eUqOaIkeS7rOeahOacjeWKoe+8\r\nmjwvaDQ+PHA+6K+36K6/6Zeu6ZO+5o6l77yM5om+5Zue5a+G56CB77yaPC9wPjxhIGhyZWY9J2h0\r\ndHA6Ly80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBi\r\nMmx2YVVCeGNTNWpiMjBpLkN5aFlKUS4zRnM5VmVZY3hkRkV1OFpGVC1PRmhCTXU4Q0UnPmh0dHA6\r\nLy80NS4xMjcuOTkuMTg4OjgwODAvY29udHJvbC9yZXNldHBhc3N3ZC9JbkZwY1dsd2FYQnBiMmx2\r\nYVVCeGNTNWpiMjBpLkN5aFlKUS4zRnM5VmVZY3hkRkV1OFpGVC1PRmhCTXU4Q0U8L2E+PGg0PuS4\r\nk+S4mueahOacjeWKoTwvaDQ+PC9odG1sPg==\r\n.\r\n'
+reply: '250 Ok: queued as \r\n'
+reply: retcode (250); Msg: Ok: queued as
+data: (250, 'Ok: queued as')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:09:42] "POST /getbackpasswd HTTP/1.1" 200 3814
+[06/Dec/2016 22:09:43] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:09:48] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE HTTP/1.1" 301 0
+[06/Dec/2016 22:09:49] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE/ HTTP/1.1" 200 4098
+Not Found: /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE/assets/ico/favicon.png
+[06/Dec/2016 22:09:49] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE/assets/ico/favicon.png HTTP/1.1" 404 5154
+[06/Dec/2016 22:09:53] "POST /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE/ HTTP/1.1" 302 0
+[06/Dec/2016 22:09:53] "GET /login HTTP/1.1" 200 4462
+[06/Dec/2016 22:09:53] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:10:01] "GET /control/resetpasswd/InFpcWlwaXBpb2lvaUBxcS5jb20i.CyhYJQ.3Fs9VeYcxdFEu8ZFT-OFhBMu8CE/ HTTP/1.1" 200 36
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 06, 2016 - 22:09:36
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:8080/
+Quit the server with CONTROL-C.
+/home/dev/djangowork/vpnWebProject/userWeb/views.py:218: SyntaxWarning: name 'token_confirm' is assigned to before global declaration
+  global token_confirm
+
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
