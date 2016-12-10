@@ -18271,3 +18271,402 @@ error
 /home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
   url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
 
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[06/Dec/2016 22:50:04] "GET / HTTP/1.1" 200 17755
+[06/Dec/2016 22:50:04] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[06/Dec/2016 22:50:04] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[06/Dec/2016 22:50:05] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[06/Dec/2016 22:50:10] "GET /favicon.ico HTTP/1.1" 404 4869
+[06/Dec/2016 22:50:12] "GET /login HTTP/1.1" 200 4402
+[06/Dec/2016 22:50:12] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[06/Dec/2016 22:50:12] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[06/Dec/2016 22:50:12] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[06/Dec/2016 22:50:13] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /assets/ico/apple-touch-icon-144-precomposed.png
+Not Found: /assets/ico/favicon.png
+[06/Dec/2016 22:50:14] "GET /assets/ico/apple-touch-icon-144-precomposed.png HTTP/1.1" 404 4977
+[06/Dec/2016 22:50:14] "GET /assets/ico/favicon.png HTTP/1.1" 404 4902
+Not Found: /assets/ico/apple-touch-icon-114-precomposed.png
+[06/Dec/2016 22:50:14] "GET /assets/ico/apple-touch-icon-114-precomposed.png HTTP/1.1" 404 4977
+Not Found: /assets/ico/apple-touch-icon-72-precomposed.png
+[06/Dec/2016 22:50:14] "GET /assets/ico/apple-touch-icon-72-precomposed.png HTTP/1.1" 404 4974
+Not Found: /assets/ico/apple-touch-icon-57-precomposed.png
+[06/Dec/2016 22:50:15] "GET /assets/ico/apple-touch-icon-57-precomposed.png HTTP/1.1" 404 4974
+[06/Dec/2016 22:50:25] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 22:50:30] "GET /regist HTTP/1.1" 200 4496
+[06/Dec/2016 22:50:31] "GET /static/jquery/jquery-mini.js HTTP/1.1" 200 95960
+[06/Dec/2016 23:28:56] "GET /index HTTP/1.1" 200 17755
+[06/Dec/2016 23:29:10] "GET /pricing HTTP/1.1" 200 9074
+[06/Dec/2016 23:29:10] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Dec/2016 23:47:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/favicon.ico
+[07/Dec/2016 01:11:47] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Dec/2016 01:40:29] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /manager/html
+[07/Dec/2016 01:53:49] "GET /manager/html HTTP/1.1" 404 4872
+Not Found: /http:/clientapi.ipip.net/echo.php
+[07/Dec/2016 11:48:41] "GET http://clientapi.ipip.net/echo.php?info=20161207114847 HTTP/1.1" 404 1724
+[07/Dec/2016 11:48:52] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[07/Dec/2016 11:48:52] " " 400 -
+Not Found: /favicon.ico
+[07/Dec/2016 11:49:43] "GET /favicon.ico HTTP/1.1" 404 4869
+[07/Dec/2016 11:49:48] "GET /index HTTP/1.1" 200 17755
+[07/Dec/2016 11:49:48] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[07/Dec/2016 11:49:48] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[07/Dec/2016 11:49:49] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[07/Dec/2016 11:49:49] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[07/Dec/2016 11:49:49] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+Not Found: /script
+[07/Dec/2016 20:00:43] "GET /script HTTP/1.1" 404 4854
+Not Found: /jenkins/script
+[07/Dec/2016 20:00:43] "GET /jenkins/script HTTP/1.1" 404 4878
+[07/Dec/2016 20:00:44] "GET /login HTTP/1.1" 200 4402
+Not Found: /jmx-console
+[07/Dec/2016 20:00:44] "GET /jmx-console HTTP/1.1" 404 4869
+Not Found: /manager/html
+[07/Dec/2016 20:00:44] "GET /manager/html HTTP/1.1" 404 4872
+Not Found: /msd
+[07/Dec/2016 20:00:44] "GET /msd HTTP/1.1" 404 4845
+Not Found: /mySqlDumper
+[07/Dec/2016 20:00:44] "GET /mySqlDumper HTTP/1.1" 404 4869
+Not Found: /msd1.24stable
+[07/Dec/2016 20:00:45] "GET /msd1.24stable HTTP/1.1" 404 4875
+Not Found: /msd1.24.4
+[07/Dec/2016 20:00:45] "GET /msd1.24.4 HTTP/1.1" 404 4863
+Not Found: /mysqldumper
+[07/Dec/2016 20:00:45] "GET /mysqldumper HTTP/1.1" 404 4869
+Not Found: /MySQLDumper
+[07/Dec/2016 20:00:45] "GET /MySQLDumper HTTP/1.1" 404 4869
+Not Found: /mysql
+[07/Dec/2016 20:00:46] "GET /mysql HTTP/1.1" 404 4851
+Not Found: /phpmyadmin
+[07/Dec/2016 20:00:59] "GET /phpmyadmin HTTP/1.1" 404 4866
+Not Found: /phpMyAdmin
+[07/Dec/2016 20:00:59] "GET /phpMyAdmin HTTP/1.1" 404 4866
+Not Found: /mysql
+[07/Dec/2016 20:00:59] "GET /mysql HTTP/1.1" 404 4851
+Not Found: /sql
+[07/Dec/2016 20:01:00] "GET /sql HTTP/1.1" 404 4845
+Not Found: /myadmin
+[07/Dec/2016 20:01:00] "GET /myadmin HTTP/1.1" 404 4857
+Not Found: /phpMyAdmin-4.2.1-all-languages
+[07/Dec/2016 20:01:00] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 4926
+Not Found: /phpMyAdmin-4.2.1-english
+[07/Dec/2016 20:01:00] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 4908
+Not Found: /sqlite/main.php
+[07/Dec/2016 20:01:11] "GET /sqlite/main.php HTTP/1.1" 404 4881
+Not Found: /SQLite/SQLiteManager-1.2.4/main.php
+[07/Dec/2016 20:01:11] "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1" 404 4941
+Not Found: /SQLiteManager-1.2.4/main.php
+[07/Dec/2016 20:01:12] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 4920
+Not Found: /sqlitemanager/main.php
+[07/Dec/2016 20:01:12] "GET /sqlitemanager/main.php HTTP/1.1" 404 4902
+Not Found: /SQlite/main.php
+[07/Dec/2016 20:01:12] "GET /SQlite/main.php HTTP/1.1" 404 4881
+Not Found: /SQLiteManager/main.php
+[07/Dec/2016 20:01:12] "GET /SQLiteManager/main.php HTTP/1.1" 404 4902
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Dec/2016 21:50:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Dec/2016 22:51:10] "GET / HTTP/1.1" 200 17755
+[07/Dec/2016 22:51:10] "GET /static/userWeb/css/normalize.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/css/base.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/jquery/jquery.min.js HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/js/carousel.js HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/js/control/news.js HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 304 0
+[07/Dec/2016 22:51:10] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[07/Dec/2016 22:51:17] "GET /login HTTP/1.1" 200 4402
+[07/Dec/2016 22:51:17] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[07/Dec/2016 22:51:17] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[07/Dec/2016 22:51:17] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1677
+[07/Dec/2016 22:51:17] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[07/Dec/2016 22:51:17] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Not Found: /assets/ico/favicon.png
+[07/Dec/2016 22:51:18] "GET /assets/ico/favicon.png HTTP/1.1" 404 4902
+[07/Dec/2016 22:51:27] "POST /login HTTP/1.1" 302 0
+/home/dev/Downloads/Django-1.9.10/django/db/backends/mysql/base.py:112: Warning: Truncated incorrect time value: '03 05:November:14'
+  return self.cursor.execute(query, args)
+
+[07/Dec/2016 22:51:28] "GET /control/userctrl HTTP/1.1" 200 5281
+[07/Dec/2016 22:51:28] "GET /static/userWeb/css/control/userctrl.css HTTP/1.1" 200 616
+[07/Dec/2016 22:51:28] "GET /static/userWeb/css/control/cbase.css HTTP/1.1" 200 3107
+Not Found: /favicon.ico
+[07/Dec/2016 22:51:28] "GET /favicon.ico HTTP/1.1" 404 4869
+[07/Dec/2016 22:51:30] "GET /control/price HTTP/1.1" 200 6435
+[07/Dec/2016 22:51:30] "GET /static/userWeb/css/control/price.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[08/Dec/2016 01:18:23] "GET /favicon.ico HTTP/1.1" 404 4869
+Not Found: /http:/180.163.113.82/check_proxy
+[08/Dec/2016 01:25:22] "HEAD http://180.163.113.82/check_proxy HTTP/1.1" 404 0
+Not Found: /http:/www.google.com/reader/about/
+[08/Dec/2016 02:02:16] "GET http://www.google.com/reader/about/ HTTP/1.1" 404 1703
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Dec/2016 02:48:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Dec/2016 07:24:54] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Dec/2016 08:15:17] code 400, message Bad request syntax ('\x04\x01\x00P\xb4\xa3qR\x00')
+[08/Dec/2016 08:15:17] 
+[08/Dec/2016 08:46:11] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[08/Dec/2016 08:46:11] " " 400 -
+Not Found: /http:/www.baidu.com/favicon.ico
+[08/Dec/2016 11:25:53] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 404 1693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Dec/2016 17:45:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Dec/2016 17:52:06] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 17:52:06] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[08/Dec/2016 17:52:06] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[08/Dec/2016 17:52:06] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[08/Dec/2016 17:52:06] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[08/Dec/2016 17:52:06] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 17:52:06] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[08/Dec/2016 17:52:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[08/Dec/2016 17:52:07] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[08/Dec/2016 17:52:07] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[08/Dec/2016 17:52:07] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[08/Dec/2016 17:52:07] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+Not Found: /favicon.ico
+[08/Dec/2016 17:52:09] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[08/Dec/2016 17:52:09] "GET /favicon.ico HTTP/1.1" 404 4867
+[08/Dec/2016 17:52:09] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[08/Dec/2016 17:53:35] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 17:53:36] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[08/Dec/2016 17:53:36] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[08/Dec/2016 17:53:36] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[08/Dec/2016 17:53:36] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 17:53:36] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[08/Dec/2016 17:53:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[08/Dec/2016 17:53:36] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[08/Dec/2016 17:53:36] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[08/Dec/2016 17:53:37] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[08/Dec/2016 17:53:37] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[08/Dec/2016 17:53:37] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[08/Dec/2016 17:53:38] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[08/Dec/2016 17:53:38] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[08/Dec/2016 17:57:13] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 17:57:13] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[08/Dec/2016 17:57:13] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 17:57:13] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[08/Dec/2016 17:57:13] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[08/Dec/2016 17:57:13] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[08/Dec/2016 17:57:13] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[08/Dec/2016 17:57:14] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[08/Dec/2016 17:57:14] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[08/Dec/2016 17:57:14] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[08/Dec/2016 17:57:14] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[08/Dec/2016 17:57:15] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[08/Dec/2016 17:57:15] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[08/Dec/2016 17:57:15] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[08/Dec/2016 17:57:18] "GET /login HTTP/1.1" 200 4402
+[08/Dec/2016 17:57:18] "GET /static//font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 17:57:18] "GET /static/userWeb/css/login_style.css HTTP/1.1" 200 3521
+[08/Dec/2016 17:57:18] "GET /static/userWeb/css/login_form-elements.css HTTP/1.1" 200 2511
+[08/Dec/2016 17:57:18] "GET /static/jquery/jquery-min.js HTTP/1.1" 404 1674
+[08/Dec/2016 17:57:25] "GET /static//font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/home/dev/Downloads/Django-1.9.10/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[08/Dec/2016 17:59:12] "GET / HTTP/1.1" 200 17755
+Not Found: /about/
+[08/Dec/2016 17:59:13] "GET /about/ HTTP/1.1" 404 4851
+Not Found: /about/http://www.7COLORB.com/about/
+[08/Dec/2016 17:59:13] "GET /about/http%3A%2F%2Fwww%2E7COLORB%2Ecom%2Fabout%2F HTTP/1.1" 404 4938
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Dec/2016 19:23:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/clientapi.ipip.net/echo.php
+[08/Dec/2016 20:12:56] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 1720
+Not Found: /http:/testp3.pospr.waw.pl/testproxy.php
+[08/Dec/2016 21:11:38] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 404 1723
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Dec/2016 22:04:52] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Dec/2016 22:08:41] "HEAD / HTTP/1.1" 200 0
+[08/Dec/2016 22:08:41] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 22:08:41] "GET / HTTP/1.0" 200 17755
+[08/Dec/2016 22:08:43] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 22:08:43] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[08/Dec/2016 22:08:43] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[08/Dec/2016 22:08:43] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[08/Dec/2016 22:08:43] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[08/Dec/2016 22:08:44] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[08/Dec/2016 22:08:59] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 22:09:00] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 22:09:01] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[08/Dec/2016 22:09:01] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[08/Dec/2016 22:09:01] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[08/Dec/2016 22:09:01] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[08/Dec/2016 22:09:01] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[08/Dec/2016 22:09:01] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[08/Dec/2016 22:09:01] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[08/Dec/2016 22:09:01] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[08/Dec/2016 22:09:01] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[08/Dec/2016 22:09:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[08/Dec/2016 22:09:02] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[08/Dec/2016 22:09:03] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+[08/Dec/2016 22:09:04] "GET /static/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 200 98024
+[08/Dec/2016 22:23:30] "GET / HTTP/1.1" 200 17755
+[08/Dec/2016 22:27:53] "HEAD / HTTP/1.0" 200 0
+[09/Dec/2016 00:08:43] "GET / HTTP/1.0" 200 17755
+Not Found: /shinhan/
+[09/Dec/2016 00:08:43] "GET /shinhan/ HTTP/1.0" 404 4855
+Not Found: /ibk/
+[09/Dec/2016 00:08:43] "GET /ibk/ HTTP/1.0" 404 4843
+Not Found: /woori/
+[09/Dec/2016 00:08:43] "GET /woori/ HTTP/1.0" 404 4849
+Not Found: /verify2.php
+[09/Dec/2016 00:08:44] "GET /verify2.php HTTP/1.0" 404 4864
+Not Found: /step_new.php
+[09/Dec/2016 00:08:44] "GET /step_new.php HTTP/1.0" 404 4867
+[09/Dec/2016 00:08:44] "GET / HTTP/1.0" 200 17755
+[09/Dec/2016 02:42:53] "GET / HTTP/1.0" 200 17755
+[09/Dec/2016 04:25:00] "GET / HTTP/1.1" 200 17755
+Not Found: /about
+[09/Dec/2016 04:41:12] "GET /about HTTP/1.1" 404 4844
+[09/Dec/2016 04:42:17] "GET / HTTP/1.1" 200 17755
+Not Found: /xmlrpc.php
+[09/Dec/2016 05:21:20] "GET /xmlrpc.php HTTP/1.1" 404 4861
+Not Found: /wp-login.php
+[09/Dec/2016 05:57:23] "GET /wp-login.php HTTP/1.0" 404 4865
+Not Found: /administrator/index.php
+[09/Dec/2016 05:57:23] "GET /administrator/index.php HTTP/1.0" 404 4898
+[09/Dec/2016 06:49:01] "GET / HTTP/1.0" 200 17755
+Not Found: /shinhan/
+[09/Dec/2016 06:49:01] "GET /shinhan/ HTTP/1.0" 404 4855
+Not Found: /ibk/
+[09/Dec/2016 06:49:01] "GET /ibk/ HTTP/1.0" 404 4843
+Not Found: /woori/
+[09/Dec/2016 06:49:01] "GET /woori/ HTTP/1.0" 404 4849
+Not Found: /verify2.php
+[09/Dec/2016 06:49:01] "GET /verify2.php HTTP/1.0" 404 4864
+Not Found: /step_new.php
+[09/Dec/2016 06:49:01] "GET /step_new.php HTTP/1.0" 404 4867
+[09/Dec/2016 06:49:01] "GET / HTTP/1.0" 200 17755
+[09/Dec/2016 07:01:23] "GET / HTTP/1.1" 200 17755
+Not Found: /robots.txt
+[09/Dec/2016 07:01:24] "GET /robots.txt HTTP/1.1" 404 4861
+Not Found: /sitemap.xml
+[09/Dec/2016 07:01:25] "GET /sitemap.xml HTTP/1.1" 404 4864
+[09/Dec/2016 07:39:55] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 07:43:29] "GET ?redirect:${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()} HTTP/1.1" 200 17755
+Not Found: /admin/loginAction.action
+[09/Dec/2016 07:47:29] "GET /admin/loginAction.action?redirect:${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()} HTTP/1.1" 404 8658
+Not Found: /index.action
+[09/Dec/2016 07:56:24] "GET /index.action?redirect:${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()} HTTP/1.1" 404 5428
+Not Found: /login.action
+[09/Dec/2016 07:56:28] "GET /login.action?redirect:${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()} HTTP/1.1" 404 5428
+[09/Dec/2016 08:09:21] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 09:37:20] "GET / HTTP/1.0" 200 17755
+[09/Dec/2016 09:40:21] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 10:18:07] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 10:18:07] "GET /static/userWeb/css/custom_index.css HTTP/1.1" 200 1871
+[09/Dec/2016 10:18:07] "GET /static/userWeb/css/normalize.css HTTP/1.1" 200 8053
+[09/Dec/2016 10:18:07] "GET /static/userWeb/css/base.css HTTP/1.1" 200 4397
+[09/Dec/2016 10:18:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31000
+[09/Dec/2016 10:18:07] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121201
+[09/Dec/2016 10:18:08] "GET /static/userWeb/css/custom_price.css HTTP/1.1" 200 1200
+[09/Dec/2016 10:18:09] "GET /static/userWeb/js/carousel.js HTTP/1.1" 200 286
+[09/Dec/2016 10:18:09] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+[09/Dec/2016 10:18:09] "GET /static/userWeb/js/control/news.js HTTP/1.1" 200 92
+[09/Dec/2016 10:18:09] "GET /static/userWeb/js/control/cbase.js HTTP/1.1" 200 1883
+[09/Dec/2016 10:18:09] "GET /static/jquery/jquery.min.js HTTP/1.1" 200 95960
+[09/Dec/2016 10:18:09] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[09/Dec/2016 10:18:09] "GET /static/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[09/Dec/2016 10:35:14] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 11:00:40] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 12:09:18] "GET / HTTP/1.1" 200 17755
+Not Found: /zuoshou.php
+[09/Dec/2016 12:09:19] "POST /zuoshou.php HTTP/1.1" 404 4865
+[09/Dec/2016 12:21:20] "GET / HTTP/1.1" 200 17755
+[09/Dec/2016 12:21:59] "GET / HTTP/1.1" 200 17755
+Not Found: /http:/clientapi.ipip.net/echo.php
+[09/Dec/2016 13:24:30] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 1720
+[09/Dec/2016 13:43:21] "GET / HTTP/1.1" 200 17755
+Not Found: /manager/html
+[09/Dec/2016 15:12:17] "GET /manager/html HTTP/1.1" 404 4867
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+December 08, 2016 - 17:56:58
+Django version 1.9.10, using settings 'vpnWebProject.settings'
+Starting development server at http://45.127.99.188:80/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('49.77.188.6', 8798)
+----------------------------------------
+/home/dev/djangowork/vpnWebProject/userWeb/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r"^media/(?P<path>.*)$", "django.views.static.serve", {"document_root": settings.MEDIA_ROOT,}),
+
+/home/dev/Downloads/Django-1.9.10/django/shortcuts.py:45: RemovedInDjango110Warning: The context_instance argument of render_to_string is deprecated.
+  using=using)
+
+[09/Dec/2016 17:18:27] "GET / HTTP/1.1" 200 17755

@@ -38,7 +38,7 @@ def send_regist_mail(username, token):
     username = 'qiqipipioioi@qq.com'
     password = 'tuxun1988' 
 
-    cont = "<html><h4>尊敬的用户，欢迎使用我们的服务：</h4><p>请访问链接，完成用户验证：</p><a href='"+ '/'.join(['http://45.127.99.188:8080','account/activate',token]) +"'>"+ '/'.join(['http://45.127.99.188:8080','account/activate',token]) +"</a><h4>专业的服务</h4></html>"
+    cont = "<html><h4>尊敬的用户，欢迎使用我们的服务：</h4><p>请访问链接，完成用户验证：</p><a href='"+ '/'.join(['http://45.127.99.188','account/activate',token]) +"'>"+ '/'.join(['http://45.127.99.188','account/activate',token]) +"</a><h4>专业的服务</h4></html>"
 
     msg = MIMEText(cont,'html','utf-8') #中文需参数‘utf-8'，单字节字符不需要
     msg['Subject'] = Header(subject, 'utf-8') 
@@ -60,12 +60,12 @@ def send_getpass_mail(username, token):
 
     sender = 'qiqipipioioi@qq.com'
     receiver = username
-    subject = '注册用户验证信息'
+    subject = '云雀加速器-密码找回'
     smtpserver = 'smtp.qq.com'
     username = 'qiqipipioioi@qq.com'
     password = 'tuxun1988' 
 
-    cont = "<html><h4>尊敬的用户，欢迎使用我们的服务：</h4><p>请访问链接，找回密码：</p><a href='"+ '/'.join(['http://45.127.99.188:8080','control/resetpasswd',token]) +"'>"+ '/'.join(['http://45.127.99.188:8080','control/resetpasswd',token]) +"</a><h4>专业的服务</h4></html>"
+    cont = "<html><h4>尊敬的用户，欢迎使用我们的服务：</h4><p>请访问链接，找回密码：</p><a href='"+ '/'.join(['http://45.127.99.188','control/resetpasswd',token]) +"'>"+ '/'.join(['http://45.127.99.188','control/resetpasswd',token]) +"</a><h4>专业的服务</h4></html>"
 
     msg = MIMEText(cont,'html','utf-8') #中文需参数‘utf-8'，单字节字符不需要
     msg['Subject'] = Header(subject, 'utf-8') 

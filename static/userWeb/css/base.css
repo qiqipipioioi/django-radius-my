@@ -4,6 +4,18 @@ height: 100%;
 font-family: Microsoft YaHei;
 }
 
+.navbar-logo
+{
+height: 56px;
+margin-right: 40px;
+margin-left:20px;
+}
+
+.navbar-logo img
+{
+height: 100%
+}
+
 .navbar-nav>li {
 height:65px;
 }
