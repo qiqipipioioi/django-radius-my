@@ -14,6 +14,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 from itsdangerous import URLSafeTimedSerializer as utsr
 import base64
+import random
+import string
  
 class Token():
     def __init__(self,security_key):
@@ -27,7 +29,11 @@ class Token():
         return serializer.loads(token,
                           salt=self.salt,
                           max_age=expiration)
-        
+
+
+key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+token_confirm = Token(key)
+
 def send_regist_mail(username, token):
     token = token.generate_validate_token(username)
 
@@ -174,12 +180,20 @@ def regist(request):
         if password != repassword:
             return render_to_response('userWeb/regist.html',{'info':'您两次输入的密码不同，请重新填写：', 'color':'red'}  ,context_instance=RequestContext(request))
         if radc:
-            return render_to_response('userWeb/regist.html',{'info':'您输入的账户已存在，请重新填写：', 'color':'red'}  ,context_instance=RequestContext(request))
+            if radc[0].statu == 1:
+                return render_to_response('userWeb/regist.html',{'info':'您输入的账户已存在，请重新填写：', 'color':'red'}  ,context_instance=RequestContext(request))
+            else:
+                global token_confirm
+                key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+                token_confirm = Token(key)
+                send_regist_mail(username, token_confirm)
+                return render_to_response('userWeb/regist.html',{'info':'您输入的账户已存在，但尚未激活。\n已发送验证邮件到您的邮箱，请点击验证链接完成注册', 'color':'green'}  ,context_instance=RequestContext(request))
         else:
             user = userlist.objects.create(username=username, password=password, statu = 0)
             user.save()
             global token_confirm
-            token_confirm = Token('takeyou')
+            key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+            token_confirm = Token(key)
             send_regist_mail(username, token_confirm)
             return render_to_response('userWeb/regist.html',{'info':'已发送验证邮件到您的邮箱，请点击验证链接完成注册', 'color':'green'}  ,context_instance=RequestContext(request))
     return render_to_response('userWeb/regist.html',context_instance=RequestContext(request))
@@ -189,8 +203,12 @@ def confirm_regist(request, token):
     try:
         global token_confirm
         username = token_confirm.confirm_validate_token(token)
-        token_confirm = Token('bad')
+        key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+        token_confirm = Token(key)
     except:
+        global token_confirm
+        key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+        token_confirm = Token(key)
         return HttpResponse(u'对不起，验证链接已经过期')
     try:
         user = userlist.objects.get(username=username)
@@ -202,11 +220,11 @@ def confirm_regist(request, token):
     radc.save()
     radg = Radusergroup.objects.create(username = username, groupname = 'VIP1')
     radg.save()
-    response = HttpResponseRedirect('/control/userctrl')
-    #将username写入浏览器cookie,失效时间为3600
-    response.set_cookie('username',username,3600)
+    response = HttpResponseRedirect('/login')
+    request.session['keys'] = {}
+    request.session['keys']['keywords'] = '您的账号已验证通过，请登录！'
+    request.session['keys']['color'] = 'green'
     return response 
-    
 
 def getbackpasswd(request):
     if request.method == 'POST':
@@ -215,12 +233,14 @@ def getbackpasswd(request):
         if user:
             if user.statu == 1:
                 global token_confirm
-                token_confirm = Token('reset')
+                key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+                token_confirm = Token(key)
                 send_getpass_mail(username, token_confirm)
                 return render_to_response('userWeb/getbackpasswd.html',{'info':'已发送链接到您的邮箱，请点击验证链接修改密码', 'color':'green'}  ,context_instance=RequestContext(request))
             else:
                 global token_confirm
-                token_confirm = Token('takeyou')
+                key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+                token_confirm = Token(key)
                 send_regist_mail(username, token_confirm)
                 return render_to_response('userWeb/getbackpasswd.html',{'info':'您的邮箱尚未完成验证，已发送验证邮件到您的邮箱，请点击链接完成验证', 'color':'red'}  ,context_instance=RequestContext(request))
         else:
@@ -233,7 +253,12 @@ def resetpasswd1(request, token):
     try:
         global token_confirm
         username = token_confirm.confirm_validate_token(token)
+        key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+        token_confirm = Token(key)
     except:
+        global token_confirm
+        key = ''.join(random.sample(string.ascii_letters+string.digits, 20))
+        token_confirm = Token(key)
         return HttpResponse(u'对不起，验证链接已经过期')
     try:
         user = userlist.objects.get(username=username)
@@ -257,7 +282,6 @@ def resetpasswd1(request, token):
             request.session['keys'] = {}
             request.session['keys']['keywords'] = '您已经成功修改密码，请重新登录'
             request.session['keys']['color'] = 'green'
-            token_confirm = Token('bad')
             return response
     return render_to_response('userWeb/resetpasswd.html', {'username':username} ,context_instance=RequestContext(request))
 
